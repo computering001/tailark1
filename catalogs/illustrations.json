@@ -1,0 +1,1109 @@
+[
+  {
+    "name": "document",
+    "title": "Document Illustration",
+    "description": "Tailark document illustration",
+    "category": "document",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-pdf",
+    "title": "Document Illustration",
+    "description": "Tailark pdf document illustration",
+    "category": "document",
+    "variant": "pdf",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-docx",
+    "title": "Document Illustration",
+    "description": "Tailark docx document illustration",
+    "category": "document",
+    "variant": "docx",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-xlx",
+    "title": "Document Illustration",
+    "description": "Tailark xlx document illustration",
+    "category": "document",
+    "variant": "xlx",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-txt",
+    "title": "Document Illustration",
+    "description": "Tailark txt document illustration",
+    "category": "document",
+    "variant": "txt",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-json",
+    "title": "Document Illustration",
+    "description": "Tailark json document illustration",
+    "category": "document",
+    "variant": "json",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-md",
+    "title": "Document Illustration",
+    "description": "Tailark md document illustration",
+    "category": "document",
+    "variant": "md",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-pptx",
+    "title": "Document Illustration",
+    "description": "Tailark pptx document illustration",
+    "category": "document",
+    "variant": "pptx",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-csv",
+    "title": "Document Illustration",
+    "description": "Tailark csv document illustration",
+    "category": "document",
+    "variant": "csv",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-html",
+    "title": "Document Illustration",
+    "description": "Tailark html document illustration",
+    "category": "document",
+    "variant": "html",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-zip",
+    "title": "Document Illustration",
+    "description": "Tailark zip document illustration",
+    "category": "document",
+    "variant": "zip",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-img",
+    "title": "Document Illustration",
+    "description": "Tailark img document illustration",
+    "category": "document",
+    "variant": "img",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "currency",
+    "title": "Currency Illustration",
+    "description": "Tailark currency illustration",
+    "category": "document",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "campaign",
+    "title": "Campaign Illustration",
+    "description": "Tailark campaign illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "invoice",
+    "title": "Invoice Illustration",
+    "description": "Tailark invoice illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "message",
+    "title": "Message Illustration",
+    "description": "Tailark message illustration",
+    "category": "message",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "uptime",
+    "title": "Uptime Illustration",
+    "description": "Tailark uptime illustration",
+    "category": "visualization",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "poll",
+    "title": "Poll Illustration",
+    "description": "Tailark poll illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "reply",
+    "title": "Reply Illustration",
+    "description": "Tailark reply illustration",
+    "category": "message",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "visualization",
+    "title": "Visualization Illustration",
+    "description": "Tailark visualization illustration",
+    "category": "visualization",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "keys",
+    "title": "Keys Illustration",
+    "description": "Tailark keys illustration",
+    "category": "others",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "map",
+    "title": "Map Illustration",
+    "description": "Tailark map illustration",
+    "category": "visualization",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "file-upload",
+    "title": "File Upload Illustration",
+    "description": "Tailark file-upload illustration",
+    "category": "form",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "actionnable",
+    "title": "Actionnable Illustration",
+    "description": "Tailark actionnable illustration",
+    "category": "others",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "map-2",
+    "title": "Map Illustration",
+    "description": "Tailark 2 map illustration",
+    "category": "visualization",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "dark"
+  },
+  {
+    "name": "add-comment",
+    "title": "Comment Illustration",
+    "description": "Tailark add comment illustration",
+    "category": "message",
+    "variant": "add",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "campaign-2",
+    "title": "Campaign Illustration",
+    "description": "Tailark 2 campaign illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "chat",
+    "title": "Chat Illustration",
+    "description": "Tailark chat illustration",
+    "category": "message",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "face-scan",
+    "title": "Face Scan Illustration",
+    "description": "Tailark face-scan illustration",
+    "category": "scan",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "face-scan-2",
+    "title": "Face Scan Illustration",
+    "description": "Tailark 2 face-scan illustration",
+    "category": "scan",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "fingerprint-scan",
+    "title": "Fingerprint Illustration",
+    "description": "Tailark scan fingerprint illustration",
+    "category": "scan",
+    "variant": "scan",
+    "colSpan": 1,
+    "theme": "dark"
+  },
+  {
+    "name": "fingerprint",
+    "title": "Fingerprint Illustration",
+    "description": "Tailark fingerprint illustration",
+    "category": "scan",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "document-analysis",
+    "title": "Document Illustration",
+    "description": "Tailark analysis document illustration",
+    "category": "scan",
+    "variant": "analysis",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "metrics",
+    "title": "Metrics Illustration",
+    "description": "Tailark metrics illustration",
+    "category": "visualization",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "invoice-signing",
+    "title": "Invoice Illustration",
+    "description": "Tailark signing invoice illustration",
+    "category": "workspace",
+    "variant": "signing",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "id-check",
+    "title": "Id Check Illustration",
+    "description": "Tailark id-check illustration",
+    "category": "others",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "memory-usage",
+    "title": "Memory Usage Illustration",
+    "description": "Tailark memory-usage illustration",
+    "category": "visualization",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "dark"
+  },
+  {
+    "name": "payment",
+    "title": "Payment Illustration",
+    "description": "Tailark payment illustration",
+    "category": "form",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "poll-2",
+    "title": "Poll Illustration",
+    "description": "Tailark 2 poll illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "schedule",
+    "title": "Schedule Illustration",
+    "description": "Tailark schedule illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "comment",
+    "title": "Comment Illustration",
+    "description": "Tailark comment illustration",
+    "category": "message",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "user",
+    "title": "User Illustration",
+    "description": "Tailark user illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "users",
+    "title": "User Illustration",
+    "description": "Tailark multiple user illustration",
+    "category": "workspace",
+    "variant": "multiple",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "collaboration",
+    "title": "Collaboration Illustration",
+    "description": "Tailark collaboration illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "collaboration-comment",
+    "title": "Collaboration Illustration",
+    "description": "Tailark comment collaboration illustration",
+    "category": "workspace",
+    "variant": "comment",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "email",
+    "title": "Email Illustration",
+    "description": "Tailark email illustration",
+    "category": "form",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "notes",
+    "title": "Notes Illustration",
+    "description": "Tailark notes illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "notes-3",
+    "title": "Notes Illustration",
+    "description": "Tailark 3 notes illustration",
+    "category": "workspace",
+    "variant": "3",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "notes-2",
+    "title": "Notes Illustration",
+    "description": "Tailark 2 notes illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "kanban",
+    "title": "Kanban Illustration",
+    "description": "Tailark kanban illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "kanban-2",
+    "title": "Kanban Illustration",
+    "description": "Tailark 2 kanban illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "kanban-3",
+    "title": "Kanban Illustration",
+    "description": "Tailark 3 kanban illustration",
+    "category": "workspace",
+    "variant": "3",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar",
+    "title": "Calendar Illustration",
+    "description": "Tailark calendar illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-2",
+    "title": "Calendar Illustration",
+    "description": "Tailark 2 calendar illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-3",
+    "title": "Calendar Illustration",
+    "description": "Tailark 3 calendar illustration",
+    "category": "workspace",
+    "variant": "3",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-4",
+    "title": "Calendar Illustration",
+    "description": "Tailark 4 calendar illustration",
+    "category": "workspace",
+    "variant": "4",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-5",
+    "title": "Calendar Illustration",
+    "description": "Tailark 5 calendar illustration",
+    "category": "workspace",
+    "variant": "5",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-6",
+    "title": "Calendar Illustration",
+    "description": "Tailark 6 calendar illustration",
+    "category": "workspace",
+    "variant": "6",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-7",
+    "title": "Calendar Illustration",
+    "description": "Tailark 7 calendar illustration",
+    "category": "workspace",
+    "variant": "7",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-8",
+    "title": "Calendar Illustration",
+    "description": "Tailark 8 calendar illustration",
+    "category": "workspace",
+    "variant": "8",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-10",
+    "title": "Calendar Illustration",
+    "description": "Tailark 10 calendar illustration",
+    "category": "workspace",
+    "variant": "10",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "calendar-11",
+    "title": "Calendar Illustration",
+    "description": "Tailark 11 calendar illustration",
+    "category": "workspace",
+    "variant": "11",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "meeting",
+    "title": "Meeting Illustration",
+    "description": "Tailark meeting illustration",
+    "category": "workspace",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "meeting-2",
+    "title": "Meeting Illustration",
+    "description": "Tailark 2 meeting illustration",
+    "category": "workspace",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "meeting-3",
+    "title": "Meeting Illustration",
+    "description": "Tailark 3 meeting illustration",
+    "category": "workspace",
+    "variant": "3",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "meeting-4",
+    "title": "Meeting Illustration",
+    "description": "Tailark 4 meeting illustration",
+    "category": "workspace",
+    "variant": "4",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow",
+    "title": "Flow Illustration",
+    "description": "Tailark flow illustration",
+    "category": "flow",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-2",
+    "title": "Flow Illustration",
+    "description": "Tailark 2 flow illustration",
+    "category": "flow",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "flow-4",
+    "title": "Flow Illustration",
+    "description": "Tailark 4 flow illustration",
+    "category": "flow",
+    "variant": "4",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "flow-3",
+    "title": "Flow Illustration",
+    "description": "Tailark 3 flow illustration",
+    "category": "flow",
+    "variant": "3",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-5",
+    "title": "Flow Illustration",
+    "description": "Tailark 5 flow illustration",
+    "category": "flow",
+    "variant": "5",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-6",
+    "title": "Flow Illustration",
+    "description": "Tailark 6 flow illustration",
+    "category": "flow",
+    "variant": "6",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-8",
+    "title": "Flow Illustration",
+    "description": "Tailark 8 flow illustration",
+    "category": "flow",
+    "variant": "8",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-7",
+    "title": "Flow Illustration",
+    "description": "Tailark 7 flow illustration",
+    "category": "flow",
+    "variant": "7",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-9",
+    "title": "Flow Illustration",
+    "description": "Tailark 9 flow illustration",
+    "category": "flow",
+    "variant": "9",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-10",
+    "title": "Flow Illustration",
+    "description": "Tailark 10 flow illustration",
+    "category": "flow",
+    "variant": "10",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-11",
+    "title": "Flow Illustration",
+    "description": "Tailark 11 flow illustration",
+    "category": "flow",
+    "variant": "11",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "flow-12",
+    "title": "Flow Illustration",
+    "description": "Tailark 12 flow illustration",
+    "category": "flow",
+    "variant": "12",
+    "colSpan": 3,
+    "theme": "both"
+  },
+  {
+    "name": "flow-13",
+    "title": "Flow Illustration",
+    "description": "Tailark 13 flow illustration",
+    "category": "flow",
+    "variant": "13",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-1",
+    "title": "Ai Illustration",
+    "description": "Tailark 1 ai illustration",
+    "category": "ai",
+    "variant": "1",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-2",
+    "title": "Ai Illustration",
+    "description": "Tailark 2 ai illustration",
+    "category": "ai",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-3",
+    "title": "Ai Illustration",
+    "description": "Tailark 3 ai illustration",
+    "category": "ai",
+    "variant": "3",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "agent-workflow",
+    "title": "Agent Illustration",
+    "description": "Tailark workflow agent illustration",
+    "category": "ai",
+    "variant": "workflow",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "models-3",
+    "title": "Models Illustration",
+    "description": "Tailark 3 models illustration",
+    "category": "ai",
+    "variant": "3",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "models-4",
+    "title": "Models Illustration",
+    "description": "Tailark 4 models illustration",
+    "category": "ai",
+    "variant": "4",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "translation-interface",
+    "title": "Translation Illustration",
+    "description": "Tailark translation illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "model-selector",
+    "title": "Model Selector Illustration",
+    "description": "Tailark model-selector illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "token-counter",
+    "title": "Token Counter Illustration",
+    "description": "Tailark token-counter illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "model-training",
+    "title": "Model Training Illustration",
+    "description": "Tailark model-training illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "models",
+    "title": "Models Illustration",
+    "description": "Tailark models illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "models-2",
+    "title": "Models Illustration",
+    "description": "Tailark 2 models illustration",
+    "category": "ai",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-search",
+    "title": "Ai Search Illustration",
+    "description": "Tailark ai-search illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "ai-search-2",
+    "title": "Ai Search Illustration",
+    "description": "Tailark 2 ai-search illustration",
+    "category": "ai",
+    "variant": "2",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "ai-memory",
+    "title": "Ai Memory Illustration",
+    "description": "Tailark ai-memory illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "integrations",
+    "title": "Integrations Illustration",
+    "description": "Tailark integrations illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "text-to-speech",
+    "title": "Text To Speech Illustration",
+    "description": "Tailark text-to-speech illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-autocomplete",
+    "title": "Ai Autocomplete Illustration",
+    "description": "Tailark ai-autocomplete illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-summarization",
+    "title": "Ai Summarization Illustration",
+    "description": "Tailark ai-summarization illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "message-2",
+    "title": "Message Illustration",
+    "description": "Tailark 2 message illustration",
+    "category": "message",
+    "variant": "2",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-chat-interface",
+    "title": "Ai Chat Interface Illustration",
+    "description": "Tailark ai-chat-interface illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-mentions",
+    "title": "Ai Mentions Illustration",
+    "description": "Tailark ai-mentions illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "agent-task-planning",
+    "title": "Agent Illustration",
+    "description": "Tailark task-planning agent illustration",
+    "category": "ai",
+    "variant": "task-planning",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "agent-feedback",
+    "title": "Agent Illustration",
+    "description": "Tailark feedback agent illustration",
+    "category": "ai",
+    "variant": "feedback",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ai-suggestion",
+    "title": "Ai Suggestion Illustration",
+    "description": "Tailark ai-suggestion illustration",
+    "category": "ai",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "workflow",
+    "title": "Workflow Illustration",
+    "description": "Tailark workflow illustration",
+    "category": "others",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "agent-tasks",
+    "title": "Agent Illustration",
+    "description": "Tailark tasks agent illustration",
+    "category": "ai",
+    "variant": "tasks",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "sleep-visualization",
+    "title": "Health Illustration",
+    "description": "Tailark sleep-visualization health illustration",
+    "category": "mobile",
+    "variant": "sleep-visualization",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "running-visualization",
+    "title": "Health Illustration",
+    "description": "Tailark running-visualization health illustration",
+    "category": "mobile",
+    "variant": "running-visualization",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-wallet",
+    "title": "Mobile Illustration",
+    "description": "Tailark wallet mobile illustration",
+    "category": "mobile",
+    "variant": "wallet",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "todo-app",
+    "title": "Todo App Illustration",
+    "description": "Tailark todo-app illustration",
+    "category": "mobile",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "shopping-cart",
+    "title": "Shopping Cart Illustration",
+    "description": "Tailark shopping-cart illustration",
+    "category": "mobile",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "bank-stats",
+    "title": "Bank Stats Illustration",
+    "description": "Tailark bank-stats illustration",
+    "category": "mobile",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "ride-sharing",
+    "title": "Ride Sharing Illustration",
+    "description": "Tailark ride-sharing illustration",
+    "category": "mobile",
+    "variant": "default",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "food-delivery",
+    "title": "Food Delivery Illustration",
+    "description": "Tailark food-delivery illustration",
+    "category": "mobile",
+    "variant": "default",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-card-form",
+    "title": "Mobile Illustration",
+    "description": "Tailark card-form mobile illustration",
+    "category": "mobile",
+    "variant": "card-form",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "sleep-tracker",
+    "title": "Health Illustration",
+    "description": "Tailark sleep-tracker health illustration",
+    "category": "mobile",
+    "variant": "sleep-tracker",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-wallet-area",
+    "title": "Mobile Illustration",
+    "description": "Tailark wallet-area mobile illustration",
+    "category": "mobile",
+    "variant": "wallet-area",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-wallet-line",
+    "title": "Mobile Illustration",
+    "description": "Tailark wallet-line mobile illustration",
+    "category": "mobile",
+    "variant": "wallet-line",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-ai-assistant",
+    "title": "Mobile Illustration",
+    "description": "Tailark ai-assistant mobile illustration",
+    "category": "mobile",
+    "variant": "ai-assistant",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-ai-suggestion",
+    "title": "Mobile Illustration",
+    "description": "Tailark ai-suggestion mobile illustration",
+    "category": "mobile",
+    "variant": "ai-suggestion",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-email",
+    "title": "Mobile Illustration",
+    "description": "Tailark email mobile illustration",
+    "category": "mobile",
+    "variant": "email",
+    "colSpan": 2,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-note",
+    "title": "Mobile Illustration",
+    "description": "Tailark note mobile illustration",
+    "category": "mobile",
+    "variant": "note",
+    "colSpan": 1,
+    "theme": "both"
+  },
+  {
+    "name": "mobile-note-2",
+    "title": "Mobile Illustration",
+    "description": "Tailark note-2 mobile illustration",
+    "category": "mobile",
+    "variant": "note-2",
+    "colSpan": 1,
+    "theme": "both"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "users",
+  "type": "registry:component",
+  "title": "User Illustration",
+  "description": "Tailark multiple user illustration",
+  "meta": {
+    "category": "workspace",
+    "variant": "multiple"
+  },
+  "files": [
+    {
+      "path": "illustrations/users.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/users.tsx",
+      "content": "import Image from \"next/image\"\n\nexport const UsersIllustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"before:ring-border-illustration relative mx-auto w-fit min-w-2xs before:absolute before:inset-x-2 before:top-2 before:-bottom-2 before:rounded-2xl before:bg-card before:opacity-75 before:shadow before:ring-1\"\n    >\n      <div className=\"bg-illustration ring-border-illustration relative flex flex-col gap-2 rounded-2xl px-5 py-4 shadow-md ring-1 shadow-black/6.5 backdrop-blur\">\n        <div className=\"text-sm text-muted-foreground\">09:30 am</div>\n\n        <div className=\"flex items-center -space-x-2\">\n          {[\n            {\n              src: \"https://avatars.githubusercontent.com/u/47919550?v=4\",\n              alt: \"Méschac Irung\",\n            },\n            {\n              src: \"https://avatars.githubusercontent.com/u/31113941?v=4\",\n              alt: \"Bernard Ngandu\",\n            },\n            {\n              src: \"https://avatars.githubusercontent.com/u/68236786?v=4\",\n              alt: \"Théo Balick\",\n            },\n            {\n              src: \"https://avatars.githubusercontent.com/u/99137927?v=4\",\n              alt: \"Glodie Lukose\",\n            },\n          ].map((avatar, index) => (\n            <div\n              key={index}\n              className=\"size-7 rounded-full border bg-background p-0.5 shadow shadow-zinc-950/5 *:rounded-full\"\n            >\n              <Image\n                src={avatar.src}\n                className=\"aspect-square rounded-[calc(var(--avatar-radius)-2px)] object-cover\"\n                alt={avatar.alt}\n                width=\"60\"\n                height=\"60\"\n              />\n            </div>\n          ))}\n        </div>\n        <div className=\"text-sm font-medium text-foreground\">Daily Meeting</div>\n      </div>\n    </div>\n  )\n}\n\nexport default UsersIllustration\n"
+    }
+  ]
+}

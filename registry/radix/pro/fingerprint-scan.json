@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "fingerprint-scan",
+  "type": "registry:component",
+  "title": "Fingerprint Illustration",
+  "description": "Tailark scan fingerprint illustration",
+  "meta": {
+    "theme": "dark",
+    "category": "scan",
+    "variant": "scan"
+  },
+  "files": [
+    {
+      "path": "illustrations/fingerprint-scan.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/fingerprint-scan.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport Image from \"next/image\"\n\nexport const FingerprintScanIllustration = () => {\n  return (\n    <div className=\"relative aspect-square max-w-64\">\n      <div className=\"relative flex aspect-square justify-center mask-radial-from-0% mask-radial-to-75%\">\n        <Image\n          src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/fingerprint-scanner_vtvyyq.png\"\n          alt=\"Fingerprint scanner\"\n          className=\"size-full scale-110 object-cover\"\n          width={224}\n          height={224}\n        />\n      </div>\n      <div className=\"absolute inset-22 m-auto aspect-3/4 translate-x-1.5 -translate-y-9.5 border border-white/5 bg-linear-to-b from-foreground/5 via-transparent to-foreground/5\">\n        <CardDecorator className=\"border-primary\" />\n        <div className=\"animate-scan absolute inset-0 z-10\">\n          <div className=\"absolute inset-x-0 m-auto h-2 w-2/3 bg-indigo-500 blur-lg\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport const CardDecorator = ({ className }: { className?: string }) => (\n  <>\n    <span\n      className={cn(\n        \"animate-breathing absolute -top-px -left-px block size-2.5 rounded-tl border-t-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"animate-breathing absolute -top-px -right-px block size-2.5 rounded-tr border-t-[1.5px] border-r-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"animate-breathing absolute -bottom-px -left-px block size-2.5 rounded-bl border-b-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"animate-breathing absolute -right-px -bottom-px block size-2.5 rounded-br border-r-[1.5px] border-b-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n  </>\n)\n\nexport default FingerprintScanIllustration\n"
+    }
+  ]
+}

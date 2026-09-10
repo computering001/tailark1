@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "meeting-2",
+  "type": "registry:component",
+  "title": "Meeting Illustration",
+  "description": "Tailark 2 meeting illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "2"
+  },
+  "files": [
+    {
+      "path": "illustrations/meeting-2.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/meeting-2.tsx",
+      "content": "import { Plus } from \"lucide-react\"\nimport Image from \"next/image\"\n\nconst actionItems = [\n  {\n    task: \"Update project timeline\",\n    assignee: \"https://avatars.githubusercontent.com/u/47919550?v=4\",\n    due: \"Today\",\n    done: false,\n  },\n  {\n    task: \"Share design mockups\",\n    assignee: \"https://avatars.githubusercontent.com/u/31113941?v=4\",\n    due: \"Tomorrow\",\n    done: false,\n  },\n  {\n    task: \"Review PRs\",\n    assignee: \"https://avatars.githubusercontent.com/u/68236786?v=4\",\n    due: \"Done\",\n    done: true,\n  },\n]\n\nexport const Meeting2Illustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"ring-border-illustration min-w-xs rounded-3xl bg-card/25 p-2 shadow-lg ring-1 shadow-black/4\"\n    >\n      <div className=\"flex items-center justify-between px-3 py-2\">\n        <div className=\"text-sm font-semibold\">Action Items</div>\n\n        <div className=\"flex cursor-pointer items-center gap-1 rounded-lg px-2 py-1 text-xs font-medium hover:bg-foreground/5\">\n          <Plus className=\"size-3\" />\n          Add\n        </div>\n      </div>\n\n      <div className=\"bg-illustration divide-y rounded-2xl border border-border/50\">\n        {actionItems.map((item, index) => (\n          <div key={index} className=\"flex items-center gap-3 p-3\">\n            <div\n              className={`flex size-5 shrink-0 items-center justify-center rounded ${item.done ? \"bg-emerald-500\" : \"border border-foreground/20\"}`}\n            >\n              {item.done && (\n                <svg\n                  className=\"size-3 text-white\"\n                  fill=\"none\"\n                  viewBox=\"0 0 24 24\"\n                  stroke=\"currentColor\"\n                >\n                  <path\n                    strokeLinecap=\"round\"\n                    strokeLinejoin=\"round\"\n                    strokeWidth={2}\n                    d=\"M5 13l4 4L19 7\"\n                  />\n                </svg>\n              )}\n            </div>\n            <div className=\"min-w-0 flex-1\">\n              <div\n                className={`truncate text-sm ${item.done ? \"text-foreground/50 line-through\" : \"\"}`}\n              >\n                {item.task}\n              </div>\n            </div>\n\n            <span\n              className={`shrink-0 text-xs ${item.done ? \"text-emerald-500\" : item.due === \"Today\" ? \"text-amber-500\" : \"text-muted-foreground\"}`}\n            >\n              {item.due}\n            </span>\n            <div className=\"size-6 shrink-0 rounded-full border bg-background p-0.5 *:rounded-full\">\n              <Image\n                src={item.assignee}\n                className=\"aspect-square object-cover\"\n                alt=\"Assignee\"\n                width=\"460\"\n                height=\"460\"\n              />\n            </div>\n          </div>\n        ))}\n      </div>\n    </div>\n  )\n}\n\nexport default Meeting2Illustration\n"
+    }
+  ]
+}

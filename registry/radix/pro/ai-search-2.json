@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-search-2",
+  "type": "registry:component",
+  "title": "Ai Search Illustration",
+  "description": "Tailark 2 ai-search illustration",
+  "registryDependencies": [
+    "@tailark/core-figma",
+    "@tailark/core-drive"
+  ],
+  "meta": {
+    "col-span": "2",
+    "category": "ai",
+    "variant": "2"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-search-2.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-search-2.tsx",
+      "content": "import { Figma } from \"@/components/ui/svgs/figma\"\nimport { Drive } from \"@/components/ui/svgs/drive\"\nimport Image from \"next/image\"\nimport { Search } from \"lucide-react\"\n\ntype Result = {\n  title: string\n  content: string\n  filename: string\n  fileIcon: React.ReactNode\n  image: string\n}\n\nconst results: Result[] = [\n  {\n    title: \"Hero Section Illustrations Pack\",\n    content:\n      \"A collection of 24 hand-crafted illustrations perfect for landing pages, featuring abstract shapes and gradients...\",\n    filename: \"hero-illustrations.png\",\n    fileIcon: <Drive />,\n    image:\n      \"https://images.unsplash.com/photo-1709803983276-7bcb343e3a9f?q=80&w=1276&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n  },\n  {\n    title: \"Tailark Design System v2.0\",\n    content:\n      \"Complete documentation for colors, typography, spacing tokens, and 50+ reusable UI components...\",\n    filename: \"tailark-ds.fig\",\n    fileIcon: <Figma />,\n    image:\n      \"https://images.unsplash.com/photo-1634322487121-ba84c23cbc78?q=80&w=1335&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n  },\n  {\n    title: \"Marketing Illustration Library\",\n    content:\n      \"Over 100 customizable vector illustrations for marketing campaigns, social media, and product showcases...\",\n    filename: \"marketing-illustrations.png\",\n    fileIcon: <Drive />,\n    image:\n      \"https://images.unsplash.com/photo-1613206468203-fa00870edf79?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n  },\n]\n\nexport const AiSearch2Illustration = () => {\n  return (\n    <div aria-hidden className=\"relative min-w-md\">\n      <div className=\"flex flex-col gap-4 perspective-dramatic\">\n        <div className=\"-rotate-4 rotate-x-3 rotate-z-6 space-y-3 mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-top-left pt-1 pl-6\">\n          <div className=\"ring-border-illustration rounded-2xl bg-card/75 p-2 shadow-lg ring-1 shadow-black/6.5\">\n            <div className=\"flex items-center gap-2 p-4\">\n              <Search className=\"size-4\" />\n              <span className=\"\">\n                Best illustrations for our Marketing website\n              </span>\n            </div>\n            <div className=\"bg-illustration ring-border-illustration divide-y rounded-2xl shadow ring-1 shadow-black/6.5\">\n              {results.map((result, index) => (\n                <div\n                  key={index}\n                  className=\"flex cursor-pointer gap-4 rounded-lg p-4 select-none hover:bg-foreground/3\"\n                >\n                  <div className=\"relative h-fit\">\n                    <div className=\"relative size-10 overflow-hidden rounded-xl before:absolute before:inset-0 before:rounded-xl before:border before:border-foreground/5\">\n                      <Image\n                        src={result.image}\n                        alt={result.title}\n                        width={120}\n                        height={120}\n                      />\n                    </div>\n                    <div className=\"absolute right-0 bottom-0 flex size-5 translate-1/2 items-center justify-center rounded-full bg-background *:size-3\">\n                      {result.fileIcon}\n                    </div>\n                  </div>\n\n                  <div className=\"flex-1 space-y-1\">\n                    <div className=\"font-medium\">{result.title}</div>\n                    <span className=\"block text-xs text-foreground\">\n                      From{\" \"}\n                      <span className=\"text-muted-foreground\">\n                        {\" \"}\n                        {result.filename}\n                      </span>\n                    </span>\n                  </div>\n                </div>\n              ))}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default AiSearch2Illustration\n"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+import { Beacon } from '@/components/ui/svgs/beacon'
+import { Hulu } from '@/components/ui/svgs/hulu'
+import { Stripe } from '@/components/ui/svgs/stripe'
+import { Supabase } from '@/components/ui/svgs/supabase'
+import { VercelFull } from '@/components/ui/svgs/vercel'
+import { Spotify } from '@/components/ui/svgs/spotify'
+
+export default function LogoCloud() {
+    return (
+        <section className="py-24">
+            <div className="mx-auto max-w-sm text-center">
+                <div>
+                    <p className="text-foreground mx-auto w-fit max-w-56 text-balance text-sm">Trusted by fast-growing companies around the world</p>
+                </div>
+                <div className="**:fill-foreground mt-4 grid grid-cols-2 items-center justify-center *:h-16 sm:grid-cols-3">
+                    <div className="flex h-full items-center justify-center px-2">
+                        <Hulu
+                            height={16}
+                            width="auto"
+                        />
+                    </div>
+                    <div className="flex items-center justify-center px-2">
+                        <Spotify
+                            height={22}
+                            width="auto"
+                        />
+                    </div>
+                    <div className="flex items-center justify-center px-2">
+                        <Stripe
+                            height={20}
+                            width="auto"
+                        />
+                    </div>
+
+                    <div className="flex items-center justify-center px-2">
+                        <Beacon
+                            height={16}
+                            width="auto"
+                        />
+                    </div>
+
+                    <div className="flex items-center justify-center px-2">
+                        <VercelFull
+                            height={16}
+                            width="auto"
+                        />
+                    </div>
+                    <div className="flex items-center justify-center px-2">
+                        <Supabase
+                            height={20}
+                            width="auto"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}

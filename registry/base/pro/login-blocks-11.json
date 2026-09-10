@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login-blocks-11",
+  "type": "registry:block",
+  "title": "Login Blocks 11",
+  "description": "Tailark login-blocks variant 11 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/input",
+    "@tailark/label",
+    "@tailark/core-logo"
+  ],
+  "meta": {
+    "aspect-ratio": "90/60",
+    "width": 686,
+    "height": 457
+  },
+  "files": [
+    {
+      "path": "blocks/login-blocks/eleven/index.tsx",
+      "type": "registry:component",
+      "target": "@components/login-blocks-11.tsx",
+      "content": "import { Input } from '@/components/ui/input'\nimport { Label } from '@/components/ui/label'\nimport { Button } from '@/components/ui/button'\nimport { LogoIcon } from \"@/components/ui/logo\"\n\nimport Link from 'next/link'\n\nexport default function Login() {\n    return (\n        <main className=\"bg-background\">\n            <div className=\"grid min-h-dvh grid-rows-[1fr_auto] gap-6 p-6\">\n                <div className=\"m-auto w-full max-w-72 self-center text-center\">\n                    <Link\n                        href=\"#\"\n                        aria-label=\"go home\"\n                        className=\"mx-auto flex size-10 *:m-auto\">\n                        <LogoIcon className=\"size-7\" />\n                    </Link>\n\n                    <h1 className=\"mb-10 mt-6 text-xl font-semibold\">Log in to Tailark</h1>\n\n                    <div className=\"space-y-2\">\n                        <form\n                            action=\"\"\n                            className=\"space-y-5\">\n                            <div className=\"space-y-2.5\">\n                                <Label\n                                    className=\"block text-left\"\n                                    htmlFor=\"email\">\n                                    Email\n                                </Label>\n                                <Input\n                                    type=\"email\"\n                                    id=\"email\"\n                                    required\n                                    placeholder=\"Enter your email\"\n                                    className=\"w-full\"\n                                />\n                            </div>\n                            <div className=\"space-y-2.5\">\n                                <Label\n                                    className=\"block text-left\"\n                                    htmlFor=\"password\">\n                                    Password\n                                </Label>\n                                <Input\n                                    type=\"password\"\n                                    id=\"password\"\n                                    required\n                                    placeholder=\"Enter your password\"\n                                    className=\"w-full\"\n                                />\n                            </div>\n                            <Button\n                                type=\"submit\"\n                                className=\"w-full\">\n                                Continue\n                            </Button>\n                        </form>\n                        <Button\n                            render={<Link href=\"#\">Forgot your password?</Link>}\n                            nativeButton={false}\n                            type=\"submit\"\n                            className=\"not-hover:text-muted-foreground w-full\"\n                            size=\"sm\"\n                            variant=\"ghost\"\n                        />\n\n                        <div className=\"text-muted-foreground mt-4 text-sm\">\n                            Don't have an account?{' '}\n                            <Link\n                                href=\"#\"\n                                className=\"text-primary font-medium hover:underline\">\n                                Sign up\n                            </Link>\n                        </div>\n                    </div>\n                </div>\n\n                <div className=\"mx-auto max-w-xs\">\n                    <p className=\"text-muted-foreground text-center text-xs\">\n                        This site is protected by reCAPTCHA and the Google{' '}\n                        <Link\n                            href=\"#\"\n                            className=\"text-foreground font-medium hover:underline\">\n                            Privacy Policy\n                        </Link>{' '}\n                        and{' '}\n                        <Link\n                            href=\"#\"\n                            className=\"text-foreground font-medium hover:underline\">\n                            Terms of Service\n                        </Link>{' '}\n                        apply.\n                    </p>\n                </div>\n            </div>\n        </main>\n    )\n}\n"
+    }
+  ]
+}

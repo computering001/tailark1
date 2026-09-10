@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-2",
+  "type": "registry:block",
+  "title": "Stats 2",
+  "description": "Tailark stats variant 2 block",
+  "dependencies": [
+    "dotted-map"
+  ],
+  "meta": {
+    "aspect-ratio": "90/43",
+    "width": 686,
+    "height": 328,
+    "category-media": true,
+    "description": "A stats section can make a page feel credible in five seconds. It can also make the page feel fake just as quickly."
+  },
+  "files": [
+    {
+      "path": "blocks/stats/two/index.tsx",
+      "type": "registry:component",
+      "target": "@components/stats-2.tsx",
+      "content": "import { Map } from './map'\n\nexport default function StatsSection() {\n    return (\n        <section className=\"bg-background @container py-12 md:py-20\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mask-y-from-75% mx-auto max-w-4xl\">\n                    <Map />\n                </div>\n                <div className=\"relative mx-auto max-w-3xl\">\n                    <span className=\"@2xl:block bg-border pointer-events-none absolute inset-y-4 left-1/3 hidden w-px\"></span>\n                    <span className=\"@2xl:block bg-border pointer-events-none absolute inset-y-4 left-2/3 hidden w-px\"></span>\n                    <div className=\"**:text-center @max-2xl:max-w-2xs @max-2xl:mx-auto @max-2xl:gap-6 @2xl:grid-cols-3 grid *:px-6\">\n                        <div className=\"space-y-4 *:block\">\n                            <span className=\"text-3xl font-semibold tracking-tight\">\n                                99.9 <span className=\"text-muted-foreground text-lg\">%</span>\n                            </span>\n                            <p className=\"text-muted-foreground text-balance text-sm\">\n                                <strong className=\"text-foreground font-medium\">Uptime guarantee</strong> for all our services.\n                            </p>\n                        </div>\n                        <div className=\"space-y-4 *:block\">\n                            <span className=\"text-3xl font-semibold tracking-tight\">24/7</span>\n                            <p className=\"text-muted-foreground text-balance text-sm\">\n                                <strong className=\"text-foreground font-medium\">24/7 support</strong> available around the clock.\n                            </p>\n                        </div>\n                        <div className=\"space-y-4 *:block\">\n                            <span className=\"text-3xl font-semibold tracking-tight\">\n                                12 <span className=\"text-muted-foreground text-lg\">X</span>\n                            </span>\n                            <p className=\"text-muted-foreground text-balance text-sm\">\n                                <strong className=\"text-foreground font-medium\">12X</strong> faster processing than previous generation.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/stats/two/map.tsx",
+      "type": "registry:component",
+      "target": "@components/map.tsx",
+      "content": "'use client'\nimport DottedMap from 'dotted-map'\n\nconst pins = [\n    { lat: 40.73061, lng: -73.935242 },\n    { lat: 48.8534, lng: 2.3488 },\n    { lat: 51.5074, lng: -0.1278 },\n    { lat: 35.6895, lng: 139.6917 },\n    { lat: 34.0522, lng: -118.2437 },\n    { lat: 55.7558, lng: 37.6173 },\n    { lat: 39.9042, lng: 116.4074 },\n    { lat: 19.4326, lng: -99.1332 },\n    { lat: 37.7749, lng: -122.4194 },\n    { lat: -33.8688, lng: 151.2093 },\n    { lat: 28.6139, lng: 77.209 },\n    { lat: 52.52, lng: 13.405 },\n    { lat: 41.9028, lng: 12.4964 },\n    { lat: 43.65107, lng: -79.347015 },\n    { lat: -23.55052, lng: -46.633308 },\n    { lat: 31.2304, lng: 121.4737 },\n    { lat: 55.9533, lng: -3.1883 },\n    { lat: 35.6762, lng: 139.6503 },\n    { lat: 1.3521, lng: 103.8198 },\n    { lat: 37.5665, lng: 126.978 },\n    { lat: 53.3498, lng: -6.2603 },\n    { lat: 30.0444, lng: 31.2357 },\n    { lat: 50.4501, lng: 30.5234 },\n    { lat: -34.6037, lng: -58.3816 },\n    { lat: 59.9343, lng: 30.3351 },\n    { lat: 25.276987, lng: 55.296249 },\n    { lat: 45.4642, lng: 9.19 },\n    { lat: -22.9068, lng: -43.1729 },\n    { lat: 40.4168, lng: -3.7038 },\n    { lat: 41.3851, lng: 2.1734 },\n    { lat: 13.7563, lng: 100.5018 },\n    { lat: 52.3676, lng: 4.9041 },\n    { lat: -37.8136, lng: 144.9631 },\n    { lat: 60.1695, lng: 24.9354 }, // Helsinki\n    { lat: 47.4979, lng: 19.0402 }, // Budapest\n    { lat: 59.3293, lng: 18.0686 }, // Stockholm\n    { lat: 35.9078, lng: 127.7669 }, // South Korea (center)\n    { lat: 40.4168, lng: -3.7038 }, // Madrid\n    { lat: 46.2044, lng: 6.1432 }, // Geneva\n    { lat: 33.8688, lng: 151.2093 }, // Sydney\n    { lat: 29.7604, lng: -95.3698 }, // Houston\n    { lat: 39.7392, lng: -104.9903 }, // Denver\n    { lat: -11.6647, lng: 27.4794 }, // Lubumbashi\n    { lat: -10.7026, lng: 25.5122 }, // Kolwezi\n    { lat: -4.4419, lng: 15.2663 }, // Kinshasa\n]\n\nexport const Map = () => {\n    const map = new DottedMap({ height: 55, grid: 'diagonal' })\n\n    pins.forEach((pin) => {\n        map.addPin({\n            ...pin,\n            svgOptions: { color: 'cyan', radius: 0.15 },\n        })\n    })\n\n    const svgMap = map.getSVG({\n        radius: 0.15,\n        color: 'oklch(37% 0.013 285.805)',\n        shape: 'circle',\n        backgroundColor: 'transparent',\n    })\n\n    return (\n        <img\n            src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}\n            alt=\"map illustration\"\n        />\n    )\n}\n"
+    }
+  ]
+}

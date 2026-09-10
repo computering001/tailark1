@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-12",
+  "type": "registry:block",
+  "title": "Secondary Hero 12",
+  "description": "Tailark secondary-hero variant 12 block",
+  "registryDependencies": [
+    "@tailark/button"
+  ],
+  "meta": {
+    "aspect-ratio": "72/31",
+    "width": 686,
+    "height": 295
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/twelve/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-12.tsx",
+      "content": "import React from 'react'\nimport { Mail, MessageCircleQuestion } from 'lucide-react'\nimport { Button } from '@/components/ui/button'\nimport Link from 'next/link'\n\nexport default function HeroSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"@container mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-4xl text-center\">\n                    <span className=\"text-primary bg-primary/5 border-primary/10 rounded-full border px-2 py-1 text-sm font-medium\">Support</span>\n                    <h1 className=\"mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl lg:tracking-tight tracking-tight\">How can we help?</h1>\n                    <p className=\"text-muted-foreground mt-4 text-balance text-lg\">Find answers to your questions and get support for our services.</p>\n\n                    <div className=\"ring-border bg-card/25 @xl:grid-cols-2 @max-xl:divide-y @xl:divide-x relative mx-auto mt-12 grid max-w-xl overflow-hidden rounded-xl text-left shadow-md ring-1 *:p-6\">\n                        <div className=\"row-span-4 grid grid-rows-subgrid gap-4\">\n                            <div className=\"bg-card/25 ring-border flex size-8 rounded-md text-emerald-600 shadow shadow-emerald-500/25 ring-1\">\n                                <Mail className=\"m-auto size-4 *:fill-emerald-500/15\" />\n                            </div>\n                            <h2 className=\"font-medium\">Contact Sales</h2>\n                            <p className=\"text-muted-foreground text-balance\">Get in touch with our sales team for more information.</p>\n                            <Button\n                                variant=\"outline\"\n                                className=\"w-full\"\n                                size=\"sm\">\n                                <Link href=\"#link\">Talk to sales</Link>\n                            </Button>\n                        </div>\n                        <div className=\"row-span-4 grid grid-rows-subgrid gap-4\">\n                            <div className=\"bg-card/25 ring-border flex size-8 rounded-md text-indigo-600 shadow shadow-indigo-500/25 ring-1\">\n                                <MessageCircleQuestion className=\"m-auto size-4 *:fill-indigo-500/15\" />\n                            </div>\n                            <h2 className=\"text-lg font-medium\">Help and Support</h2>\n                            <p className=\"text-muted-foreground text-balance\">Find answers to your questions and get support for our services.</p>\n\n                            <Button\n                                variant=\"outline\"\n                                size=\"sm\"\n                                className=\"w-full\">\n                                <Link href=\"#link\">Contact Support</Link>\n                            </Button>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

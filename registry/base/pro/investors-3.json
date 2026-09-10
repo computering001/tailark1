@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "investors-3",
+  "type": "registry:block",
+  "title": "Investors 3",
+  "description": "Tailark investors variant 3 block",
+  "registryDependencies": [
+    "@tailark/core-accel",
+    "@tailark/core-salesforce",
+    "@tailark/core-sequoia",
+    "@tailark/core-sva",
+    "@tailark/core-y-combinator"
+  ],
+  "meta": {
+    "aspect-ratio": "60/37",
+    "width": 686,
+    "height": 423
+  },
+  "files": [
+    {
+      "path": "blocks/investors/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/investors-3.tsx",
+      "content": "import { YCombinator } from \"@/components/ui/svgs/y-combinator\"\nimport { Accel } from \"@/components/ui/svgs/accel\"\nimport { SVA } from \"@/components/ui/svgs/sva\"\nimport { Sequoia } from \"@/components/ui/svgs/sequoia\"\nimport { Salesforce } from \"@/components/ui/svgs/salesforce\"\nimport Image from \"next/image\"\n\ntype Investor = {\n  name: string\n  avatar: string\n  role: string\n}\n\nconst investors: Investor[] = [\n  {\n    name: \"Shadcn\",\n    avatar: \"https://avatars.githubusercontent.com/u/124599?v=4\",\n    role: \"Creator, Shadcn UI\",\n  },\n  {\n    name: \"Guillermo Rauch\",\n    avatar: \"https://avatars.githubusercontent.com/u/13041?v=4\",\n    role: \"Founder, CEO - Vercel\",\n  },\n  {\n    name: \"Adam Wathan\",\n    avatar: \"https://avatars.githubusercontent.com/u/4323180?v=4\",\n    role: \"CEO - Tailwind Labs\",\n  },\n  {\n    name: \"Lee Robinson\",\n    avatar: \"https://avatars.githubusercontent.com/u/9113740?v=4\",\n    role: \"VP of Developer Education - Cursor\",\n  },\n  {\n    name: \"Tobias Lütke\",\n    avatar: \"https://avatars.githubusercontent.com/u/347?v=4\",\n    role: \"Founder, Shopify\",\n  },\n  {\n    name: \"Brandon Eich\",\n    avatar: \"https://avatars.githubusercontent.com/u/313317?v=4\",\n    role: \"Founder, Brave Browser\",\n  },\n  {\n    name: \"Thomas Paul Mann\",\n    avatar: \"https://avatars.githubusercontent.com/u/12066405?v=4\",\n    role: \"Co-Founder, Raycast\",\n  },\n  {\n    name: \"Paul Copplestone\",\n    avatar: \"https://avatars.githubusercontent.com/u/10214025?v=4\",\n    role: \"Co-Founder, Supabase\",\n  },\n  {\n    name: \"Dylan Field\",\n    avatar: \"https://avatars.githubusercontent.com/u/159643?v=4\",\n    role: \"Founder, CEO - Figma\",\n  },\n]\n\nexport default function DescriptionListSection() {\n  return (\n    <section className=\"bg-background py-16 md:py-32\">\n      <div className=\"@container mx-auto max-w-5xl px-6\">\n        <div>\n          <h2 className=\"max-w-sm text-4xl font-semibold text-balance text-foreground tracking-tight\">\n            Backed by incredible investors\n          </h2>\n\n          <div className=\"mt-12 flex flex-wrap items-center gap-4\">\n            <div className=\"flex h-28 items-center justify-center rounded-2xl bg-card px-8 shadow-lg ring-1 shadow-black/3 ring-border *:h-7 *:w-fit md:px-12\">\n              <YCombinator />\n            </div>\n            <div className=\"flex h-28 items-center justify-center rounded-2xl bg-card px-8 shadow-lg ring-1 shadow-black/3 ring-border *:h-6 *:w-fit md:px-12\">\n              <Accel />\n            </div>\n            <div className=\"flex h-28 items-center justify-center rounded-2xl bg-card px-8 shadow-lg ring-1 shadow-black/3 ring-border *:h-7 *:w-fit md:px-12\">\n              <SVA />\n            </div>\n            <div className=\"flex h-28 items-center justify-center rounded-2xl bg-card px-8 shadow-lg ring-1 shadow-black/3 ring-border *:h-5 *:w-fit md:px-12\">\n              <Sequoia />\n            </div>\n            <div className=\"flex h-28 items-center justify-center rounded-2xl bg-card px-8 shadow-lg ring-1 shadow-black/3 ring-border *:h-12 *:w-fit md:px-12\">\n              <Salesforce />\n            </div>\n          </div>\n        </div>\n\n        <div className=\"mt-24\">\n          <h2 className=\"text-2xl font-semibold text-foreground\">\n            Individual investors\n          </h2>\n\n          <div className=\"mt-12 grid gap-6 @2xl:grid-cols-2\">\n            {investors.map((investor) => (\n              <div key={investor.name} className=\"flex gap-3 @md:items-center\">\n                <div className=\"relative size-6 shrink-0 rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/15\">\n                  <Image\n                    src={investor.avatar}\n                    alt={investor.name}\n                    className=\"size-full rounded-full\"\n                    width={64}\n                    height={64}\n                  />\n                </div>\n\n                <div className=\"flex @max-sm:flex-col @sm:gap-3\">\n                  <p className=\"font-medium text-foreground\">{investor.name}</p>\n                  <span className=\"text-muted-foreground @max-sm:hidden\">\n                    •\n                  </span>\n                  <p className=\"mt-0.5 text-sm text-muted-foreground\">\n                    {investor.role}\n                  </p>\n                </div>\n              </div>\n            ))}\n          </div>\n        </div>\n      </div>\n    </section>\n  )\n}\n"
+    }
+  ]
+}

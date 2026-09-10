@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "translation-interface",
+  "type": "registry:component",
+  "title": "Translation Illustration",
+  "description": "Tailark translation illustration",
+  "meta": {
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/translation-interface.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/translation-interface.tsx",
+      "content": "export const TranslationInterfaceIllustration = () => {\n  return (\n    <div aria-hidden className=\"max-w-xs min-w-xs\">\n      <div className=\"space-y-3\">\n        <div className=\"mask-y-from-35%\">\n          <p className=\"text-sm/6\">\n            Corporis voluptates voluptatem atque excepturi, tempore dolor\n            distinctio libero dicta vel, nihil rem consequatur esse aspernatur\n            nostrum, minus magnam labore quas optio?\n          </p>\n        </div>\n\n        <div className=\"relative flex w-fit items-center gap-1\">\n          <span className=\"rounded bg-linear-to-r from-primary to-emerald-500 bg-clip-text text-sm text-transparent\">\n            Auto translated from English\n          </span>\n        </div>\n\n        <div className=\"bg-illustration rounded-xl p-3 shadow-md ring-1 shadow-black/6.5 ring-primary/50\">\n          <div className=\"mb-3 text-xs text-muted-foreground\">Spanish</div>\n\n          <p className=\"text-sm/6 text-foreground\">\n            Hola, ¿cómo puedo ayudarte hoy? Estoy aquí para responder cualquier\n            pregunta que tengas sobre nuestros servicios y productos.\n          </p>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default TranslationInterfaceIllustration\n"
+    }
+  ]
+}

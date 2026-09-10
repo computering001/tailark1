@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-10",
+  "type": "registry:block",
+  "title": "Secondary Hero 10",
+  "description": "Tailark secondary-hero variant 10 block",
+  "registryDependencies": [
+    "@tailark/button"
+  ],
+  "meta": {
+    "aspect-ratio": "45/31",
+    "width": 686,
+    "height": 473
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/ten/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-10.tsx",
+      "content": "import React from \"react\"\nimport { Button } from \"@/components/ui/button\"\nimport Link from \"next/link\"\nimport Image from \"next/image\"\n\nexport default function HeroSection() {\n  return (\n    <section>\n      <div className=\"py-24 md:py-32\">\n        <div className=\"mx-auto mb-8 max-w-5xl px-6\">\n          <div className=\"grid grid-cols-6 gap-4 sm:grid-cols-8\">\n            <div className=\"col-span-6 max-md:pb-6 sm:col-span-5 md:col-span-5 md:pt-6\">\n              <h1 className=\"max-w-lg text-4xl font-semibold tracking-tight text-balance md:text-6xl\">\n                <span className=\"text-primary\">Join Us</span> in shaping the\n                next Gen of CRM\n              </h1>\n              <p className=\"mt-4 mb-6 text-lg text-balance text-muted-foreground\">\n                Empowering businesses with cutting-edge technology to streamline\n                operations and drive success.\n              </p>\n              <Button asChild size=\"sm\">\n                <Link href=\"#\">See open roles</Link>\n              </Button>\n            </div>\n            <div className=\"col-span-3 flex items-end sm:col-span-2 sm:col-start-6\">\n              <div className=\"relative aspect-4/5 overflow-hidden rounded-xl shadow-xl before:absolute before:inset-0 before:rounded-xl before:border before:border-foreground/5 before:bg-primary/10\">\n                <Image\n                  src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/work3_n5uspm.webp\"\n                  alt=\"tailark hero section work 3\"\n                  className=\"size-full object-cover\"\n                  width={927}\n                  height={1648}\n                />\n              </div>\n            </div>\n            <div className=\"col-span-3 max-md:flex max-md:items-end sm:col-start-3\">\n              <div className=\"relative mt-auto aspect-square h-fit overflow-hidden rounded-xl shadow-xl before:absolute before:inset-0 before:rounded-xl before:border before:border-foreground/5 before:bg-primary/5\">\n                <Image\n                  src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/work2_eoxbvk.webp\"\n                  alt=\"tailark hero section work 2\"\n                  className=\"size-full object-cover\"\n                  width={3047}\n                  height={1868}\n                />\n              </div>\n            </div>\n            <div className=\"relative col-span-4 aspect-video overflow-hidden rounded-xl shadow-xl before:absolute before:inset-0 before:rounded-xl before:border before:border-foreground/5 before:bg-primary/5 max-md:col-start-3 md:col-span-3\">\n              <Image\n                src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/work1_e1gkt8.webp\"\n                alt=\"tailark hero section work 1\"\n                className=\"size-full object-cover\"\n                width={2340}\n                height={1560}\n              />\n            </div>\n          </div>\n        </div>\n      </div>\n    </section>\n  )\n}\n"
+    }
+  ]
+}

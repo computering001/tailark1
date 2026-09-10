@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-10",
+  "type": "registry:block",
+  "title": "Logo Cloud 10",
+  "description": "Tailark logo-cloud variant 10 block",
+  "dependencies": [
+    "motion"
+  ],
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-leap-wallet",
+    "@tailark/core-open-ai",
+    "@tailark/core-paypal",
+    "@tailark/core-polars",
+    "@tailark/core-prime",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-utils",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "3/1",
+    "width": 686,
+    "height": 229,
+    "category-media": true,
+    "description": "A logo cloud is the shortest form of social proof on a SaaS page. It says: teams like yours already recognize or use this product."
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/ten/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-10.tsx",
+      "content": "'use client'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Cisco } from '@/components/ui/svgs/cisco'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { Polars } from '@/components/ui/svgs/polars'\nimport { LazyMotion, domAnimation, m, AnimatePresence } from 'motion/react'\nimport React, { useEffect, useState } from 'react'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Spotify } from '@/components/ui/svgs/spotify'\nimport { PayPal } from '@/components/ui/svgs/paypal'\nimport { LeapWallet } from '@/components/ui/svgs/leap-wallet'\n\nimport { cn } from '@/lib/utils'\n\nconst aiLogos: React.ReactNode[] = [\n    <OpenAIFull\n        key=\"openai-1\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Bolt\n        key=\"bolt\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n    <OpenAIFull\n        key=\"openai-2\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst hostingLogos: React.ReactNode[] = [\n    <Supabase\n        key=\"supabase-1\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n    <VercelFull\n        key=\"vercel\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Supabase\n        key=\"supabase-2\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst paymentsLogos: React.ReactNode[] = [\n    <Stripe\n        key=\"stripe-1\"\n        height={24}\n        width=\"auto\"\n    />,\n    <PayPal\n        key=\"paypal\"\n        height={24}\n        width=\"auto\"\n    />,\n    <LeapWallet\n        key=\"leapwallet\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Beacon\n        key=\"beacon\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Polars\n        key=\"polars\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Stripe\n        key=\"stripe-2\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst streamingLogos: React.ReactNode[] = [\n    <Primevideo\n        key=\"primevideo-1\"\n        height={28}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Beacon\n        key=\"beacon\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Primevideo\n        key=\"primevideo-2\"\n        height={28}\n        width=\"auto\"\n    />,\n]\n\ntype LogoGroup = 'ai' | 'hosting' | 'payments' | 'streaming'\n\nconst logos: { [key in LogoGroup]: React.ReactNode[] } = {\n    ai: aiLogos,\n    hosting: hostingLogos,\n    payments: paymentsLogos,\n    streaming: streamingLogos,\n}\n\nconst groupOptions: { label: string; value: LogoGroup }[] = [\n    { label: 'Generative AI Companies, ', value: 'ai' },\n    { label: 'Hosting Providers, ', value: 'hosting' },\n    { label: 'Payments Providers, ', value: 'payments' },\n    { label: 'Streaming Providers', value: 'streaming' },\n]\n\nexport default function LogoCloudTwo() {\n    const [currentGroup, setCurrentGroup] = useState<LogoGroup>('ai')\n\n    useEffect(() => {\n        const interval = setInterval(() => {\n            setCurrentGroup((prev) => {\n                const groups = Object.keys(logos) as LogoGroup[]\n                const currentIndex = groups.indexOf(prev)\n                const nextIndex = (currentIndex + 1) % groups.length\n                return groups[nextIndex]\n            })\n        }, 4000)\n\n        return () => clearInterval(interval)\n    }, [])\n\n    return (\n        <LazyMotion features={domAnimation}>\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-6xl px-6 lg:px-12\">\n                <div className=\"mx-auto mb-12 max-w-3xl text-balance text-center md:mb-16\">\n                    <p\n                        data-current={currentGroup}\n                        className=\"text-muted-foreground mt-4 text-lg lg:text-xl/8\">\n                        Trusted by leading teams from{' '}\n                        {groupOptions.map((group) => (\n                            <span\n                                key={group.value}\n                                data-current={currentGroup}\n                                className={cn(\n                                    'relative transition-colors duration-200',\n                                    group.value === currentGroup &&\n                                        'text-foreground before:starting:opacity-0 before:bg-foreground/10 after:bg-linear-to-r after:starting:scale-x-0 after:duration-3000 not-last:after:right-2.5 not-last:before:right-2.5 before:absolute before:inset-x-0 before:-bottom-0.5 before:h-px before:rounded before:opacity-100 before:duration-300 after:absolute after:inset-x-0 after:-bottom-0.5 after:h-px after:origin-left after:scale-x-100 after:rounded after:from-emerald-500 after:to-indigo-500 after:delay-300 after:ease-in-out'\n                                )}>\n                                {group.label}\n                            </span>\n                        ))}\n                    </p>\n                </div>\n                <div className=\"perspective-dramatic mx-auto grid max-w-5xl grid-cols-3 items-center gap-x-8 gap-y-16\">\n                    <AnimatePresence\n                        initial={false}\n                        mode=\"popLayout\">\n                        {logos[currentGroup].map((logo, i) => (\n                            <m.div\n                                key={`${currentGroup}-${(logo as React.ReactElement).key}`}\n                                className=\"**:fill-foreground! flex h-10 items-center justify-center\"\n                                initial={{ opacity: 0, y: 24, filter: 'blur(6px)' }}\n                                animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}\n                                exit={{ opacity: 0, y: -24, filter: 'blur(6px)', scale: 0.5 }}\n                                transition={{ delay: i * 0.05, duration: 0.4 }}>\n                                {logo}\n                            </m.div>\n                        ))}\n                    </AnimatePresence>\n                </div>\n            </div>\n        </section>\n    \n        </LazyMotion>)\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "reply",
+  "type": "registry:component",
+  "title": "Reply Illustration",
+  "description": "Tailark reply illustration",
+  "meta": {
+    "category": "message",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/reply.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/reply.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport { AtSign, Paperclip, Smile } from \"lucide-react\"\n\nexport const ReplyIllustration = ({ className }: { className?: string }) => {\n  return (\n    <div\n      aria-hidden\n      className={cn(\n        \"bg-illustration ring-border-illustration flex min-w-2xs origin-bottom flex-col space-y-4 rounded-2xl border border-transparent px-4 pt-4 pb-2 shadow ring-1 shadow-black/6.5 transition-colors duration-300\",\n        className\n      )}\n    >\n      <div className=\"text-sm font-medium text-primary\">\n        @Bernard{\" \"}\n        <span className=\"font-normal text-muted-foreground\">\n          Shared 2 invoices\n        </span>\n      </div>\n\n      <div className=\"-ml-1.5 flex text-muted-foreground *:hover:text-foreground\">\n        <div className=\"flex size-7 rounded-full hover:bg-muted hover:text-foreground\">\n          <AtSign className=\"m-auto size-4\" />\n        </div>\n        <div className=\"flex size-7 rounded-full hover:bg-muted hover:text-foreground\">\n          <Smile className=\"m-auto size-4\" />\n        </div>\n        <div className=\"flex size-7 rounded-full hover:bg-muted hover:text-foreground\">\n          <Paperclip className=\"m-auto size-4\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default ReplyIllustration\n"
+    }
+  ]
+}

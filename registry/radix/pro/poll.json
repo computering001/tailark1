@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "poll",
+  "type": "registry:component",
+  "title": "Poll Illustration",
+  "description": "Tailark poll illustration",
+  "meta": {
+    "category": "workspace",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/poll.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/poll.tsx",
+      "content": "import Image from \"next/image\"\n\nexport const PollIllustration = () => {\n  return (\n    <div aria-hidden className=\"relative select-none\">\n      <div className=\"relative space-y-2 py-4\">\n        <div className=\"absolute inset-y-0 left-0 w-px bg-[linear-gradient(180deg,var(--color-foreground)_1px,transparent_1px)] bg-size-[1px_4px] bg-repeat-y opacity-25\"></div>\n\n        <div className=\"pl-5\">\n          <div className=\"relative mt-0.5 inline-flex items-center gap-2 text-sm font-medium text-foreground before:absolute before:inset-y-0 before:left-[-22px] before:my-auto before:size-[5px] before:rounded-full before:border before:border-muted-foreground before:bg-background before:ring before:ring-background\">\n            <div className=\"text-xs text-muted-foreground\">06 AM</div>\n            Poll Created\n          </div>\n        </div>\n        <div className=\"bg-illustration ring-border-illustration relative -mx-5 flex rounded-xl border border-transparent py-1 pr-4 pl-2 text-xs shadow ring-1 shadow-black/6.5\">\n          <div className=\"relative mt-0.5 ml-7 inline-flex items-center gap-2 text-sm font-medium before:absolute before:inset-y-0 before:left-[-19px] before:my-auto before:size-[5px] before:rounded-full before:border before:border-primary before:bg-background before:ring before:ring-background\">\n            <div className=\"flex items-center -space-x-2\">\n              {[\n                {\n                  src: \"https://avatars.githubusercontent.com/u/47919550?v=4\",\n                  alt: \"Méschac Irung\",\n                },\n                {\n                  src: \"https://avatars.githubusercontent.com/u/31113941?v=4\",\n                  alt: \"Bernard Ngandu\",\n                },\n              ].map((avatar, index) => (\n                <div\n                  key={index}\n                  className=\"size-6 rounded-full border bg-background p-0.5 shadow shadow-zinc-950/5 *:rounded-full\"\n                >\n                  <Image\n                    src={avatar.src}\n                    className=\"aspect-square rounded-[calc(var(--avatar-radius)-2px)] object-cover\"\n                    alt={avatar.alt}\n                    width=\"20\"\n                    height=\"20\"\n                  />\n                </div>\n              ))}\n            </div>\n            +50 Users voted\n          </div>\n        </div>\n        <div className=\"pl-5\">\n          <div className=\"relative mt-0.5 inline-flex items-center gap-2 text-sm font-medium text-foreground before:absolute before:inset-y-0 before:left-[-22px] before:my-auto before:size-[5px] before:rounded-full before:border before:border-muted-foreground before:bg-background before:ring before:ring-background\">\n            <div className=\"text-xs text-muted-foreground\">01 PM</div>\n            Poll Closed\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default PollIllustration\n"
+    }
+  ]
+}

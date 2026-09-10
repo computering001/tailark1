@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "collaboration",
+  "type": "registry:component",
+  "title": "Collaboration Illustration",
+  "description": "Tailark collaboration illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/collaboration.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/collaboration.tsx",
+      "content": "import Image from \"next/image\"\n\nconst SHADCN_AVATAR = \"https://avatars.githubusercontent.com/u/124599?v=4\"\nconst MESCHAC_AVATAR = \"https://avatars.githubusercontent.com/u/47919550?v=4\"\n\nexport const CollaborationIllustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"max-w-sm mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-top\"\n    >\n      <div className=\"mb-4 text-xl font-medium\">Project Board</div>\n\n      <div className=\"space-y-3 text-base/6 text-muted-foreground\">\n        <div>\n          Colla\n          <span className=\"relative bg-linear-to-r to-indigo-500/35 text-indigo-600 select-none before:absolute before:inset-0 before:border before:border-indigo-500/45 before:mask-l-from-65% dark:text-indigo-300\">\n            borate on project\n          </span>{\" \"}\n          <span className=\"relative inline-block\">\n            <div className=\"absolute top-0.5 flex -translate-x-0.5 -translate-y-full items-center gap-1.5 rounded-tl-md rounded-r-md bg-primary px-1.5 py-1 text-white shadow-md shadow-black/6.5 select-none before:absolute before:top-2 before:left-0 before:h-9.5 before:w-0.5 before:rounded before:bg-primary\">\n              <div className=\"relative size-4 overflow-hidden rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20\">\n                <Image\n                  src={SHADCN_AVATAR}\n                  alt=\"Shadcn\"\n                  width={20}\n                  height={20}\n                />\n              </div>\n              <span className=\"text-xs font-medium\">Shadcn</span>\n            </div>\n            planning\n          </span>{\" \"}\n          requirements.\n        </div>\n        <div>\n          Share feedback, review designs, and align on goals to deliver{\" \"}\n          <span className=\"relative inline-block\">\n            <div className=\"absolute top-0.5 flex -translate-x-0.5 -translate-y-full items-center gap-1.5 rounded-tl-md rounded-r-md bg-emerald-600 px-1.5 py-1 text-white shadow-md select-none before:absolute before:top-2 before:left-0 before:h-9.5 before:w-0.5 before:rounded before:bg-emerald-600\">\n              <div className=\"relative size-4 overflow-hidden rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20\">\n                <Image\n                  src={MESCHAC_AVATAR}\n                  alt=\"Méschac Irung\"\n                  width={20}\n                  height={20}\n                />\n              </div>\n              <span className=\"truncate text-xs font-medium\">Méschac I.</span>\n            </div>\n            high-quality\n          </span>{\" \"}\n          results seamlessly across your team.\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default CollaborationIllustration\n"
+    }
+  ]
+}

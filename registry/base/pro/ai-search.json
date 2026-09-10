@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-search",
+  "type": "registry:component",
+  "title": "Ai Search Illustration",
+  "description": "Tailark ai-search illustration",
+  "registryDependencies": [
+    "@tailark/core-pdf",
+    "@tailark/core-figma"
+  ],
+  "meta": {
+    "col-span": "2",
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-search.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-search.tsx",
+      "content": "import { Search, Sparkles } from \"lucide-react\"\nimport { Pdf } from \"@/components/ui/svgs/pdf\"\nimport { Figma } from \"@/components/ui/svgs/figma\"\n\ntype Result = {\n  title: string\n  content: string\n  filename: string\n  fileIcon: React.ReactNode\n}\n\nconst results: Result[] = [\n  {\n    title: \"Tips and React Hooks Guide\",\n    content:\n      \"Complete guide to useState, useEffect, and custom hooks with performance tips...\",\n    filename: \"hooks-guide.pdf\",\n    fileIcon: <Pdf />,\n  },\n  {\n    title: \"Tailark Quartz Design system\",\n    content:\n      \"Comprehensive design system documentation with components, tokens, and guidelines...\",\n    filename: \"tailark-ds.fig\",\n    fileIcon: <Figma />,\n  },\n]\n\nexport const AiSearchIllustration = () => {\n  return (\n    <div aria-hidden className=\"relative max-w-lg min-w-sm\">\n      <div className=\"flex flex-col gap-4 perspective-dramatic\">\n        <div className=\"-rotate-4 rotate-x-2 rotate-z-6 space-y-3 mask-radial-[100%_100%] mask-radial-from-75% mask-radial-at-top-left pt-1 pl-6\">\n          <div className=\"ring-border-illustration flex items-center gap-2 rounded-xl py-2.5 pr-2.5 pl-4 ring-1\">\n            <Search className=\"size-4 shrink-0 text-muted-foreground\" />\n            <span className=\"flex-1 text-xs\">React hooks best practices</span>\n            <div className=\"flex items-center gap-1 rounded-md bg-primary/10 px-2 py-1 ring-1 ring-primary/20\">\n              <Sparkles className=\"size-3 text-primary\" />\n              <span className=\"text-xs text-primary\">AI</span>\n            </div>\n          </div>\n          <div className=\"ring-border-illustration rounded-2xl bg-card/75 p-1 shadow-lg ring-1 shadow-black/6.5\">\n            <div className=\"space-y-1\">\n              {results.map((result, index) => (\n                <div\n                  key={index}\n                  className=\"first:bg-illustration flex cursor-pointer gap-3 rounded-xl p-4 select-none first:shadow first:ring-1 first:shadow-black/5 first:ring-emerald-500/50 not-first:hover:bg-foreground/5\"\n                >\n                  <div className=\"*:size-6\">{result.fileIcon}</div>\n\n                  <div className=\"flex-1 space-y-1\">\n                    <div className=\"font-medium\">{result.title}</div>\n                    <span className=\"text-sm leading-relaxed text-muted-foreground\">\n                      {result.content}\n                    </span>\n                    <span className=\"mt-2 block text-xs text-foreground\">\n                      Found in{\" \"}\n                      <span className=\"text-muted-foreground\">\n                        {\" \"}\n                        {result.filename}\n                      </span>\n                    </span>\n                  </div>\n                </div>\n              ))}\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default AiSearchIllustration\n"
+    }
+  ]
+}

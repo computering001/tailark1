@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "contact-4",
+  "type": "registry:block",
+  "title": "Contact 4",
+  "description": "Tailark contact variant 4 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/card"
+  ],
+  "meta": {
+    "aspect-ratio": "90/47",
+    "width": 686,
+    "height": 358
+  },
+  "files": [
+    {
+      "path": "blocks/contact/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/contact-4.tsx",
+      "content": "import { Button } from '@/components/ui/button'\nimport { Card } from '@/components/ui/card'\nimport Link from 'next/link'\nimport { Building2, Headphones, MessageSquare } from 'lucide-react'\n\nconst contactOptions = [\n    {\n        icon: MessageSquare,\n        title: 'Chat with us',\n        description: 'Speak to our friendly team via live chat.',\n        action: 'Start a conversation',\n        href: '#chat',\n    },\n    {\n        icon: Headphones,\n        title: 'Call us',\n        description: 'Mon-Fri from 8am to 5pm.',\n        action: '+1 (555) 000-0000',\n        href: 'tel:+15550000000',\n    },\n    {\n        icon: Building2,\n        title: 'Visit us',\n        description: 'Visit our office HQ.',\n        action: 'Get directions',\n        href: '#directions',\n    },\n]\n\nexport default function Contact() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"@container mx-auto max-w-5xl px-6\">\n                <div className=\"text-center\">\n                    <h1 className=\"text-balance text-4xl font-semibold md:text-5xl lg:tracking-tight tracking-tight\">Get in touch</h1>\n                    <p className=\"text-muted-foreground mx-auto mt-4 max-w-xl text-balance text-lg\">\n                        Choose the best way to reach us. <br /> Our team is here to help.\n                    </p>\n                </div>\n\n                <div className=\"@sm:grid-cols-2 @2xl:grid-cols-3 mx-auto mt-12 grid max-w-2xl gap-3\">\n                    {contactOptions.map((option) => (\n                        <Card\n                            key={option.title}\n                            className=\"group relative flex flex-col p-6 transition-shadow hover:shadow-lg\">\n                            <option.icon className=\"text-muted-foreground mb-6 size-4\" />\n\n                            <h2 className=\"font-medium\">{option.title}</h2>\n                            <p className=\"text-muted-foreground mb-4 mt-2 text-sm\">{option.description}</p>\n                            <Link\n                                href={option.href}\n                                className=\"text-primary mt-4 mt-auto text-sm font-medium hover:underline\">\n                                {option.action}\n                            </Link>\n                        </Card>\n                    ))}\n                </div>\n\n                <div className=\"bg-muted/50 mx-auto mt-3 max-w-2xl rounded-xl p-8 text-center\">\n                    <h2 className=\"text-xl font-semibold\">Can't find what you're looking for?</h2>\n                    <p className=\"text-muted-foreground mt-2\">Check out our comprehensive documentation and FAQ section.</p>\n                    <div className=\"mt-6 flex justify-center gap-3\">\n                        <Button\n                            asChild\n                            size=\"sm\">\n                            <Link href=\"#faq\">Browse FAQ</Link>\n                        </Button>\n                        <Button\n                            variant=\"outline\"\n                            asChild\n                            size=\"sm\">\n                            <Link href=\"#docs\">View documentation</Link>\n                        </Button>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

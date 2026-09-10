@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "notes-3",
+  "type": "registry:component",
+  "title": "Notes Illustration",
+  "description": "Tailark 3 notes illustration",
+  "meta": {
+    "category": "workspace",
+    "variant": "3"
+  },
+  "files": [
+    {
+      "path": "illustrations/notes-3.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/notes-3.tsx",
+      "content": "\"use client\"\nimport { cn } from \"@/lib/utils\"\nimport { Check, Circle } from \"lucide-react\"\nimport { useState } from \"react\"\n\nexport const Notes3Illustration = () => {\n  const [tasks, setTasks] = useState([\n    { id: 1, text: \"Review pull requests\", completed: true },\n    { id: 2, text: \"Update documentation\", completed: true },\n    { id: 3, text: \"Deploy to staging\", completed: true },\n    { id: 4, text: \"Write unit tests\", completed: false },\n    { id: 5, text: \"Send weekly report\", completed: false },\n  ])\n\n  const toggleTask = (id: number) => {\n    setTasks(\n      tasks.map((task) =>\n        task.id === id ? { ...task, completed: !task.completed } : task\n      )\n    )\n  }\n\n  const completedCount = tasks.filter((task) => task.completed).length\n\n  return (\n    <div className=\"max-w-xs min-w-2xs px-4 pt-4 selection:bg-amber-500/25\">\n      <div className=\"relative\">\n        <div className=\"absolute right-1 -bottom-2 left-1 h-full rotate-2 rounded-sm bg-linear-to-br from-amber-200 to-yellow-300 shadow-sm dark:from-amber-300 dark:to-yellow-400\" />\n        <div className=\"absolute right-0.5 -bottom-1 left-0.5 h-full -rotate-1 rounded-sm bg-linear-to-br from-amber-100 to-yellow-200 shadow-sm dark:from-amber-200 dark:to-yellow-300\" />\n        <div className=\"relative rounded-sm bg-linear-to-br from-amber-100 to-yellow-200 p-5 pb-12 shadow-lg shadow-amber-900/15 dark:from-amber-300 dark:to-yellow-300\">\n          <div className=\"mb-4 flex items-center justify-between pt-2\">\n            <span className=\"text-sm font-semibold text-amber-950\">\n              Quick Tasks\n            </span>\n            <span className=\"text-xs text-amber-700\">\n              {completedCount}/{tasks.length}\n            </span>\n          </div>\n          <div className=\"space-y-2\">\n            {tasks.map((task) => (\n              <button\n                type=\"button\"\n                key={task.id}\n                aria-pressed={task.completed}\n                className=\"flex cursor-pointer items-center gap-2.5\"\n                onClick={() => toggleTask(task.id)}\n              >\n                {task.completed ? (\n                  <div className=\"flex size-4 items-center justify-center rounded bg-emerald-500/30\">\n                    <Check className=\"size-3 text-emerald-700\" />\n                  </div>\n                ) : (\n                  <Circle className=\"size-4 text-amber-700/40\" />\n                )}\n                <span\n                  className={cn(\n                    \"text-sm font-medium\",\n                    task.completed\n                      ? \"text-amber-800/60 line-through\"\n                      : \"text-amber-900 dark:text-amber-950\"\n                  )}\n                >\n                  {task.text}\n                </span>\n              </button>\n            ))}\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Notes3Illustration\n"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-1",
+  "type": "registry:block",
+  "title": "Integrations 1",
+  "description": "Tailark integrations variant 1 block",
+  "registryDependencies": [
+    "@tailark/card",
+    "@tailark/core-gemini",
+    "@tailark/core-google-palm",
+    "@tailark/core-media-wiki",
+    "@tailark/core-mistral-ai",
+    "@tailark/core-replit",
+    "@tailark/core-vs-codium"
+  ],
+  "meta": {
+    "aspect-ratio": "5/2",
+    "width": 686,
+    "height": 274
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/one/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-1.tsx",
+      "content": "import { Card } from '@/components/ui/card'\nimport Link from 'next/link'\nimport * as React from 'react'\nimport { VSCodium } from '@/components/ui/svgs/vs-codium'\nimport { Replit } from '@/components/ui/svgs/replit'\nimport { GooglePaLM } from '@/components/ui/svgs/google-palm'\nimport { Gemini } from '@/components/ui/svgs/gemini'\nimport { MistralAi } from '@/components/ui/svgs/mistral-ai'\nimport { MediaWiki } from '@/components/ui/svgs/media-wiki'\n\nexport default function IntegrationsSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid gap-4 sm:grid-cols-2 lg:grid-cols-3\">\n                    <IntegrationCard\n                        title=\"Google Gemini\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <Gemini />\n                    </IntegrationCard>\n\n                    <IntegrationCard\n                        title=\"Replit\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <Replit />\n                    </IntegrationCard>\n\n                    <IntegrationCard\n                        title=\"Mistral AI\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <MistralAi />\n                    </IntegrationCard>\n\n                    <IntegrationCard\n                        title=\"VSCodium\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <VSCodium />\n                    </IntegrationCard>\n\n                    <IntegrationCard\n                        title=\"MediaWiki\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <MediaWiki />\n                    </IntegrationCard>\n\n                    <IntegrationCard\n                        title=\"Google PaLM\"\n                        description=\"Amet praesentium deserunt ex commodi tempore fuga voluptatem. Sit, sapiente.\">\n                        <GooglePaLM />\n                    </IntegrationCard>\n                </div>\n            </div>\n        </section>\n    )\n}\n\nconst IntegrationCard = ({ title, description, children, link = 'https://github.com/meschacirung/cnblocks' }: { title: string; description: string; children: React.ReactNode; link?: string }) => {\n    return (\n        <Card className=\"relative p-6\">\n            <div className=\"*:size-8\">{children}</div>\n\n            <div className=\"space-y-2 pt-6\">\n                <h3 className=\"text-base font-medium\">\n                    <Link\n                        href={link}\n                        className=\"before:absolute before:inset-0\">\n                        {title}\n                    </Link>\n                </h3>\n                <p className=\"text-muted-foreground line-clamp-2\">{description}</p>\n            </div>\n        </Card>\n    )\n}\n"
+    }
+  ]
+}

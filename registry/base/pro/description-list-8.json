@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "description-list-8",
+  "type": "registry:block",
+  "title": "Description List 8",
+  "description": "Tailark description-list variant 8 block",
+  "meta": {
+    "aspect-ratio": "36/25",
+    "width": 686,
+    "height": 476
+  },
+  "files": [
+    {
+      "path": "blocks/description-list/eight/index.tsx",
+      "type": "registry:component",
+      "target": "@components/description-list-8.tsx",
+      "content": "const items = [\n    {\n        dt: 'Secure & Reliable',\n        dd: 'Built with enterprise-grade security protocols and a 99.9% uptime guarantee, ensuring your data remains protected and your services stay available around the clock.',\n    },\n    {\n        dt: 'Fast & Scalable',\n        dd: 'Optimized for lightning-fast performance with intelligent caching and load balancing that seamlessly grows with your business demands without compromising speed.',\n    },\n    {\n        dt: 'Easy to Use',\n        dd: 'Intuitive interface designed for seamless onboarding and daily use, with comprehensive documentation and guided workflows that reduce the learning curve significantly.',\n    },\n    {\n        dt: 'Attention to Detail',\n        dd: 'Crafted with precision and care for a polished user experience, where every interaction has been thoughtfully designed to delight users and enhance productivity.',\n    },\n]\n\nexport default function DescriptionListSection() {\n    return (\n        <section className=\"bg-background py-16 md:py-32\">\n            <div className=\"mx-auto max-w-2xl px-6\">\n                <div className=\"@container\">\n                    <h2 className=\"text-foreground text-balance text-2xl font-medium\">What makes Tailark your perfect fit</h2>\n                    <p className=\"text-muted-foreground mt-3\">Optimized for lightning-fast performance with intelligent caching and load balancing that seamlessly grows with your business demands without compromising speed.</p>\n                    <dl className=\"mt-12 space-y-6\">\n                        {items.map((item, index) => (\n                            <div\n                                key={item.dt}\n                                className=\"grid grid-cols-[auto_1fr] border-b pb-6\">\n                                <span className=\"text-muted-foreground mt-0.5 w-14 font-mono text-sm\">0{index + 1}.</span>\n\n                                <div className=\"space-y-3\">\n                                    <dt className=\"text-foreground font-medium\">{item.dt}</dt>\n                                    <dd className=\"text-muted-foreground\">{item.dd}</dd>\n                                </div>\n                            </div>\n                        ))}\n                    </dl>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

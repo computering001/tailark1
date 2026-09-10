@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-8",
+  "type": "registry:block",
+  "title": "Secondary Hero 8",
+  "description": "Tailark secondary-hero variant 8 block",
+  "registryDependencies": [
+    "@tailark/button"
+  ],
+  "meta": {
+    "aspect-ratio": "80/41",
+    "width": 686,
+    "height": 352
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/eight/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-8.tsx",
+      "content": "import React from 'react'\nimport Link from 'next/link'\nimport { Button } from '@/components/ui/button'\nimport { Shield, Sparkles, SquareActivity } from 'lucide-react'\n\nconst features = [\n    {\n        title: 'Automated Billing',\n        description: 'Streamline your billing process with automated tools that save you time.',\n        icon: <Sparkles className=\"stroke-foreground fill-blue-500/15\" />,\n    },\n    {\n        title: 'Detailed Reports',\n        description: 'Access comprehensive reports to better understand your business performance.',\n        icon: <SquareActivity className=\"stroke-foreground fill-indigo-500/15\" />,\n    },\n    {\n        title: 'Secure Transactions',\n        description: 'Ensure the safety of your financial data with top-notch security measures.',\n        icon: <Shield className=\"stroke-foreground fill-emerald-500/15\" />,\n    },\n]\n\nexport default function HeroSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-4xl text-center\">\n                    <span className=\"text-primary bg-primary/5 border-primary/10 rounded-full border px-2 py-1 text-sm font-medium\">Billing</span>\n                    <h1 className=\"mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl tracking-tight\">Streamline Your Invoicing Process</h1>\n                    <p className=\"text-muted-foreground mb-6 mt-4 text-balance text-lg\">Simplify invoicing with automated and reporting tools Empowering businesses with cutting-edge technology to streamline operations.</p>\n\n                    <Button\n                        render={<Link href=\"#link\">Get Started</Link>}\n                        nativeButton={false}\n                    />\n                    <Button\n                        render={<Link href=\"#link\">Get a demo</Link>}\n                        nativeButton={false}\n                        variant=\"outline\"\n                        className=\"ml-3\"\n                    />\n\n                    <div className=\"border-border-illustration mt-20 grid gap-6 border-y py-6 text-left sm:grid-cols-2 md:grid-cols-3 lg:gap-12\">\n                        {features.map((feature, index) => (\n                            <div\n                                key={feature.title}\n                                className=\"space-y-3\">\n                                <div className=\"bg-card ring-border-illustration flex size-8 items-center justify-center rounded-md shadow ring-1 *:size-4\">{feature.icon}</div>\n                                <h2 className=\"text-lg font-medium\">{feature.title}</h2>\n                                <p className=\"text-muted-foreground text-sm\">{feature.description}</p>\n                            </div>\n                        ))}\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "flow-7",
+  "type": "registry:component",
+  "title": "Flow Illustration",
+  "description": "Tailark 7 flow illustration",
+  "registryDependencies": [
+    "@tailark/core-logo",
+    "@tailark/core-gemini",
+    "@tailark/core-claude",
+    "@tailark/core-openai",
+    "@tailark/core-mistral-ai"
+  ],
+  "meta": {
+    "col-span": "2",
+    "category": "flow",
+    "variant": "7"
+  },
+  "files": [
+    {
+      "path": "illustrations/flow-7.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/flow-7.tsx",
+      "content": "\"use client\"\n\nimport { LogoIcon } from \"@/components/ui/logo\"\nimport { Gemini } from \"@/components/ui/svgs/gemini\"\nimport { Claude } from \"@/components/ui/svgs/claude\"\nimport { Openai } from \"@/components/ui/svgs/openai\"\nimport { MistralAi } from \"@/components/ui/svgs/mistral-ai\"\n\nexport const Flow7Illustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"relative flex w-fit items-center justify-center\"\n    >\n      <style jsx>{`\n        @keyframes ai-flow {\n          0% {\n            stroke-dashoffset: 150;\n          }\n          100% {\n            stroke-dashoffset: 600;\n          }\n        }\n      `}</style>\n\n      <svg\n        viewBox=\"0 0 90 60\"\n        fill=\"none\"\n        xmlns=\"http://www.w3.org/2000/svg\"\n        className=\"pointer-events-none absolute inset-0 m-auto w-3/4 translate-x-2 text-foreground/10\"\n      >\n        <path\n          d=\"M39.78 0.24L30.59 16.95C27.78 22.06 22.41 25.24 16.57 25.24H0\"\n          stroke=\"currentColor\"\n          strokeWidth={0.5}\n        />\n        <path\n          d=\"M39.78 59.24L30.59 42.53C27.78 37.42 22.41 34.24 16.57 34.24H0\"\n          stroke=\"currentColor\"\n          strokeWidth={0.5}\n        />\n        <path\n          d=\"M88.78 9.74L76.54 23.07C73.51 26.36 69.23 28.24 64.75 28.24H35.28H0.28\"\n          stroke=\"currentColor\"\n          strokeWidth={0.5}\n        />\n        <path\n          d=\"M88.78 49.74L76.54 36.41C73.51 33.12 69.23 31.24 64.75 31.24H35.28H0.28\"\n          stroke=\"currentColor\"\n          strokeWidth={0.5}\n        />\n\n        <path\n          d=\"M39.78 0.24L30.59 16.95C27.78 22.06 22.41 25.24 16.57 25.24H0\"\n          stroke=\"#3186FF\"\n          strokeWidth={0.5}\n          strokeDasharray=\"40 200\"\n          strokeDashoffset={400}\n          className=\"animate-[ai-flow_4s_ease-in-out_infinite] not-group-hover:hidden not-group-hover:opacity-0\"\n        />\n        <path\n          d=\"M39.78 59.24L30.59 42.53C27.78 37.42 22.41 34.24 16.57 34.24H0\"\n          stroke=\"var(--color-foreground)\"\n          strokeWidth={0.5}\n          strokeDasharray=\"40 200\"\n          strokeDashoffset={400}\n          className=\"animate-[ai-flow_4s_ease-in-out_infinite] not-group-hover:hidden not-group-hover:opacity-0\"\n        />\n        <path\n          d=\"M88.78 9.74L76.54 23.07C73.51 26.36 69.23 28.24 64.75 28.24H35.28H0.28\"\n          stroke=\"#D97757\"\n          strokeWidth={0.5}\n          strokeDasharray=\"40 200\"\n          strokeDashoffset={400}\n          className=\"animate-[ai-flow_4s_ease-in-out_infinite] not-group-hover:hidden not-group-hover:opacity-0\"\n        />\n        <path\n          d=\"M88.78 49.74L76.54 36.41C73.51 33.12 69.23 31.24 64.75 31.24H35.28H0.28\"\n          stroke=\"#EB5829\"\n          strokeWidth={0.5}\n          strokeDasharray=\"40 200\"\n          strokeDashoffset={400}\n          className=\"animate-[ai-flow_4s_ease-in-out_infinite] not-group-hover:hidden not-group-hover:opacity-0\"\n        />\n      </svg>\n\n      <div className=\"relative flex items-center gap-17\">\n        <div className=\"dark:bg-illustration/75 dark:ring-border-illustration relative flex size-12 items-center justify-center rounded-full bg-black/75 shadow-xl ring-1 shadow-black/20 ring-black backdrop-blur\">\n          <LogoIcon className=\"size-5\" />\n        </div>\n\n        <div className=\"flex flex-col gap-24\">\n          <div className=\"ring-border-illustration bg-illustration/50 flex size-12 rounded-full shadow-md ring-1 shadow-black/6.5 backdrop-blur *:m-auto *:size-5\">\n            <Gemini />\n          </div>\n          <div className=\"ring-border-illustration bg-illustration/50 flex size-12 rounded-full shadow-md ring-1 shadow-black/6.5 backdrop-blur *:m-auto *:size-5\">\n            <Openai className=\"*:fill-foreground\" />\n          </div>\n        </div>\n        <div className=\"flex flex-col gap-14\">\n          <div className=\"ring-border-illustration bg-illustration/50 flex size-12 rounded-full shadow-md ring-1 shadow-black/6.5 backdrop-blur *:m-auto *:size-5\">\n            <Claude />\n          </div>\n          <div className=\"ring-border-illustration bg-illustration/50 flex size-12 rounded-full shadow-md ring-1 shadow-black/6.5 backdrop-blur *:m-auto *:size-5\">\n            <MistralAi />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Flow7Illustration\n"
+    }
+  ]
+}

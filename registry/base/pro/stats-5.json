@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-5",
+  "type": "registry:block",
+  "title": "Stats 5",
+  "description": "Tailark stats variant 5 block",
+  "dependencies": [
+    "@number-flow/react"
+  ],
+  "meta": {
+    "aspect-ratio": "45/11",
+    "width": 686,
+    "height": 168
+  },
+  "files": [
+    {
+      "path": "blocks/stats/five/index.tsx",
+      "type": "registry:component",
+      "target": "@components/stats-5.tsx",
+      "content": "'use client'\nimport NumberFlow from '@number-flow/react'\nimport { useEffect, useState } from 'react'\n\nexport default function StatsSection() {\n    const [flowValue, setFlowValue] = useState(67904370)\n\n    useEffect(() => {\n        const interval = setInterval(() => {\n            setFlowValue((prevValue) => prevValue + Math.floor(Math.random() * 11))\n        }, 5000)\n\n        return () => clearInterval(interval)\n    }, [])\n    return (\n        <section className=\"bg-background py-12 md:py-20\">\n            <div className=\"mx-auto max-w-5xl px-6 text-center\">\n                <div>\n                    <NumberFlow\n                        value={flowValue}\n                        className=\"text-foreground font-mono text-5xl font-semibold sm:text-6xl lg:text-8xl tracking-tight\"\n                    />\n                </div>\n                <p className=\"text-muted-foreground mx-auto max-w-md\">\n                    Our advanced visual processing system can <strong className=\"text-foreground font-semibold\">analyze and interpret complex images</strong>, enabling applications.\n                </p>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

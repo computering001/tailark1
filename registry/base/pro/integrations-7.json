@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-7",
+  "type": "registry:block",
+  "title": "Integrations 7",
+  "description": "Tailark integrations variant 7 block",
+  "registryDependencies": [
+    "@tailark/core-claude",
+    "@tailark/core-gemini",
+    "@tailark/core-linear",
+    "@tailark/core-media-wiki",
+    "@tailark/core-open-ai",
+    "@tailark/core-replit",
+    "@tailark/core-utils",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "60/24",
+    "width": 686,
+    "height": 274
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/seven/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-7.tsx",
+      "content": "import { Claude } from '@/components/ui/svgs/claude'\nimport { OpenAI } from '@/components/ui/svgs/open-ai'\nimport { Linear } from '@/components/ui/svgs/linear'\nimport { Vercel } from '@/components/ui/svgs/vercel'\nimport { cn } from '@/lib/utils'\n\nimport { Gemini } from '@/components/ui/svgs/gemini'\nimport { Replit } from '@/components/ui/svgs/replit'\nimport { MediaWiki } from '@/components/ui/svgs/media-wiki'\n\nexport default function IntegrationsSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"relative\">\n                    <div className=\"inset-0 m-auto !aspect-auto h-fit w-full max-w-xl space-y-4 text-center md:absolute\">\n                        <h2 className=\"text-balance text-3xl font-semibold md:text-5xl tracking-tight\">Seamlessly Integrate with your favorite Tools</h2>\n                        <p className=\"text-muted-foreground text-balance text-lg\">Connect seamlessly with popular platforms and services to enhance your workflow.</p>\n                    </div>\n                    <div className=\"md:grid-cols-18 grid gap-1 *:aspect-square max-md:mt-12 md:grid-rows-6\">\n                        <div\n                            aria-hidden\n                            className=\"col-start-3 flex max-md:hidden md:row-start-2\">\n                            <div className=\"bg-muted/50 ml-auto mt-auto size-1/2 translate-x-full translate-y-[125%] rounded-lg border\"></div>\n                        </div>\n                        <div\n                            aria-hidden\n                            className=\"flex max-md:hidden md:row-start-5\">\n                            <div className=\"bg-muted/50 ml-auto size-1/2 rounded-lg border md:-translate-y-[125%] md:translate-x-full\"></div>\n                        </div>\n\n                        <div\n                            aria-hidden\n                            className=\"col-start-16 flex max-md:hidden md:row-start-3\">\n                            <div className=\"bg-muted size-1/2 rounded-lg border md:-translate-x-full md:-translate-y-[125%]\"></div>\n                        </div>\n                        <div\n                            aria-hidden\n                            className=\"col-start-18 flex max-md:hidden md:row-start-5\">\n                            <div className=\"bg-muted size-1/2 rounded-lg border md:-translate-x-full md:-translate-y-[125%]\"></div>\n                        </div>\n                        <IntegrationCard className=\"col-start-3\">\n                            <Gemini />\n                        </IntegrationCard>\n\n                        <IntegrationCard className=\"col-start-9 md:row-start-8 md:translate-x-1/2\">\n                            <Linear />\n                        </IntegrationCard>\n                        <IntegrationCard className=\"md:row-start-3\">\n                            <Replit />\n                        </IntegrationCard>\n                        <IntegrationCard className=\"col-start-3 md:row-start-5\">\n                            <Vercel />\n                        </IntegrationCard>\n                        <IntegrationCard className=\"col-start-16\">\n                            <OpenAI />\n                        </IntegrationCard>\n                        <IntegrationCard className=\"col-start-18 md:row-start-3\">\n                            <MediaWiki />\n                        </IntegrationCard>\n                        <IntegrationCard className=\"col-start-16 md:row-start-5\">\n                            <Claude />\n                        </IntegrationCard>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n\nconst IntegrationCard = ({ children, className }: { children?: React.ReactNode; className?: string }) => {\n    return <div className={cn('bg-card ring-foreground/10 relative z-20 m-auto flex size-full rounded-full border border-transparent shadow-md ring-1 *:m-auto *:size-5', className)}>{children}</div>\n}\n"
+    }
+  ]
+}

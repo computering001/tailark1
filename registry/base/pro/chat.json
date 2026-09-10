@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "chat",
+  "type": "registry:component",
+  "title": "Chat Illustration",
+  "description": "Tailark chat illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "message",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/chat.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/chat.tsx",
+      "content": "export const ChatIllustration = () => {\n  return (\n    <div aria-hidden className=\"flex flex-col gap-6\">\n      <div>\n        <div className=\"flex items-center gap-2\">\n          <span className=\"text-xs text-muted-foreground\">Sat 22 Feb</span>\n        </div>\n        <div className=\"mt-1.5 w-3/5 rounded-lg rounded-tl bg-illustration p-3 text-xs shadow ring-1 ring-foreground/5\">\n          Hey, I'm having trouble with my account.\n        </div>\n      </div>\n\n      <div>\n        <div className=\"mb-1 ml-auto w-3/5 rounded-lg rounded-br bg-primary p-3 text-xs text-white shadow inset-ring-1 shadow-black/15 inset-ring-foreground/10\">\n          Distinctio provident nobis repudiandae deleniti necessitatibus.\n        </div>\n        <span className=\"block text-right text-xs text-muted-foreground\">\n          Now\n        </span>\n      </div>\n    </div>\n  )\n}\n\nexport default ChatIllustration\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "models-4",
+  "type": "registry:component",
+  "title": "Models Illustration",
+  "description": "Tailark 4 models illustration",
+  "meta": {
+    "category": "ai",
+    "variant": "4"
+  },
+  "files": [
+    {
+      "path": "illustrations/models-4.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/models-4.tsx",
+      "content": "import { Infinity, ChevronDown, ArrowUp } from \"lucide-react\"\n\ntype Model = {\n  name: string\n  credits: number\n}\n\nconst models: Model[] = [\n  { name: \"Gemini\", credits: 2 },\n  { name: \"Open AI\", credits: 5 },\n  { name: \"Deepseek\", credits: 3 },\n  { name: \"Mistral AI\", credits: 4 },\n  { name: \"Qwen\", credits: 6 },\n]\n\nexport const Models4Illustration = () => {\n  return (\n    <div aria-hidden className=\"relative min-w-xs\">\n      <div className=\"flex flex-col gap-4 perspective-dramatic\">\n        <div className=\"rotate-x-4\">\n          <div className=\"bg-illustration ring-border-illustration relative mr-10 -mb-10 ml-auto flex max-w-[calc(100%-7.5rem)] flex-col rounded-xl p-1 shadow-lg ring-1 shadow-black/6.5\">\n            {models.map((model, index) => (\n              <div\n                key={index}\n                className=\"flex origin-bottom cursor-default items-center gap-2.5 rounded-lg px-3 py-1.5 select-none not-hover:text-muted-foreground hover:bg-foreground/5 [&>svg]:size-5\"\n              >\n                <span className=\"text-sm\">{model.name}</span>\n                <span className=\"ml-auto text-xs text-muted-foreground/75\">\n                  {model.credits}x\n                </span>\n              </div>\n            ))}\n          </div>\n          <div className=\"ring-border-illustration rounded-2xl bg-background/75 p-4 ring-1\">\n            <div className=\"h-7 text-xs text-muted-foreground\">\n              Plan, Build anything...\n            </div>\n            <div className=\"flex h-5 justify-between\">\n              <div className=\"flex\">\n                <div className=\"flex h-full items-center rounded-full bg-foreground/5 px-2.5 text-xs text-muted-foreground\">\n                  <Infinity className=\"size-3.5 shrink-0 opacity-75\" />\n                  <span className=\"ml-1\">Agent</span>\n                </div>\n\n                <div className=\"flex cursor-pointer items-center gap-2 rounded-full px-2.5 text-xs text-foreground\">\n                  Claude Opus 4.5 <ChevronDown className=\"size-3\" />\n                </div>\n              </div>\n\n              <div className=\"flex size-5 rounded-full bg-foreground/10\">\n                <ArrowUp className=\"m-auto size-3 opacity-75\" />\n              </div>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Models4Illustration\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-pptx",
+  "type": "registry:component",
+  "title": "Document Illustration",
+  "description": "Tailark pptx document illustration",
+  "meta": {
+    "category": "document",
+    "variant": "pptx"
+  },
+  "files": [
+    {
+      "path": "illustrations/document-pptx.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/document-pptx.tsx",
+      "content": "export const DocumentPptxIllustration = () => {\n  return (\n    <div aria-hidden className=\"relative size-fit\">\n      <div className=\"absolute -right-3 bottom-2 z-2 rounded bg-orange-500 px-1.5 py-0.5 text-[10px] font-semibold text-white shadow-lg shadow-orange-900/25 text-shadow-sm after:absolute after:inset-0 after:rounded after:border after:border-foreground/15\">\n        PPT\n      </div>\n      <div className=\"bg-illustration corner-tr-bevel ring-border-illustration relative z-1 w-16 space-y-4 rounded-md rounded-tr-[15%] p-2.5 shadow-md ring-1 shadow-black/6.5\">\n        <div className=\"space-y-1.5 rounded border bg-foreground/5 p-1.5\">\n          <div className=\"mx-auto h-[3px] w-8 rounded-full bg-foreground/15\" />\n          <div className=\"flex justify-center gap-1\">\n            <div className=\"size-3 rounded-sm bg-orange-400/40\" />\n            <div className=\"size-3 rounded-full bg-sky-400/40\" />\n          </div>\n          <div className=\"space-y-0.5\">\n            <div className=\"mx-auto h-0.5 w-9 rounded-full bg-foreground/10\" />\n            <div className=\"mx-auto h-0.5 w-6 rounded-full bg-foreground/10\" />\n          </div>\n        </div>\n        <div className=\"flex justify-center gap-1\">\n          <div className=\"rounded-0.5 size-1.5 bg-foreground/20\" />\n          <div className=\"rounded-0.5 size-1.5 bg-foreground/10\" />\n          <div className=\"rounded-0.5 size-1.5 bg-foreground/10\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default DocumentPptxIllustration\n"
+    }
+  ]
+}

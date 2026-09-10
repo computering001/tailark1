@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "core-mistral-ai",
+  "type": "registry:ui",
+  "title": "Mistral AI logo",
+  "description": "Tailark core mistral-ai svg logo",
+  "files": [
+    {
+      "path": "core/ui/svgs/mistral-ai.tsx",
+      "type": "registry:ui",
+      "target": "@ui/svgs/mistral-ai.tsx",
+      "content": "import type { SVGProps } from 'react'\n\nconst MistralAi = (props: SVGProps<SVGSVGElement>) => (\n    <svg\n        {...props}\n        preserveAspectRatio=\"xMidYMid\"\n        viewBox=\"0 0 256 233\">\n        <path d=\"M186.18 0h46.55v46.55h-46.55z\" />\n        <path\n            fill=\"#F7D046\"\n            d=\"M209.45 0h46.55v46.55h-46.55z\"\n        />\n        <path d=\"M0 0h46.55v46.55H0zM0 46.55h46.55V93.09H0zM0 93.09h46.55v46.55H0zM0 139.64h46.55v46.55H0zM0 186.18h46.55v46.55H0z\" />\n        <path\n            fill=\"#F7D046\"\n            d=\"M23.27 0h46.55v46.55H23.27z\"\n        />\n        <path\n            fill=\"#F2A73B\"\n            d=\"M209.45 46.55h46.55V93.09h-46.55zM23.27 46.55h46.55V93.09H23.27z\"\n        />\n        <path d=\"M139.64 46.55h46.55V93.09h-46.55z\" />\n        <path\n            fill=\"#F2A73B\"\n            d=\"M162.91 46.55h46.55V93.09h-46.55zM69.82 46.55h46.55V93.09H69.82z\"\n        />\n        <path\n            fill=\"#EE792F\"\n            d=\"M116.36 93.09h46.55v46.55h-46.55zM162.91 93.09h46.55v46.55h-46.55zM69.82 93.09h46.55v46.55H69.82z\"\n        />\n        <path d=\"M93.09 139.64h46.55v46.55H93.09z\" />\n        <path\n            fill=\"#EB5829\"\n            d=\"M116.36 139.64h46.55v46.55h-46.55z\"\n        />\n        <path\n            fill=\"#EE792F\"\n            d=\"M209.45 93.09h46.55v46.55h-46.55zM23.27 93.09h46.55v46.55H23.27z\"\n        />\n        <path d=\"M186.18 139.64h46.55v46.55h-46.55z\" />\n        <path\n            fill=\"#EB5829\"\n            d=\"M209.45 139.64h46.55v46.55h-46.55z\"\n        />\n        <path d=\"M186.18 186.18h46.55v46.55h-46.55z\" />\n        <path\n            fill=\"#EB5829\"\n            d=\"M23.27 139.64h46.55v46.55H23.27z\"\n        />\n        <path\n            fill=\"#EA3326\"\n            d=\"M209.45 186.18h46.55v46.55h-46.55zM23.27 186.18h46.55v46.55H23.27z\"\n        />\n    </svg>\n)\n\nexport { MistralAi }\n"
+    }
+  ]
+}

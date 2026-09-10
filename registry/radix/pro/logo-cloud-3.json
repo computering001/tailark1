@@ -1,0 +1,32 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-3",
+  "type": "registry:block",
+  "title": "Logo Cloud 3",
+  "description": "Tailark logo-cloud variant 3 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-open-ai",
+    "@tailark/core-prime",
+    "@tailark/core-stripe",
+    "@tailark/core-vs-code",
+    "@tailark/motion-primitives-infinite-slider"
+  ],
+  "meta": {
+    "aspect-ratio": "18/5",
+    "width": 686,
+    "height": 191
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-3.tsx",
+      "content": "import { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Cisco } from '@/components/ui/svgs/cisco'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { VisualStudioCode } from '@/components/ui/svgs/vs-code'\nimport { InfiniteSlider } from '@/components/motion-primitives/infinite-slider'\nimport { Button } from '@/components/ui/button'\nimport { ChevronRight } from 'lucide-react'\nimport Link from 'next/link'\n\nexport default function LogoCloud() {\n    return (\n        <section className=\"overflow-hidden py-16\">\n            <div className=\"group relative m-auto max-w-5xl px-6\">\n                <div className=\"text-center\">\n                    <div className=\"mx-auto max-w-xl text-balance\">\n                        <h2 className=\"text-4xl font-semibold tracking-tight\">You're in good company</h2>\n                        <p className=\"text-muted-foreground mt-4 text-lg\">Tailark is trusted by innovative companies worldwide to deliver exceptional products and services that drive business growth.</p>\n                    </div>\n\n                    <div className=\"mask-x-from-90% relative py-12\">\n                        <div\n                            aria-hidden\n                            className=\"mask-r-from-50% backdrop-grayscale-200 absolute inset-y-0 left-0 z-10 w-16\"\n                        />\n                        <div\n                            aria-hidden\n                            className=\"mask-l-from-50% backdrop-grayscale-200 absolute inset-y-0 right-0 z-10 w-16\"\n                        />\n                        <InfiniteSlider\n                            speedOnHover={20}\n                            speed={40}\n                            className=\"*:gap-12! md:*:gap-24! lg:*:gap-32! items-center\">\n                            <Hulu\n                                height={24}\n                                width=\"auto\"\n                            />\n                            <Beacon\n                                height={24}\n                                width=\"auto\"\n                            />\n                            <Cisco\n                                height={24}\n                                width=\"auto\"\n                            />\n                            <Primevideo\n                                height={32}\n                                width=\"auto\"\n                            />\n                            <Stripe\n                                height={24}\n                                width=\"auto\"\n                            />\n                            <OpenAIFull\n                                height={24}\n                                width=\"auto\"\n                            />\n                            <VisualStudioCode\n                                height={24}\n                                width=\"auto\"\n                            />\n\n                            <Bolt\n                                height={24}\n                                width=\"auto\"\n                            />\n                        </InfiniteSlider>\n                    </div>\n                    <Button\n                        variant=\"outline\"\n                        size=\"sm\"\n                        asChild\n                        className=\"pr-2\">\n                        <Link href=\"#\">\n                            Read customer stories\n                            <ChevronRight className=\"size-3.5!\" />\n                        </Link>\n                    </Button>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "text-to-speech",
+  "type": "registry:component",
+  "title": "Text To Speech Illustration",
+  "description": "Tailark text-to-speech illustration",
+  "meta": {
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/text-to-speech.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/text-to-speech.tsx",
+      "content": "import { Play } from \"lucide-react\"\n\nexport const TextToSpeechIllustration = () => {\n  return (\n    <div aria-hidden className=\"min-w-xs\">\n      <div className=\"ring-border-illustration rounded-2xl bg-card p-6 shadow-lg ring-1 shadow-black/6.5\">\n        <div className=\"text-sm font-medium\">Text to Speech</div>\n\n        <div className=\"ring-border-illustration mt-4 rounded-t-xl rounded-b bg-foreground/5 p-3 ring-1\">\n          <div className=\"text-xs leading-relaxed\">\n            <span className=\"text-muted-foreground\">\n              Welcome to our platform. We're excited to have you here.\n            </span>{\" \"}\n            <span className=\"font-medium text-foreground\">\n              Today we'll explore the key features\n            </span>{\" \"}\n            <span className=\"text-muted-foreground\">\n              that make our product unique and powerful.\n            </span>\n          </div>\n        </div>\n\n        <div className=\"ring-border-illustration mt-1 flex items-center gap-3 rounded-t rounded-b-xl bg-foreground/5 p-3 ring-1\">\n          <div className=\"relative flex size-7 items-center justify-center rounded-full bg-primary text-white shadow-lg transition-transform before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20\">\n            <Play className=\"size-3 fill-white drop-shadow\" />\n          </div>\n\n          <div className=\"flex flex-1 items-center justify-between gap-px\">\n            {Array.from({ length: 40 }).map((_, index) => {\n              const heights = [\n                3, 4, 3, 4, 7, 10, 7, 8, 6, 4, 7, 4, 8, 12, 3, 3, 4, 5, 10, 8,\n                6, 11, 4, 9, 7, 5, 10, 8, 6, 12, 9, 5, 7, 4, 8, 11, 6, 2, 5, 4,\n              ]\n              return (\n                <div\n                  key={index}\n                  data-played={index < 20}\n                  style={{ height: `${heights[index % heights.length] * 2}px` }}\n                  className=\"w-[3px] rounded-full bg-foreground/20 data-[played=true]:bg-primary\"\n                />\n              )\n            })}\n          </div>\n        </div>\n\n        <div className=\"mt-3 flex items-center justify-between text-xs\">\n          <div className=\"text-muted-foreground\">0:24 / 1:12</div>\n          <div className=\"flex items-center gap-2\">\n            <div className=\"rounded bg-muted px-2 py-0.5 text-[10px]\">0.5x</div>\n            <div className=\"text-muted-foreground\">Neural Voice</div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default TextToSpeechIllustration\n"
+    }
+  ]
+}

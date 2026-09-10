@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "description-list-1",
+  "type": "registry:block",
+  "title": "Description List 1",
+  "description": "Tailark description-list variant 1 block",
+  "meta": {
+    "aspect-ratio": "45/17",
+    "width": 686,
+    "height": 259
+  },
+  "files": [
+    {
+      "path": "blocks/description-list/one/index.tsx",
+      "type": "registry:component",
+      "target": "@components/description-list-1.tsx",
+      "content": "export default function DescriptionListSection() {\n    return (\n        <section className=\"bg-background py-16 md:py-32\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid gap-6 md:grid-cols-2 md:gap-12 lg:gap-24\">\n                    <h2 className=\"text-muted-foreground text-balance text-4xl font-semibold tracking-tight\">\n                        Building the next generation of <strong className=\"text-foreground font-semibold\">AI-powered Marketing Tools</strong>\n                    </h2>\n                    <dl className=\"space-y-6 *:space-y-2\">\n                        <div>\n                            <dt className=\"text-foreground font-semibold\">AI-Powered Analytics</dt>\n                            <dd className=\"text-muted-foreground\">Leverage machine learning to gain deeper insights from your marketing data and optimize campaigns in real-time.</dd>\n                        </div>\n                        <div>\n                            <dt className=\"text-foreground font-semibold\">Intelligent Automation</dt>\n                            <dd className=\"text-muted-foreground\">Automate repetitive tasks and workflows, allowing your team to focus on strategic initiatives.</dd>\n                        </div>\n                        <div>\n                            <dt className=\"text-foreground font-semibold\">Predictive Targeting</dt>\n                            <dd className=\"text-muted-foreground\">Identify high-value audiences with precision using advanced predictive modeling.</dd>\n                        </div>\n                    </dl>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

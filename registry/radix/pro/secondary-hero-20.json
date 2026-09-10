@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-20",
+  "type": "registry:block",
+  "title": "Secondary Hero 20",
+  "description": "Tailark secondary-hero variant 20 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-logo"
+  ],
+  "meta": {
+    "aspect-ratio": "60/31",
+    "width": 686,
+    "height": 354
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/twenty/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-20.tsx",
+      "content": "import React from 'react'\nimport Link from 'next/link'\nimport { Button } from '@/components/ui/button'\nimport { Hero } from '@/components/illustrations/hero'\n\nexport default function HeroSection() {\n    return (\n        <section className=\"bg-background py-20\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid items-center gap-12 md:grid-cols-2\">\n                    <div className=\"max-md:text-center\">\n                        <span className=\"text-primary text-sm font-medium\">Billing</span>\n                        <h1 className=\"mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl tracking-tight\">Streamline Your Invoicing Process</h1>\n                        <p className=\"text-muted-foreground mb-6 mt-4 max-w-md text-balance text-lg max-md:mx-auto\">Simplify invoicing with automated usage tracking and reporting tools.</p>\n\n                        <Button asChild>\n                            <Link href=\"#link\">Get Started</Link>\n                        </Button>\n                        <Button\n                            asChild\n                            variant=\"outline\"\n                            className=\"ml-3\">\n                            <Link href=\"#link\">Get a demo</Link>\n                        </Button>\n\n                        <div className=\"mt-12 grid max-w-sm grid-cols-2 max-md:mx-auto\">\n                            <div className=\"space-y-2 *:block\">\n                                <span className=\"text-lg font-semibold\">\n                                    99.9 <span className=\"text-muted-foreground text-lg\">%</span>\n                                </span>\n                                <p className=\"text-muted-foreground text-balance text-sm\">\n                                    <strong className=\"text-foreground font-medium\">Uptime guarantee</strong> for all our services.\n                                </p>\n                            </div>\n\n                            <div className=\"space-y-2 *:block\">\n                                <span className=\"text-lg font-semibold\">\n                                    12 <span className=\"text-muted-foreground text-lg\">X</span>\n                                </span>\n                                <p className=\"text-muted-foreground text-balance text-sm\">\n                                    <strong className=\"text-foreground font-medium\">12X</strong> faster processing than previous generation.\n                                </p>\n                            </div>\n                        </div>\n                    </div>\n\n                    <Hero />\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/secondary-hero/twenty/illustrations/hero.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/hero.tsx",
+      "content": "import { LogoIcon } from \"@/components/ui/logo\"\nimport Image from 'next/image'\n\nexport const Hero = () => {\n    return (\n        <div className=\"relative max-md:-mx-6\">\n            <div className=\"z-1 absolute inset-y-0 my-auto h-fit w-full max-w-72 origin-left scale-75 max-lg:left-6\">\n                <div className=\"bg-linear-to-r absolute -inset-6 from-purple-400 via-emerald-400 to-white opacity-25 blur-3xl dark:opacity-15\"></div>\n\n                <div className=\"bg-card ring-border shadow-black/6.5 relative rounded-2xl p-6 shadow-xl ring-1\">\n                    <div className=\"mb-6 flex items-start justify-between\">\n                        <div className=\"space-y-0.5\">\n                            <LogoIcon />\n                            <div className=\"mt-4 font-mono text-xs\">INV-456789</div>\n                            <div className=\"mt-1 -translate-x-1 font-mono text-2xl font-semibold\">$284,342.57</div>\n                            <div className=\"text-xs font-medium\">Due in 15 days</div>\n                        </div>\n                    </div>\n\n                    <div className=\"border-foreground/15 bg-foreground/5 mt-6 flex h-24 items-center justify-center rounded-md border border-dashed\">\n                        <div className=\"text-foreground/50 border-foreground/35 border-b px-6 font-serif text-lg\">Sign here</div>\n                    </div>\n                </div>\n            </div>\n            <div className=\"mask-radial-from-75% ml-auto w-4/5 px-4 py-8\">\n                <div className=\"before:border-foreground/5 before:bg-primary/5 aspect-2/3 md:aspect-2/3 relative mt-auto h-fit overflow-hidden rounded-xl shadow-xl before:absolute before:inset-0 before:rounded-xl before:border sm:aspect-video\">\n                    <Image\n                        src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/work4_c0ffmk.webp\"\n                        alt=\"tailark hero section work 4\"\n                        className=\"size-full object-cover\"\n                        width={987}\n                        height={1481}\n                    />\n                </div>\n            </div>\n        </div>\n    )\n}\n"
+    }
+  ]
+}

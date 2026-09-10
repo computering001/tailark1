@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "face-scan",
+  "type": "registry:component",
+  "title": "Face Scan Illustration",
+  "description": "Tailark face-scan illustration",
+  "dependencies": [
+    "motion"
+  ],
+  "registryDependencies": [
+    "@tailark/motion-primitives-text-scramble",
+    "@tailark/core-particles"
+  ],
+  "meta": {
+    "category": "scan",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/face-scan.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/face-scan.tsx",
+      "content": "\"use client\"\nimport { useEffect, useState } from \"react\"\nimport { LazyMotion, domAnimation, m } from \"motion/react\"\nimport { TextScramble } from \"@/components/motion-primitives/text-scramble\"\nimport { cn } from \"@/lib/utils\"\nimport { LightDarkParticles } from \"@/components/ui/particles\"\nimport Image from \"next/image\"\n\nexport const FaceScanIllustration = () => {\n  const [show, setShow] = useState(false)\n  const [showName, setShowName] = useState(false)\n\n  useEffect(() => {\n    const showTimer = setTimeout(() => setShow(true), 4000)\n    const hideTimer = setTimeout(() => {\n      setShow(false)\n      setShowName(true)\n    }, 4100)\n\n    return () => {\n      clearTimeout(showTimer)\n      clearTimeout(hideTimer)\n    }\n  }, [])\n  return (\n    <LazyMotion features={domAnimation}>\n    <div aria-hidden className=\"group relative m-auto size-fit\">\n      <div\n        className=\"absolute -inset-6 z-10 mask-[radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] mix-blend-screen not-dark:opacity-25\"\n        style={{\n          backgroundImage: `\n        linear-gradient(to right, #000 1px, transparent 1px),\n        linear-gradient(to bottom, #000 1px, transparent 1px)\n      `,\n          backgroundSize: \"5px 5px\",\n        }}\n      />\n\n      <div className=\"absolute inset-0 animate-spin opacity-50 blur-lg transition-opacity duration-[3s] dark:opacity-20\">\n        <div className=\"animate-hue-rotate absolute inset-0 rounded-full bg-linear-to-r/increasing from-pink-300 to-indigo-300\" />\n      </div>\n      <div className=\"animate-scan absolute inset-x-12 inset-y-0 z-10\">\n        <div className=\"absolute inset-x-0 m-auto h-6 rounded-full bg-white/50 blur-2xl\" />\n      </div>\n\n      <m.div\n        initial={{ opacity: 0, scale: 0.5 }}\n        animate={{ opacity: 1, scale: 1 }}\n        transition={{ duration: 0.5, delay: 1.5, type: \"spring\" }}\n        className=\"absolute inset-0 z-10 m-auto aspect-2/3 w-24\"\n      >\n        <CardDecorator className=\"scale-125 border-white blur-[3px]\" />\n        <m.div\n          initial={{ \"--frame-color\": \"white\" }}\n          animate={{ \"--frame-color\": \"var(--color-lime-400)\" }}\n          transition={{ duration: 0.4, delay: 3.5, type: \"spring\" }}\n        >\n          <CardDecorator className=\"z-10 border-(--frame-color)\" />\n        </m.div>\n        <LightDarkParticles id=\"light-dark-particles\" />\n      </m.div>\n\n      {show && (\n        <div className=\"absolute inset-0 z-10 scale-150 rounded-full bg-white mix-blend-overlay blur-xl\" />\n      )}\n\n      <div className=\"aspect-square max-w-xs bg-radial mask-[radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)] group-hover:opacity-95\">\n        <Image\n          src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/human-face_kf9mt7.png\"\n          alt=\"woman face\"\n          className=\"bg-illustration size-full object-cover grayscale\"\n          width={560}\n          height={560}\n        />\n      </div>\n\n      <div\n        aria-hidden\n        className=\"absolute inset-x-0 bottom-4 z-10 mx-auto flex h-4 justify-center\"\n      >\n        {showName && (\n          <TextScramble className=\"text-center font-mono text-sm text-white uppercase\">\n            Anna Johnson\n          </TextScramble>\n        )}\n      </div>\n    </div>\n  \n    </LazyMotion>)\n}\n\nexport const CardDecorator = ({ className }: { className?: string }) => (\n  <>\n    <span\n      className={cn(\n        \"absolute -top-px -left-px block size-2.5 border-t-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -top-px -right-px block size-2.5 border-t-[1.5px] border-r-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -bottom-px -left-px block size-2.5 border-b-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -right-px -bottom-px block size-2.5 border-r-[1.5px] border-b-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n  </>\n)\n\nexport default FaceScanIllustration\n"
+    }
+  ]
+}

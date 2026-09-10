@@ -1,0 +1,3265 @@
+[
+  {
+    "name": "bento-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-8.png",
+    "path": "previews/quartz/bento-8.png",
+    "bytes": 126876,
+    "sha256": "82ab3c6355c05e45a886bc292b18fa01c7f8c042f128d4ba69560f99b37f602a"
+  },
+  {
+    "name": "bento-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-11.png",
+    "path": "previews/quartz/bento-11.png",
+    "bytes": 124030,
+    "sha256": "5f4fe14f758be3cd1cda8a8616046af6f6efdd9b4c4a2efc5a51e7a021826c1c"
+  },
+  {
+    "name": "bento-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-5.png",
+    "path": "previews/quartz/bento-5.png",
+    "bytes": 120281,
+    "sha256": "e21bbddeb57373642e075e1ecc0945cab25c8d3242efe5941790695c02e872e6"
+  },
+  {
+    "name": "bento-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-4.png",
+    "path": "previews/quartz/bento-4.png",
+    "bytes": 111673,
+    "sha256": "cc7d3339eb7f3a72ed067526489672c27ca3b067c73e0fd1a226befe4a92d05d"
+  },
+  {
+    "name": "bento-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-14.png",
+    "path": "previews/quartz/bento-14.png",
+    "bytes": 116487,
+    "sha256": "0bbda82a6cea183825086a0b07b944c709cbc98900d47be935411acd05403315"
+  },
+  {
+    "name": "bento-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-9.png",
+    "path": "previews/quartz/bento-9.png",
+    "bytes": 83041,
+    "sha256": "b9294fcd84eb7cd0ffcada74231089a37c17ea122bfe28539cbdc83d1003d02a"
+  },
+  {
+    "name": "bento-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-1.png",
+    "path": "previews/quartz/bento-1.png",
+    "bytes": 134440,
+    "sha256": "7acb999d6b2dee445f85942f4080ba4610055bb1650fc65c37de025d166ffbd4"
+  },
+  {
+    "name": "bento-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-7.png",
+    "path": "previews/quartz/bento-7.png",
+    "bytes": 121090,
+    "sha256": "68e6c5ebd8dc7c4cd463cf4ac227b7fb4b5101ad58688e645570c255bb0712d2"
+  },
+  {
+    "name": "bento-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-6.png",
+    "path": "previews/quartz/bento-6.png",
+    "bytes": 89926,
+    "sha256": "0ef4ea8ff4d80afd6916a7ef66bf05f55504dd363b8b94b0f8c2b862f1d20498"
+  },
+  {
+    "name": "bento-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-10.png",
+    "path": "previews/quartz/bento-10.png",
+    "bytes": 143676,
+    "sha256": "5840f7ef4b5948808b1adf220dec043afd40dfe4d4a6596f6c2fba17cf9dd66b"
+  },
+  {
+    "name": "bento-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-13.png",
+    "path": "previews/quartz/bento-13.png",
+    "bytes": 141675,
+    "sha256": "70ba2e010849f68ef298568f53f52d29e2affde050c4320f18a8dfa8ce519211"
+  },
+  {
+    "name": "bento-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-3.png",
+    "path": "previews/quartz/bento-3.png",
+    "bytes": 223062,
+    "sha256": "7e192d3938ea947d470505a25766280f92d45cd51c990e517855a4ab964c0dff"
+  },
+  {
+    "name": "bento-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-12.png",
+    "path": "previews/quartz/bento-12.png",
+    "bytes": 129239,
+    "sha256": "4bd987a1f5936dda536d08183356a47122b2fef692511871616088763b0eb42a"
+  },
+  {
+    "name": "bento-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/bento-2.png",
+    "path": "previews/quartz/bento-2.png",
+    "bytes": 135754,
+    "sha256": "21fe10d2a88a4988a2dc2a43ee295bd0c12dfcb05a0abaa3b55d50b65ba2c941"
+  },
+  {
+    "name": "blog-blocks-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-5.png",
+    "path": "previews/quartz/blog-blocks-5.png",
+    "bytes": 797285,
+    "sha256": "cb5d51c83c6bbe0343fa0519eb4698029037daabaab3440933decb6af749d2c5"
+  },
+  {
+    "name": "blog-blocks-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-4.png",
+    "path": "previews/quartz/blog-blocks-4.png",
+    "bytes": 870396,
+    "sha256": "76a87b7c401250d610b68759440e9fa7745efff5e0db3a5ab00d3757f1b657ce"
+  },
+  {
+    "name": "blog-blocks-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-1.png",
+    "path": "previews/quartz/blog-blocks-1.png",
+    "bytes": 373055,
+    "sha256": "69ffbe84d64bacc2da2b61d3a61e47c67cda5c881a15ba6283049348c12ab818"
+  },
+  {
+    "name": "blog-blocks-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-7.png",
+    "path": "previews/quartz/blog-blocks-7.png",
+    "bytes": 735181,
+    "sha256": "d2e8f199e08acd55efb2f490fd06d6d44bf24fed50fa20538d0c3257f372fc73"
+  },
+  {
+    "name": "blog-blocks-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-6.png",
+    "path": "previews/quartz/blog-blocks-6.png",
+    "bytes": 722885,
+    "sha256": "251f94c0c3466a71be64d1eda68a2164fc746ca3ab9cd9592089e538c13881a6"
+  },
+  {
+    "name": "blog-blocks-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-3.png",
+    "path": "previews/quartz/blog-blocks-3.png",
+    "bytes": 507017,
+    "sha256": "23f194f2e7a285de531ba825dd4810ee3afdfaeb6786416a8e28c557a1ed4724"
+  },
+  {
+    "name": "blog-blocks-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/blog-blocks-2.png",
+    "path": "previews/quartz/blog-blocks-2.png",
+    "bytes": 176436,
+    "sha256": "d8329927bd8e36bad05b2615a6c8db3852d2f18e9598f76e8d1c80067eb42d4b"
+  },
+  {
+    "name": "call-to-action-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/call-to-action-1.png",
+    "path": "previews/quartz/call-to-action-1.png",
+    "bytes": 27593,
+    "sha256": "e77ce4830e29e0def4d2d749caafa961f9b5d21ff3a50fe09b35f14706e1e97d"
+  },
+  {
+    "name": "call-to-action-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/call-to-action-3.png",
+    "path": "previews/quartz/call-to-action-3.png",
+    "bytes": 25136,
+    "sha256": "e08a499afec65916b00830d77fa190eaf0d3e2b81d50df1526aa98502e2c50e0"
+  },
+  {
+    "name": "call-to-action-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/call-to-action-2.png",
+    "path": "previews/quartz/call-to-action-2.png",
+    "bytes": 35929,
+    "sha256": "d3aaa247e7313f47440d0310f9ffe763c0c0381c6f9732906f6f16d202b0db46"
+  },
+  {
+    "name": "code-demo-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/code-demo-4.png",
+    "path": "previews/quartz/code-demo-4.png",
+    "bytes": 41607,
+    "sha256": "ada76ac0655b6bc468a1e009cfa95d340c981b57bd486c6a5aa14de4cdc6a454"
+  },
+  {
+    "name": "code-demo-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/code-demo-1.png",
+    "path": "previews/quartz/code-demo-1.png",
+    "bytes": 60941,
+    "sha256": "a5ea1c424075776f2a751d4efbbf73e2e25ac4a7decea6da47cdb0858ee7db54"
+  },
+  {
+    "name": "code-demo-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/code-demo-3.png",
+    "path": "previews/quartz/code-demo-3.png",
+    "bytes": 103265,
+    "sha256": "dc040e399806cf7f2a7a18a09242636cc7ad6ea9082331ed258f9dd6055c3024"
+  },
+  {
+    "name": "code-demo-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/code-demo-2.png",
+    "path": "previews/quartz/code-demo-2.png",
+    "bytes": 35490,
+    "sha256": "c941cd1205809b828f0a5ff2d4cd2ea2d265c7dd39864f7cd2b43f42177a7d30"
+  },
+  {
+    "name": "comparator-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-5.png",
+    "path": "previews/quartz/comparator-5.png",
+    "bytes": 136488,
+    "sha256": "7de0f6fa3301b9ce30142dd0bbf3abdfe5e622a32932836262ba9cfad6f5d782"
+  },
+  {
+    "name": "comparator-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-4.png",
+    "path": "previews/quartz/comparator-4.png",
+    "bytes": 151268,
+    "sha256": "7e8fe9d3d18d10c6340751b2d9358484503ffcd37253f63760a2f4d17d00aa30"
+  },
+  {
+    "name": "comparator-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-1.png",
+    "path": "previews/quartz/comparator-1.png",
+    "bytes": 43230,
+    "sha256": "f278b1184ad8ed0ae922180b13be837f0c72598662d56acaed754560c317b848"
+  },
+  {
+    "name": "comparator-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-7.png",
+    "path": "previews/quartz/comparator-7.png",
+    "bytes": 57123,
+    "sha256": "b43a02ad7d5c78b086c7e7df2c37b629bb83146d695496df32cb13b9dab24400"
+  },
+  {
+    "name": "comparator-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-6.png",
+    "path": "previews/quartz/comparator-6.png",
+    "bytes": 135421,
+    "sha256": "be43ebfcb3a1aaecef0d02c37f336cfd8313dff0ddbcfc8799ebda698c77a697"
+  },
+  {
+    "name": "comparator-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-3.png",
+    "path": "previews/quartz/comparator-3.png",
+    "bytes": 151268,
+    "sha256": "7e8fe9d3d18d10c6340751b2d9358484503ffcd37253f63760a2f4d17d00aa30"
+  },
+  {
+    "name": "comparator-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/comparator-2.png",
+    "path": "previews/quartz/comparator-2.png",
+    "bytes": 48114,
+    "sha256": "39132fc62d0d535ab2c2e3e02a0395d6bd34c6bcd9809b0ac55362d05db999e0"
+  },
+  {
+    "name": "contact-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-8.png",
+    "path": "previews/quartz/contact-8.png",
+    "bytes": 57284,
+    "sha256": "9771f9852168a9686e4f727b77f36888ddb591adbc469cec8c3427b8b88da2a4"
+  },
+  {
+    "name": "contact-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-5.png",
+    "path": "previews/quartz/contact-5.png",
+    "bytes": 59691,
+    "sha256": "8cc8ccebee8febd4021cc42f9dcc418fc4a1e2f57d69e5b89787ae4c39fdb1e1"
+  },
+  {
+    "name": "contact-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-4.png",
+    "path": "previews/quartz/contact-4.png",
+    "bytes": 49662,
+    "sha256": "9e8236fbbba4fed15d5f5a047d5675d2c170e64899e9ea447e93bbcd8743a4ab"
+  },
+  {
+    "name": "contact-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-9.png",
+    "path": "previews/quartz/contact-9.png",
+    "bytes": 80889,
+    "sha256": "d5619b4473478d96f6959a89137b963f770e6065f16ad2b3217ff38700e20171"
+  },
+  {
+    "name": "contact-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-1.png",
+    "path": "previews/quartz/contact-1.png",
+    "bytes": 43088,
+    "sha256": "ff0665514deb72c9694ece4aaee95cae1484b79e70d5c237c8c276fd222a38d7"
+  },
+  {
+    "name": "contact-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-7.png",
+    "path": "previews/quartz/contact-7.png",
+    "bytes": 61525,
+    "sha256": "994f689be753ab17ad349a328df09d748ad63bed8ceae1ecbd8b0fc3bc1d1990"
+  },
+  {
+    "name": "contact-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-6.png",
+    "path": "previews/quartz/contact-6.png",
+    "bytes": 257663,
+    "sha256": "5b1b3e9712d72dd55c5d8628b85b0cd37d149e8571e8150840caeff1de2d0708"
+  },
+  {
+    "name": "contact-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-10.png",
+    "path": "previews/quartz/contact-10.png",
+    "bytes": 54550,
+    "sha256": "fb2aa14e0927faa56ec3d3661b97cfde02cee15b0d3b85cf362223b58932777c"
+  },
+  {
+    "name": "contact-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-3.png",
+    "path": "previews/quartz/contact-3.png",
+    "bytes": 48608,
+    "sha256": "b11cfd061bb16f82e14db36a239029f9f3c3f1b0e41789265e362e70c70150e6"
+  },
+  {
+    "name": "contact-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/contact-2.png",
+    "path": "previews/quartz/contact-2.png",
+    "bytes": 63530,
+    "sha256": "d564aa3d2c9904a1ea711333c0cf3bc826d3758db854267e3382a8e285f67e2f"
+  },
+  {
+    "name": "content-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-5.png",
+    "path": "previews/quartz/content-5.png",
+    "bytes": 147683,
+    "sha256": "e75ca6751351fe868418943739493fe3b357f9f0bbbb472be357d659aaed9ed9"
+  },
+  {
+    "name": "content-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-4.png",
+    "path": "previews/quartz/content-4.png",
+    "bytes": 47471,
+    "sha256": "f98d73ae4265d5c145f202777aa213c9ac97c54e94e53a6634765d228c8395fe"
+  },
+  {
+    "name": "content-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-1.png",
+    "path": "previews/quartz/content-1.png",
+    "bytes": 65376,
+    "sha256": "a196f86db5e3e7a1cbca1c5a3be180d94a59c8c114cfb4e36114f7f1804cc679"
+  },
+  {
+    "name": "content-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-7.png",
+    "path": "previews/quartz/content-7.png",
+    "bytes": 263429,
+    "sha256": "22c297bf568d9c092fd9d065e663a167987c14c078a9f6f49f012cf6014318e6"
+  },
+  {
+    "name": "content-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-6.png",
+    "path": "previews/quartz/content-6.png",
+    "bytes": 186772,
+    "sha256": "51afe3baf0d18bfc8ba07d6a23a82359430ce2160f6f891c80d52efa68b3721e"
+  },
+  {
+    "name": "content-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-3.png",
+    "path": "previews/quartz/content-3.png",
+    "bytes": 172442,
+    "sha256": "bff818ee8fe3393d6eff089c7c4abf5df3ba0096f88b7b4c5839f61cf8302814"
+  },
+  {
+    "name": "content-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/content-2.png",
+    "path": "previews/quartz/content-2.png",
+    "bytes": 124436,
+    "sha256": "4f0e70462b40225a2e3487d396fd8eb9545cf2e0d01ff249eca1b0698d7ad6ad"
+  },
+  {
+    "name": "description-list-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-8.png",
+    "path": "previews/quartz/description-list-8.png",
+    "bytes": 82445,
+    "sha256": "db13389f2a0a06c500aebd393b97346526b8084821688748e365cb58fafa0a88"
+  },
+  {
+    "name": "description-list-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-5.png",
+    "path": "previews/quartz/description-list-5.png",
+    "bytes": 64893,
+    "sha256": "0af378bf04c640bc2f6df0691d70df1106b66783a953daff372854a260d69ce1"
+  },
+  {
+    "name": "description-list-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-4.png",
+    "path": "previews/quartz/description-list-4.png",
+    "bytes": 50125,
+    "sha256": "754e81ead09dcc6f68ff57a8ef651e1603efe19c2e3b7a193a03213a18f5f4ec"
+  },
+  {
+    "name": "description-list-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-1.png",
+    "path": "previews/quartz/description-list-1.png",
+    "bytes": 46215,
+    "sha256": "6ae3e6c224b98755366d18a175d3168f5723c0316383eaa94f014d6f137ed07d"
+  },
+  {
+    "name": "description-list-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-7.png",
+    "path": "previews/quartz/description-list-7.png",
+    "bytes": 47326,
+    "sha256": "5d9505ec28bce74e172b3263851cea9772a80367bc1808da968990ff73f2aa40"
+  },
+  {
+    "name": "description-list-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-6.png",
+    "path": "previews/quartz/description-list-6.png",
+    "bytes": 78717,
+    "sha256": "d9690a0935a7c81eee51616d2f9ec21eb7d7df3f8d435abcb9f0d74e6909e037"
+  },
+  {
+    "name": "description-list-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-3.png",
+    "path": "previews/quartz/description-list-3.png",
+    "bytes": 51545,
+    "sha256": "9a2a9813a7b40e5cfbb2381ccba02e050c59371060f26b44560308c0e3105f24"
+  },
+  {
+    "name": "description-list-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/description-list-2.png",
+    "path": "previews/quartz/description-list-2.png",
+    "bytes": 47522,
+    "sha256": "fd9e2ea25ce59f5b9bd211f66066d59bba80ea3c4ead9c95d675643f4edbcb53"
+  },
+  {
+    "name": "expandable-features-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-8.png",
+    "path": "previews/quartz/expandable-features-8.png",
+    "bytes": 543593,
+    "sha256": "6af12a3302258c4efbdeb763b8d5f7fcdc3f26a91065af70eb1725001ad9154b"
+  },
+  {
+    "name": "expandable-features-18",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-18.png",
+    "path": "previews/quartz/expandable-features-18.png",
+    "bytes": 711278,
+    "sha256": "3f88741153a198b9ee68f19a18c23df5a36ccf07cb30de98f14a802988b4b6e8"
+  },
+  {
+    "name": "expandable-features-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-11.png",
+    "path": "previews/quartz/expandable-features-11.png",
+    "bytes": 77399,
+    "sha256": "c7ed633ab41da7e7bc21a2e26efaf38c070766b74d8e2fcb86573e646f02a4b6"
+  },
+  {
+    "name": "expandable-features-15",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-15.png",
+    "path": "previews/quartz/expandable-features-15.png",
+    "bytes": 223145,
+    "sha256": "3fdb4490963c0888324dba6526c2dd392aca1af3a7b1c57e3caa0a2f7e1f0522"
+  },
+  {
+    "name": "expandable-features-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-5.png",
+    "path": "previews/quartz/expandable-features-5.png",
+    "bytes": 800658,
+    "sha256": "52c3ac08b7cbcbd53daab62c04d19d85bdde337d97ef7396f6129bac0bf92ab8"
+  },
+  {
+    "name": "expandable-features-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-4.png",
+    "path": "previews/quartz/expandable-features-4.png",
+    "bytes": 241607,
+    "sha256": "4da796ac809c71a248fb111ded632e3c61c880ee850f4adb8fcbb9f403898fa8"
+  },
+  {
+    "name": "expandable-features-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-14.png",
+    "path": "previews/quartz/expandable-features-14.png",
+    "bytes": 226723,
+    "sha256": "3b95a69eca8bb3eb9147d31dfc2a513bc5ccc995c26a640e09a2477717b1eea6"
+  },
+  {
+    "name": "expandable-features-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-9.png",
+    "path": "previews/quartz/expandable-features-9.png",
+    "bytes": 69044,
+    "sha256": "472dda9be831c06b81ebc21fdec05bb7bd70dd4c6d81bd249643822b7a7b52a9"
+  },
+  {
+    "name": "expandable-features-19",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-19.png",
+    "path": "previews/quartz/expandable-features-19.png",
+    "bytes": 698304,
+    "sha256": "13469371d9f4678aca0c2eb62fb89cee78ce1783fcf5db3f5d88e655695154a8"
+  },
+  {
+    "name": "expandable-features-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-1.png",
+    "path": "previews/quartz/expandable-features-1.png",
+    "bytes": 407464,
+    "sha256": "52c56fbc8869cb7c0d278bfc988c9337b29bd202f18fccd8087269382c6a029e"
+  },
+  {
+    "name": "expandable-features-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-7.png",
+    "path": "previews/quartz/expandable-features-7.png",
+    "bytes": 524608,
+    "sha256": "214d766b48b9a853552f180efa62fc09fa4a6a6cb19a4f1c51698e86569a0b05"
+  },
+  {
+    "name": "expandable-features-17",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-17.png",
+    "path": "previews/quartz/expandable-features-17.png",
+    "bytes": 625529,
+    "sha256": "9b861816148303c7675fb8232ca563bc2a255ac746ee29bbf30536b4140db58e"
+  },
+  {
+    "name": "expandable-features-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-6.png",
+    "path": "previews/quartz/expandable-features-6.png",
+    "bytes": 683171,
+    "sha256": "49db622fc4d5933ceb837ba95e5ed0adbcee104d811ac85832f69755bb0c9cd3"
+  },
+  {
+    "name": "expandable-features-16",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-16.png",
+    "path": "previews/quartz/expandable-features-16.png",
+    "bytes": 348494,
+    "sha256": "4bd86007d2521057e98190b50a97c389062bb3e0d343b380143c63b48f6fcc0e"
+  },
+  {
+    "name": "expandable-features-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-10.png",
+    "path": "previews/quartz/expandable-features-10.png",
+    "bytes": 64204,
+    "sha256": "eaa963708e62618f738d8752df2dca92ed5aae893c1dc07dc307638528f7f3ce"
+  },
+  {
+    "name": "expandable-features-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-13.png",
+    "path": "previews/quartz/expandable-features-13.png",
+    "bytes": 293837,
+    "sha256": "24be31fabd1ecd19b8bc616fd0135b6b6e3a62136daea0fe871b590396d14da5"
+  },
+  {
+    "name": "expandable-features-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-3.png",
+    "path": "previews/quartz/expandable-features-3.png",
+    "bytes": 388450,
+    "sha256": "6ee919ed08724a0b067fe7ed9816ddbacd3f3864d0da516d8d33a643f58c5d57"
+  },
+  {
+    "name": "expandable-features-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-12.png",
+    "path": "previews/quartz/expandable-features-12.png",
+    "bytes": 67130,
+    "sha256": "723654682c5df3c0f6392c5b0f8947cf1c11b1dc3e2b7d4ddddf7aa40f4c0bf6"
+  },
+  {
+    "name": "expandable-features-20",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-20.png",
+    "path": "previews/quartz/expandable-features-20.png",
+    "bytes": 72247,
+    "sha256": "8e2ac939d35fbc9bbb32acf30b83d8aa6876729cd0f23fe321fb1b9571d340ae"
+  },
+  {
+    "name": "expandable-features-21",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-21.png",
+    "path": "previews/quartz/expandable-features-21.png",
+    "bytes": 466645,
+    "sha256": "22901c13865b17e62ce6008e429e56e263737606d8b9f060d407ec35e32cb7d0"
+  },
+  {
+    "name": "expandable-features-22",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-22.png",
+    "path": "previews/quartz/expandable-features-22.png",
+    "bytes": 420192,
+    "sha256": "3404d2628848374a464ddc9dcbd92cb90231ad233e85374bd011b0f8d2ef4193"
+  },
+  {
+    "name": "expandable-features-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/expandable-features-2.png",
+    "path": "previews/quartz/expandable-features-2.png",
+    "bytes": 420295,
+    "sha256": "eb6e453c24b7bdb46595a83db8c820bc83998dd8ad8edb2cc7d54a24fb2d87d5"
+  },
+  {
+    "name": "faqs-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/faqs-5.png",
+    "path": "previews/quartz/faqs-5.png",
+    "bytes": 113565,
+    "sha256": "20fd9d217384426e6e673eb11163431b97a686fd1ea8e1a42849069b6411ef3f"
+  },
+  {
+    "name": "faqs-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/faqs-4.png",
+    "path": "previews/quartz/faqs-4.png",
+    "bytes": 78553,
+    "sha256": "f3c533f90cec481405bbbe15740c8a34187585e7e20d5666203833a90c8d1176"
+  },
+  {
+    "name": "faqs-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/faqs-1.png",
+    "path": "previews/quartz/faqs-1.png",
+    "bytes": 36584,
+    "sha256": "e510e902c8d2c4cbdebe06b99b82ced7bdc4644b3575186b616bdfca0eb32c33"
+  },
+  {
+    "name": "faqs-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/faqs-3.png",
+    "path": "previews/quartz/faqs-3.png",
+    "bytes": 60726,
+    "sha256": "61a21517c2fc83a4a76dc3b4978f8115b89dcfd6f91a2d9495f126fb0c89a5cb"
+  },
+  {
+    "name": "faqs-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/faqs-2.png",
+    "path": "previews/quartz/faqs-2.png",
+    "bytes": 64651,
+    "sha256": "4cba2e678e6485f5177339be891548e9281e089e62cd95f07ff066389e232d8c"
+  },
+  {
+    "name": "features-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-8.png",
+    "path": "previews/quartz/features-8.png",
+    "bytes": 49873,
+    "sha256": "75e71b7b4159c47ab8beda23d4d19c4c623dee5a525d1b1c4e12777c107f6434"
+  },
+  {
+    "name": "features-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-11.png",
+    "path": "previews/quartz/features-11.png",
+    "bytes": 75504,
+    "sha256": "4eecfcb77664b83af322b7f5317141442b2cd3fb8c3da59c77c83b8b52c50ee5"
+  },
+  {
+    "name": "features-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-5.png",
+    "path": "previews/quartz/features-5.png",
+    "bytes": 63047,
+    "sha256": "70d76f9ab0374feb440e5c39c53128963277c1dfe27c0d77f8c3462a9ab1a326"
+  },
+  {
+    "name": "features-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-4.png",
+    "path": "previews/quartz/features-4.png",
+    "bytes": 113628,
+    "sha256": "20d7b3d1ce1cd801ebe895c74f05766d7e6d8aed312ea76d2958cbc5316f5d50"
+  },
+  {
+    "name": "features-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-14.png",
+    "path": "previews/quartz/features-14.png",
+    "bytes": 157266,
+    "sha256": "84d296560cb4ea78ee00c1db7d61a6957b54cee2e2c6b95942fedf10fdecea1e"
+  },
+  {
+    "name": "features-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-9.png",
+    "path": "previews/quartz/features-9.png",
+    "bytes": 49419,
+    "sha256": "e28259a906ccb6100d5059a5ef0542e9758eae850cc8fdecaefd79944875a480"
+  },
+  {
+    "name": "features-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-1.png",
+    "path": "previews/quartz/features-1.png",
+    "bytes": 51816,
+    "sha256": "58c916ae33dce7d160ff54f9334ed3e692c9ba3a011249ed2ecf4a75ba1b0069"
+  },
+  {
+    "name": "features-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-7.png",
+    "path": "previews/quartz/features-7.png",
+    "bytes": 55114,
+    "sha256": "468b286ffb85d143a91edbfef5f96624c837f3b43ac1dfc816a39bdb3577ada2"
+  },
+  {
+    "name": "features-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-6.png",
+    "path": "previews/quartz/features-6.png",
+    "bytes": 55363,
+    "sha256": "0ae7667532112a4024d8a5f5b489697f9a66f832d18d7126d824e40be38fc94c"
+  },
+  {
+    "name": "features-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-10.png",
+    "path": "previews/quartz/features-10.png",
+    "bytes": 60736,
+    "sha256": "f1692d54e65f40ce8487354333428528f33306a5d301f81acc8e593029949099"
+  },
+  {
+    "name": "features-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-13.png",
+    "path": "previews/quartz/features-13.png",
+    "bytes": 166290,
+    "sha256": "ff6269f2d4807a9c1c7916c64a0f2c71351aa6f38c43c01b1ba16458fb251570"
+  },
+  {
+    "name": "features-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-3.png",
+    "path": "previews/quartz/features-3.png",
+    "bytes": 46742,
+    "sha256": "3a1ed747451f89775cc7e3ff86520b9c2e1654f2e0cf3aaf37f93ecc20d422db"
+  },
+  {
+    "name": "features-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-12.png",
+    "path": "previews/quartz/features-12.png",
+    "bytes": 136321,
+    "sha256": "79ea209b020c6324bbd9dc6e0fca2173eba438f2a0459d6d3533825f22405e0d"
+  },
+  {
+    "name": "features-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-2.png",
+    "path": "previews/quartz/features-2.png",
+    "bytes": 53811,
+    "sha256": "f8236997d77341a41492467124fca078ce638a7d0841a9b538b551b805a0b7e8"
+  },
+  {
+    "name": "features-carousel-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-carousel-5.png",
+    "path": "previews/quartz/features-carousel-5.png",
+    "bytes": 87603,
+    "sha256": "d0df0e05e552b522fae3f745d21144a0a06364b3aba82c7d70b972cd9895988c"
+  },
+  {
+    "name": "features-carousel-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-carousel-4.png",
+    "path": "previews/quartz/features-carousel-4.png",
+    "bytes": 106093,
+    "sha256": "2e1bbdf7be8882f38582a9ebc29118de08988794f8976b72efb48fc49f95b095"
+  },
+  {
+    "name": "features-carousel-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-carousel-1.png",
+    "path": "previews/quartz/features-carousel-1.png",
+    "bytes": 87222,
+    "sha256": "dc22c4c313baf5203ebdcae0b82a1b3da741e2c95b9adefcf4d2d550233e3d26"
+  },
+  {
+    "name": "features-carousel-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-carousel-3.png",
+    "path": "previews/quartz/features-carousel-3.png",
+    "bytes": 108632,
+    "sha256": "63de093cefb021611e2b0bab940645d8af60a770a24108fd0875221ab46b7ce6"
+  },
+  {
+    "name": "features-carousel-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/features-carousel-2.png",
+    "path": "previews/quartz/features-carousel-2.png",
+    "bytes": 549460,
+    "sha256": "d5877f8a7dd475422a6f1fdfa1dfd98c9f7d5d875983978185177f1dd27a4b6c"
+  },
+  {
+    "name": "footer-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/footer-5.png",
+    "path": "previews/quartz/footer-5.png",
+    "bytes": 12556,
+    "sha256": "7d3c68aa8fba27342ec5f667238da6adc677a2e6f06ef28bdaa9134e9e53fc7d"
+  },
+  {
+    "name": "footer-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/footer-4.png",
+    "path": "previews/quartz/footer-4.png",
+    "bytes": 37269,
+    "sha256": "569ce7d31894450f70c6f0c6735a16678c56d18f8acc72505b18ce464b56243d"
+  },
+  {
+    "name": "footer-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/footer-1.png",
+    "path": "previews/quartz/footer-1.png",
+    "bytes": 13219,
+    "sha256": "4036a6e7797988efe3abc259b3e3846d6faccf49edb6001eed3c662865456ab6"
+  },
+  {
+    "name": "footer-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/footer-3.png",
+    "path": "previews/quartz/footer-3.png",
+    "bytes": 53152,
+    "sha256": "a27e4ff9bb662918baa3a77ae8d9f9d51a84638bc36a3c7c85d5405e98235ac9"
+  },
+  {
+    "name": "footer-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/footer-2.png",
+    "path": "previews/quartz/footer-2.png",
+    "bytes": 23084,
+    "sha256": "159ebc458fa7f65c205f245436874121841933b37dba69ef528d74414d262e0a"
+  },
+  {
+    "name": "forgot-password-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/forgot-password-5.png",
+    "path": "previews/quartz/forgot-password-5.png",
+    "bytes": 27790,
+    "sha256": "9c4b18dabe32389a8042f8f305e049be85f805af472b861bd31d8e646dabc14f"
+  },
+  {
+    "name": "forgot-password-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/forgot-password-4.png",
+    "path": "previews/quartz/forgot-password-4.png",
+    "bytes": 36235,
+    "sha256": "938fd1274b978d44180c821b65f6b7bb59802923361392522332b72cc0ef6c96"
+  },
+  {
+    "name": "forgot-password-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/forgot-password-1.png",
+    "path": "previews/quartz/forgot-password-1.png",
+    "bytes": 23342,
+    "sha256": "de686c076efcc43dc665c3bbb9f0da56b9980c06033df0e24647b8eee8055988"
+  },
+  {
+    "name": "forgot-password-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/forgot-password-3.png",
+    "path": "previews/quartz/forgot-password-3.png",
+    "bytes": 22845,
+    "sha256": "275b875ea01c02bf52b497a0cde9d4caae4cc0ebf5f56c9a6167b078a5299c30"
+  },
+  {
+    "name": "forgot-password-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/forgot-password-2.png",
+    "path": "previews/quartz/forgot-password-2.png",
+    "bytes": 23447,
+    "sha256": "29b2dd2c41842e194a98787279789ee5cabfdcd45ab5191b490add0fa16643f6"
+  },
+  {
+    "name": "header-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-8.png",
+    "path": "previews/quartz/header-8.png",
+    "bytes": 52891,
+    "sha256": "2398608514420a75c6041cb76db4f86bb463c3b58721ccac09629d45ec4c683c"
+  },
+  {
+    "name": "header-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-5.png",
+    "path": "previews/quartz/header-5.png",
+    "bytes": 43307,
+    "sha256": "eb50a647826c258c333f6b6ea0bcb072ac03f1811dc01a4ee47610a4bcb2cb66"
+  },
+  {
+    "name": "header-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-4.png",
+    "path": "previews/quartz/header-4.png",
+    "bytes": 44067,
+    "sha256": "a0ea3669b73153558f876afb7d11468161415d895a0f7f7552b5af89b8de0432"
+  },
+  {
+    "name": "header-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-1.png",
+    "path": "previews/quartz/header-1.png",
+    "bytes": 43927,
+    "sha256": "45abb792bb78f6066fbceb4ef642e2c578d6af71f38d550c484d5f5a2d450cdd"
+  },
+  {
+    "name": "header-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-7.png",
+    "path": "previews/quartz/header-7.png",
+    "bytes": 62139,
+    "sha256": "2df6deedebf76f7f1dac6c5f6e5152b6cc7c13f3ffbff8a58ae688d777351c20"
+  },
+  {
+    "name": "header-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-6.png",
+    "path": "previews/quartz/header-6.png",
+    "bytes": 74693,
+    "sha256": "91bd062e2977cca12afe9d7e1c0303a7f1725ade8308c358358892b115ed2ed0"
+  },
+  {
+    "name": "header-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-3.png",
+    "path": "previews/quartz/header-3.png",
+    "bytes": 40102,
+    "sha256": "9121a50744765ff1ab92282d994dab6b39e08c7aa79310b83632f9eed679d523"
+  },
+  {
+    "name": "header-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/header-2.png",
+    "path": "previews/quartz/header-2.png",
+    "bytes": 41542,
+    "sha256": "0b602aeb2f33e4b005cdb88e366118c9980c1a3a1238224bd5645efbd4700837"
+  },
+  {
+    "name": "hero-section-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-8.png",
+    "path": "previews/quartz/hero-section-8.png",
+    "bytes": 574423,
+    "sha256": "0fdba8b18cc0b52c3285fda63075f3aa7b3cae2b05588c935af06d0cde746c6b"
+  },
+  {
+    "name": "hero-section-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-11.png",
+    "path": "previews/quartz/hero-section-11.png",
+    "bytes": 170057,
+    "sha256": "13be60f59f23879f6c4882d3c8de8f85af840f6eacdfe1ef08d8518a1dc632e6"
+  },
+  {
+    "name": "hero-section-15",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-15.png",
+    "path": "previews/quartz/hero-section-15.png",
+    "bytes": 193854,
+    "sha256": "c7c62565772f4cb0fbbecd1795deda43cb3c1db1f26c3126af67f6a8b10f3838"
+  },
+  {
+    "name": "hero-section-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-5.png",
+    "path": "previews/quartz/hero-section-5.png",
+    "bytes": 120775,
+    "sha256": "88369d6201b33c8d5b71877361e9fa7e49ba83aa9508696385c6dee87eb307c8"
+  },
+  {
+    "name": "hero-section-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-4.png",
+    "path": "previews/quartz/hero-section-4.png",
+    "bytes": 128257,
+    "sha256": "5a6b57822b19eb7bf905adb280728547881fa760744cc132e58a65c8bebd523b"
+  },
+  {
+    "name": "hero-section-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-14.png",
+    "path": "previews/quartz/hero-section-14.png",
+    "bytes": 774221,
+    "sha256": "ce75c72f5802b5c4e61d2f31ad468289e3d16f92cdeaa1ea47af05924926aee5"
+  },
+  {
+    "name": "hero-section-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-9.png",
+    "path": "previews/quartz/hero-section-9.png",
+    "bytes": 206010,
+    "sha256": "cd87a37556a76bf38358e17c4d9e62635d39c8d1110c5d6cd29cffa54d794a02"
+  },
+  {
+    "name": "hero-section-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-1.png",
+    "path": "previews/quartz/hero-section-1.png",
+    "bytes": 348280,
+    "sha256": "48c84f88e90690cd89172baf1d94b9d1ce152e95a291d04a4481e962e3f66f09"
+  },
+  {
+    "name": "hero-section-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-7.png",
+    "path": "previews/quartz/hero-section-7.png",
+    "bytes": 356464,
+    "sha256": "042dd3115156c86f56140750e3c2d44ebb2993fd760a1d71157643c5cfeeefbf"
+  },
+  {
+    "name": "hero-section-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-6.png",
+    "path": "previews/quartz/hero-section-6.png",
+    "bytes": 839341,
+    "sha256": "0000d9ea350efab3330ab78852696107a5da0fccdd32b1627c2c7a2d922db4d5"
+  },
+  {
+    "name": "hero-section-16",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-16.png",
+    "path": "previews/quartz/hero-section-16.png",
+    "bytes": 1102410,
+    "sha256": "94e37bd52f7f11245ea6e2c0f4b571fb51fcce995587bbd25b4d74c8ce38f6a9"
+  },
+  {
+    "name": "hero-section-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-10.png",
+    "path": "previews/quartz/hero-section-10.png",
+    "bytes": 39392,
+    "sha256": "16ca992e2ed7c796b1cecefaea87d8ee6ddd15e279c4fff6c4f98e9591567b0f"
+  },
+  {
+    "name": "hero-section-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-13.png",
+    "path": "previews/quartz/hero-section-13.png",
+    "bytes": 405324,
+    "sha256": "7178fcdc0531426ba5abe7f5be99e1364033deb859e9a1e106991d51c5b925aa"
+  },
+  {
+    "name": "hero-section-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-3.png",
+    "path": "previews/quartz/hero-section-3.png",
+    "bytes": 131481,
+    "sha256": "08528128af6862fde02177e9ab976eefe1309b678b6b98ab1933178da5dcd0fb"
+  },
+  {
+    "name": "hero-section-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-12.png",
+    "path": "previews/quartz/hero-section-12.png",
+    "bytes": 1025862,
+    "sha256": "75fcbf42ef867b81add131fee3b12b3070214afdc5fcb593c66ebb79c09bb2b5"
+  },
+  {
+    "name": "hero-section-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/hero-section-2.png",
+    "path": "previews/quartz/hero-section-2.png",
+    "bytes": 219819,
+    "sha256": "fc8e9b58e30f0cb4b129506c00baf962c1edaeb55ef8aa36dc4ac22ae01723e5"
+  },
+  {
+    "name": "how-it-works-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-5.png",
+    "path": "previews/quartz/how-it-works-5.png",
+    "bytes": 85423,
+    "sha256": "b9161870b054832935924ab12c642a58d374cb59e260131c1855022907b2ad10"
+  },
+  {
+    "name": "how-it-works-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-4.png",
+    "path": "previews/quartz/how-it-works-4.png",
+    "bytes": 69816,
+    "sha256": "f7a57a84165e3941b53acdbc2b48db4da27530ce4eca299791d83f910b764363"
+  },
+  {
+    "name": "how-it-works-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-1.png",
+    "path": "previews/quartz/how-it-works-1.png",
+    "bytes": 91364,
+    "sha256": "2a09ef3baa185b701a0373c1eb4b1d0bc4e5611f395cc8661eab5157d8ad2aed"
+  },
+  {
+    "name": "how-it-works-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-7.png",
+    "path": "previews/quartz/how-it-works-7.png",
+    "bytes": 101543,
+    "sha256": "b1c3ec768dcf5efbb5d8588b956ff4db3272512cd4c02f7f391888c86e5c1337"
+  },
+  {
+    "name": "how-it-works-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-6.png",
+    "path": "previews/quartz/how-it-works-6.png",
+    "bytes": 75646,
+    "sha256": "35871402789b7b9932d79b6429f3d4d03af41fd0035b3ee9b68c35065e413861"
+  },
+  {
+    "name": "how-it-works-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-3.png",
+    "path": "previews/quartz/how-it-works-3.png",
+    "error": "HTTPError: HTTP Error 404: Not Found"
+  },
+  {
+    "name": "how-it-works-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/how-it-works-2.png",
+    "path": "previews/quartz/how-it-works-2.png",
+    "bytes": 215992,
+    "sha256": "abd38d03c71fc0f7864555ef5e1742aadff0b8312acafd683d579af5c2049e33"
+  },
+  {
+    "name": "integrations-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-11.png",
+    "path": "previews/quartz/integrations-11.png",
+    "bytes": 17059,
+    "sha256": "0fb2b09711aa9ac74cd6a10ae7182b9416e57da49fcaab27e0bb4269e760107f"
+  },
+  {
+    "name": "integrations-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-5.png",
+    "path": "previews/quartz/integrations-5.png",
+    "bytes": 36328,
+    "sha256": "6ba931ee2b7fd1133fcf9b2f3480ec2725dde8f30c427c230c24e4550befdd9d"
+  },
+  {
+    "name": "integrations-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-9.png",
+    "path": "previews/quartz/integrations-9.png",
+    "bytes": 34952,
+    "sha256": "e6c3728ad6ae9f5ee88de82c989300d958c07c25135ea0ff782f51328d1c820b"
+  },
+  {
+    "name": "integrations-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-1.png",
+    "path": "previews/quartz/integrations-1.png",
+    "bytes": 50758,
+    "sha256": "fba39d83f4ed996c2bf3cf0ccd262d9e7fe38252b3fa5b02d3d0ebeed03a7981"
+  },
+  {
+    "name": "integrations-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-7.png",
+    "path": "previews/quartz/integrations-7.png",
+    "bytes": 40076,
+    "sha256": "705f46fa5696d400683d2dd65c1539d06f5ca00e086e6e3a1a7f159c5d2ee19a"
+  },
+  {
+    "name": "integrations-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-6.png",
+    "path": "previews/quartz/integrations-6.png",
+    "bytes": 68567,
+    "sha256": "d46b7c5e76288b9e83f2e3e63524e673c8b2bf85d95a6c951e65f0154dacfbc2"
+  },
+  {
+    "name": "integrations-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-10.png",
+    "path": "previews/quartz/integrations-10.png",
+    "bytes": 47662,
+    "sha256": "50aa0ec73c2108a763cf4ddb2a33dbcbef9819054773c83c4706d64832389ace"
+  },
+  {
+    "name": "integrations-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/integrations-2.png",
+    "path": "previews/quartz/integrations-2.png",
+    "bytes": 48429,
+    "sha256": "1bff2e574adb5cbf5e74be0de795801201d5a28dbddda4254cf2f18e323d3960"
+  },
+  {
+    "name": "investors-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-5.png",
+    "path": "previews/quartz/investors-5.png",
+    "bytes": 51343,
+    "sha256": "c3a320fe99fb78b6f54429f79049489c9b9987d92176dd8930d2ea7b87d8b1ab"
+  },
+  {
+    "name": "investors-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-4.png",
+    "path": "previews/quartz/investors-4.png",
+    "bytes": 92779,
+    "sha256": "c436b042646e9ec10d60496360177957ffeca7c98af5137c78de8605c5f233bf"
+  },
+  {
+    "name": "investors-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-1.png",
+    "path": "previews/quartz/investors-1.png",
+    "bytes": 86085,
+    "sha256": "e984be1c408299b1fd317176885769fb3e2e038413a5ac541f9bf353a155f788"
+  },
+  {
+    "name": "investors-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-7.png",
+    "path": "previews/quartz/investors-7.png",
+    "bytes": 23097,
+    "sha256": "520ffbc3b8bcc9b76b40c11955780d9791226a71ade41c99caf32a69fe5dec69"
+  },
+  {
+    "name": "investors-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-6.png",
+    "path": "previews/quartz/investors-6.png",
+    "bytes": 89627,
+    "sha256": "78659f78acce5906d61455a182305607f8bec711b475ed8c7310d4b7aec993a1"
+  },
+  {
+    "name": "investors-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-3.png",
+    "path": "previews/quartz/investors-3.png",
+    "bytes": 67744,
+    "sha256": "4e725656133708bf94a7a3d74e9406147edd52eba0949abf2f505de5b5ff760c"
+  },
+  {
+    "name": "investors-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/investors-2.png",
+    "path": "previews/quartz/investors-2.png",
+    "bytes": 94799,
+    "sha256": "283edc29a39f0db49a41962887be691cf1a58fb49fbc266cfed4cc392ee4edae"
+  },
+  {
+    "name": "login-blocks-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-8.png",
+    "path": "previews/quartz/login-blocks-8.png",
+    "bytes": 37641,
+    "sha256": "533132eda820c17fa86193f99086a0eea124604a07a869d8654c413aa20f8829"
+  },
+  {
+    "name": "login-blocks-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-11.png",
+    "path": "previews/quartz/login-blocks-11.png",
+    "bytes": 29218,
+    "sha256": "b3a3e4d8dff056a8b816067797ebac6c612ce3ebbe428e9fba6bd677383bd72a"
+  },
+  {
+    "name": "login-blocks-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-5.png",
+    "path": "previews/quartz/login-blocks-5.png",
+    "bytes": 404150,
+    "sha256": "3442a0b290b7fa73b79926f8bc0771e1e956da9b2ae2d1b1795494a45fec1f07"
+  },
+  {
+    "name": "login-blocks-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-4.png",
+    "path": "previews/quartz/login-blocks-4.png",
+    "bytes": 48563,
+    "sha256": "984154c40dd0b6685eaa9ac53484b4f35ddca77bdc1c51e7fceeb0d4110b8527"
+  },
+  {
+    "name": "login-blocks-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-9.png",
+    "path": "previews/quartz/login-blocks-9.png",
+    "bytes": 30238,
+    "sha256": "d9670d3492681763ec6afab60ee3a68230ad451af18ccacc2c582a6bc9909c97"
+  },
+  {
+    "name": "login-blocks-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-1.png",
+    "path": "previews/quartz/login-blocks-1.png",
+    "bytes": 131789,
+    "sha256": "e7293b60e8c5479b9ff50e524b6b5f4171931878e0d04430e8c8e2f6ed3f8ad4"
+  },
+  {
+    "name": "login-blocks-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-7.png",
+    "path": "previews/quartz/login-blocks-7.png",
+    "bytes": 167199,
+    "sha256": "5844b337537f6390535c0c54384a43633b1dba553775e53f9b83c937b699fa4c"
+  },
+  {
+    "name": "login-blocks-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-6.png",
+    "path": "previews/quartz/login-blocks-6.png",
+    "bytes": 40867,
+    "sha256": "8264d813341ff48c849059421aaabd38554febc0a4f8280db701f388285126f2"
+  },
+  {
+    "name": "login-blocks-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-10.png",
+    "path": "previews/quartz/login-blocks-10.png",
+    "bytes": 22726,
+    "sha256": "09be8710b2f755d02888dd1f90e0b4416ad802db817ab0fa0bd68e95347432a3"
+  },
+  {
+    "name": "login-blocks-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-3.png",
+    "path": "previews/quartz/login-blocks-3.png",
+    "bytes": 32685,
+    "sha256": "6c9a97b9175ea857320b5fea8152205ca526d3f7de958b9128e1992ef0dd55ea"
+  },
+  {
+    "name": "login-blocks-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/login-blocks-2.png",
+    "path": "previews/quartz/login-blocks-2.png",
+    "bytes": 133846,
+    "sha256": "0577c4e6c2cf0e8570c7e1b42c3c21beee95358c446e6defb8cc11b13ca7cb5c"
+  },
+  {
+    "name": "logo-cloud-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-8.png",
+    "path": "previews/quartz/logo-cloud-8.png",
+    "bytes": 10056,
+    "sha256": "2420ad1c44ffc9d56acdc261384208211de5dfedeac64f2084666fcc7af32c0c"
+  },
+  {
+    "name": "logo-cloud-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-5.png",
+    "path": "previews/quartz/logo-cloud-5.png",
+    "bytes": 11789,
+    "sha256": "2a7cb2017e7a7f7d78dbfeb26d8badea1835579135a06c1d379a93db7f610d5b"
+  },
+  {
+    "name": "logo-cloud-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-4.png",
+    "path": "previews/quartz/logo-cloud-4.png",
+    "bytes": 10266,
+    "sha256": "a352dc3294e4c0d65b309b60f55e82cd737a9a16011376c5eae92ae7dd562c2d"
+  },
+  {
+    "name": "logo-cloud-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-9.png",
+    "path": "previews/quartz/logo-cloud-9.png",
+    "bytes": 30436,
+    "sha256": "a862d5ed0a351d3c8e9a750806f81a73b076b0e4f5c05b145b0c42e7832c5079"
+  },
+  {
+    "name": "logo-cloud-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-1.png",
+    "path": "previews/quartz/logo-cloud-1.png",
+    "bytes": 32158,
+    "sha256": "cb1a5eb93cb3025ec33cc01f97089cba32a74c0a18129b6c2083ca2ecb46da7f"
+  },
+  {
+    "name": "logo-cloud-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-7.png",
+    "path": "previews/quartz/logo-cloud-7.png",
+    "bytes": 14702,
+    "sha256": "12cc595859795cb3d5a91f1c739dd93a63674a08312fcb2a1798588b25abbfd9"
+  },
+  {
+    "name": "logo-cloud-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-6.png",
+    "path": "previews/quartz/logo-cloud-6.png",
+    "bytes": 14089,
+    "sha256": "90da4585c4b1a44c5572239eea1d6a57c9e818ea206751db88a6c0131317f74c"
+  },
+  {
+    "name": "logo-cloud-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-10.png",
+    "path": "previews/quartz/logo-cloud-10.png",
+    "bytes": 20137,
+    "sha256": "0ccd8549f3a4a1f1e8541fa3f027b07c1fba268a228b43c62f3ef060570d280a"
+  },
+  {
+    "name": "logo-cloud-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-3.png",
+    "path": "previews/quartz/logo-cloud-3.png",
+    "bytes": 25610,
+    "sha256": "c0c5d05e3285d930b90b8632c7e0fac34ea93c836140e496ee49ffe3c8f836c6"
+  },
+  {
+    "name": "logo-cloud-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/logo-cloud-2.png",
+    "path": "previews/quartz/logo-cloud-2.png",
+    "bytes": 5342,
+    "sha256": "44463971d8ce6811dccb8d7cbf9e672c5d8264eefc4fa3e9de1fbfb3d9595c39"
+  },
+  {
+    "name": "open-roles-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-5.png",
+    "path": "previews/quartz/open-roles-5.png",
+    "bytes": 136462,
+    "sha256": "c8f03b9221c8ec78d2085f628d29bf759594219aab577cf0086aee0bcce01a86"
+  },
+  {
+    "name": "open-roles-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-4.png",
+    "path": "previews/quartz/open-roles-4.png",
+    "bytes": 106613,
+    "sha256": "b379b20372547781af6224af26fe2c850bede2a199d0af5c32d276590cdf698c"
+  },
+  {
+    "name": "open-roles-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-1.png",
+    "path": "previews/quartz/open-roles-1.png",
+    "bytes": 64008,
+    "sha256": "b756e9742108a250f9b5b22749672d99fef56d2cd44f166ca5d4a9a519e3fd1f"
+  },
+  {
+    "name": "open-roles-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-7.png",
+    "path": "previews/quartz/open-roles-7.png",
+    "bytes": 75685,
+    "sha256": "3f2e1b488b7221932c9d89b884c68ccd664f6baac979fc5bcf7b79fa7843bf88"
+  },
+  {
+    "name": "open-roles-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-6.png",
+    "path": "previews/quartz/open-roles-6.png",
+    "bytes": 34116,
+    "sha256": "946a2e8a1b7542814b99685926dab7cc0c1dd00629c9228edae4408b578aa4c8"
+  },
+  {
+    "name": "open-roles-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-3.png",
+    "path": "previews/quartz/open-roles-3.png",
+    "bytes": 86996,
+    "sha256": "72c81c812ce73b72d123544d04a915a111e957f40353294b943f25455a205878"
+  },
+  {
+    "name": "open-roles-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/open-roles-2.png",
+    "path": "previews/quartz/open-roles-2.png",
+    "bytes": 75069,
+    "sha256": "a701ae0ce3d03773403d9b50532a68884a28356b6e03eb5ddeff9971e75ccfd5"
+  },
+  {
+    "name": "pricing-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/pricing-5.png",
+    "path": "previews/quartz/pricing-5.png",
+    "bytes": 72431,
+    "sha256": "b6bd7bd81453b65d137a35c01576d97e0fa5cd2cb1604862193e82a61f130206"
+  },
+  {
+    "name": "pricing-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/pricing-4.png",
+    "path": "previews/quartz/pricing-4.png",
+    "bytes": 158515,
+    "sha256": "c7f91fc365ec9e6a4c5bf5e4dc25eb4214b753b1cccb665dbf94d32175505fea"
+  },
+  {
+    "name": "pricing-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/pricing-1.png",
+    "path": "previews/quartz/pricing-1.png",
+    "bytes": 91907,
+    "sha256": "d1168bb61092385dbad8c0b6968622e0ac32113281bbafb33f3bc3bcffb89df8"
+  },
+  {
+    "name": "pricing-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/pricing-3.png",
+    "path": "previews/quartz/pricing-3.png",
+    "bytes": 158172,
+    "sha256": "9fdc02c0294fe3a86605df22ae2a3035c11446ee73085e2b057e00f326b537f2"
+  },
+  {
+    "name": "pricing-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/pricing-2.png",
+    "path": "previews/quartz/pricing-2.png",
+    "bytes": 124993,
+    "sha256": "dd101367e0624db3b5cf7667e711686bda37624a67b5cce319e72385aba55cb3"
+  },
+  {
+    "name": "secondary-hero-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-8.png",
+    "path": "previews/quartz/secondary-hero-8.png",
+    "bytes": 58886,
+    "sha256": "f2c99768fa6cac78dcec606377bf7ce0f34cd8dfdbbdc22349f210ec86041fd4"
+  },
+  {
+    "name": "secondary-hero-18",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-18.png",
+    "path": "previews/quartz/secondary-hero-18.png",
+    "bytes": 378137,
+    "sha256": "70580a4b8c2eab8d6f6aa6ad165c41590ade3b7993b7442ef8d7a9d3627ab077"
+  },
+  {
+    "name": "secondary-hero-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-11.png",
+    "path": "previews/quartz/secondary-hero-11.png",
+    "bytes": 786634,
+    "sha256": "faf3ab2a7a992628527893cc2c4d6cddd10e276d8aabae740e664864260db0eb"
+  },
+  {
+    "name": "secondary-hero-15",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-15.png",
+    "path": "previews/quartz/secondary-hero-15.png",
+    "bytes": 120085,
+    "sha256": "fb12e06fb6242da5850f75d8c4d2e552a41bf66e58e2d6d2b963cc31728e354a"
+  },
+  {
+    "name": "secondary-hero-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-5.png",
+    "path": "previews/quartz/secondary-hero-5.png",
+    "bytes": 541250,
+    "sha256": "201f8b6fa3419800cd01049f79e52dbed9e7699f3799021ccb693bc52e3497cd"
+  },
+  {
+    "name": "secondary-hero-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-4.png",
+    "path": "previews/quartz/secondary-hero-4.png",
+    "bytes": 608942,
+    "sha256": "7d1f89eabd371d40d0a0f48ab6f15bfb97e152101933bb7a60d36d5274135f75"
+  },
+  {
+    "name": "secondary-hero-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-14.png",
+    "path": "previews/quartz/secondary-hero-14.png",
+    "bytes": 106999,
+    "sha256": "dd61c20e4a8fb72e6ab2ff8d7f75820c26a08516502fef11c7c6bea2c8007686"
+  },
+  {
+    "name": "secondary-hero-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-9.png",
+    "path": "previews/quartz/secondary-hero-9.png",
+    "bytes": 20297,
+    "sha256": "73e5b550d37063807aff34d56a76bb9803ea7af8004c0bd02a23d559304a1aa5"
+  },
+  {
+    "name": "secondary-hero-19",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-19.png",
+    "path": "previews/quartz/secondary-hero-19.png",
+    "bytes": 397308,
+    "sha256": "4dcc5445fad6f0f90023ca9766599c7b1f48e097cac3d49142a564fcc8d14f4e"
+  },
+  {
+    "name": "secondary-hero-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-1.png",
+    "path": "previews/quartz/secondary-hero-1.png",
+    "bytes": 67356,
+    "sha256": "8295d01e3ae34506c2509540e95021fbf8100731f9e4aed8d79a00eec0e38855"
+  },
+  {
+    "name": "secondary-hero-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-7.png",
+    "path": "previews/quartz/secondary-hero-7.png",
+    "bytes": 100312,
+    "sha256": "2d4b6a26f5ccf216149f3d2a1265d53d22f35f28f1e17d0779ba75368cd3fa61"
+  },
+  {
+    "name": "secondary-hero-17",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-17.png",
+    "path": "previews/quartz/secondary-hero-17.png",
+    "bytes": 669376,
+    "sha256": "9db3b417bae727b42eaed1245bf9169e5dc6746c626f74810f551866bc110391"
+  },
+  {
+    "name": "secondary-hero-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-6.png",
+    "path": "previews/quartz/secondary-hero-6.png",
+    "bytes": 75810,
+    "sha256": "f611119c05007722f9217948dcc86c180a5832ff0e71116e55b15b725455749f"
+  },
+  {
+    "name": "secondary-hero-16",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-16.png",
+    "path": "previews/quartz/secondary-hero-16.png",
+    "bytes": 104760,
+    "sha256": "7780b2a2ef8e6884d55d7b2885b7d286318ff933646e50a5d1f5d7cb663b3990"
+  },
+  {
+    "name": "secondary-hero-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-10.png",
+    "path": "previews/quartz/secondary-hero-10.png",
+    "bytes": 772134,
+    "sha256": "920a682b8f67ad3fb48464389265f36cff41027e05921a1167617922f97acdb0"
+  },
+  {
+    "name": "secondary-hero-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-13.png",
+    "path": "previews/quartz/secondary-hero-13.png",
+    "bytes": 47402,
+    "sha256": "fbc129fd35105403de294b4fa7b923dd559fc88b0adacb92320ab29ad068ab12"
+  },
+  {
+    "name": "secondary-hero-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-3.png",
+    "path": "previews/quartz/secondary-hero-3.png",
+    "bytes": 48242,
+    "sha256": "a71074f9a235d328e73306d2eeb765d333a4e5f3eb626507daa80508dfffd1e7"
+  },
+  {
+    "name": "secondary-hero-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-12.png",
+    "path": "previews/quartz/secondary-hero-12.png",
+    "bytes": 39861,
+    "sha256": "6891c1de9e9d06b77349b62b1e4353f67913b04ebd787f27c25f905788750a1a"
+  },
+  {
+    "name": "secondary-hero-20",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-20.png",
+    "path": "previews/quartz/secondary-hero-20.png",
+    "bytes": 407459,
+    "sha256": "aad91723cb84c7b2290aa0890f2c6882ceaa603fcc41b05e8b9e99349fadb57f"
+  },
+  {
+    "name": "secondary-hero-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/secondary-hero-2.png",
+    "path": "previews/quartz/secondary-hero-2.png",
+    "bytes": 1836735,
+    "sha256": "2de0fb26bb388f9a4c5f717bdfc842bb0c5a3cbc6d186458779bd395addc92c4"
+  },
+  {
+    "name": "sign-up-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-8.png",
+    "path": "previews/quartz/sign-up-8.png",
+    "bytes": 34772,
+    "sha256": "46eebc3f1b0e646f32fc6fc9f943d188d54f2adfee115772abd470b61bf54535"
+  },
+  {
+    "name": "sign-up-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-11.png",
+    "path": "previews/quartz/sign-up-11.png",
+    "bytes": 34968,
+    "sha256": "f116e42ff6a7d7a1bf1bd1ba2a2565ac9c15558276b43fe1f8f8ad0808408ed1"
+  },
+  {
+    "name": "sign-up-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-5.png",
+    "path": "previews/quartz/sign-up-5.png",
+    "bytes": 391302,
+    "sha256": "872f21775721b9f25a38fcbb21dd4263b487494ecd3130ca775975368cefea88"
+  },
+  {
+    "name": "sign-up-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-4.png",
+    "path": "previews/quartz/sign-up-4.png",
+    "bytes": 50183,
+    "sha256": "0a7645c67790f8e4901700296465f3a844c2c24b4b7daf0b6b852d05c886a0e1"
+  },
+  {
+    "name": "sign-up-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-9.png",
+    "path": "previews/quartz/sign-up-9.png",
+    "bytes": 34010,
+    "sha256": "46e9648de3a783c535e2b3322e007b58a406fec22d66922f95e01e21ee732fd6"
+  },
+  {
+    "name": "sign-up-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-1.png",
+    "path": "previews/quartz/sign-up-1.png",
+    "bytes": 136305,
+    "sha256": "c96adf18db7b5ee03c8beebedd02e20c5ed1e6ce9e032462a69a108436db1eb4"
+  },
+  {
+    "name": "sign-up-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-7.png",
+    "path": "previews/quartz/sign-up-7.png",
+    "bytes": 148458,
+    "sha256": "5d5142b824a2ec18e057bd343089f86bfaa777a10f79ed0fab6a45698063dfc4"
+  },
+  {
+    "name": "sign-up-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-6.png",
+    "path": "previews/quartz/sign-up-6.png",
+    "bytes": 44181,
+    "sha256": "b0ec71dae8f50a0083ae3d9987a998df0a7bbfb7bc0960603ce25f9253c95387"
+  },
+  {
+    "name": "sign-up-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-10.png",
+    "path": "previews/quartz/sign-up-10.png",
+    "bytes": 25552,
+    "sha256": "7b6dd93d541985c40324cda60c0c42ad8d1596653407a686bc4d54dd964ee4b7"
+  },
+  {
+    "name": "sign-up-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-3.png",
+    "path": "previews/quartz/sign-up-3.png",
+    "bytes": 32806,
+    "sha256": "6c59d50d67632a4301fa3ec0b36e9df205d83e2850b3c7fa7d2d2b0d89f871c1"
+  },
+  {
+    "name": "sign-up-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/sign-up-2.png",
+    "path": "previews/quartz/sign-up-2.png",
+    "bytes": 135164,
+    "sha256": "a6798f0a7908943f35881cbc83eca8d3c0db2abaea5be64647b51adfe32a3b0d"
+  },
+  {
+    "name": "stats-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-8.png",
+    "path": "previews/quartz/stats-8.png",
+    "bytes": 34107,
+    "sha256": "541b7798ee7f390c11de4d4dc9b370ac2678a15f47f39755468bac31a8da92c6"
+  },
+  {
+    "name": "stats-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-5.png",
+    "path": "previews/quartz/stats-5.png",
+    "bytes": 23903,
+    "sha256": "0061caeab029e4a6ceb5014525918355ea4ab4a990f60f934d6ea8cbf5a61cd1"
+  },
+  {
+    "name": "stats-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-4.png",
+    "path": "previews/quartz/stats-4.png",
+    "bytes": 33303,
+    "sha256": "bf5fc5aafdd4e4d3207c2f759d013fd6e58dc4e6e132dcb85e90189f5a681a1e"
+  },
+  {
+    "name": "stats-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-1.png",
+    "path": "previews/quartz/stats-1.png",
+    "bytes": 15730,
+    "sha256": "09416f72ef008feb7611d6a4950a6123f0622b9d395e88c78e21a29e68cf03f3"
+  },
+  {
+    "name": "stats-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-7.png",
+    "path": "previews/quartz/stats-7.png",
+    "bytes": 75814,
+    "sha256": "fef436c65d4786b61fce196f0bd32faac7d9aa86ec08cd7a3ab71e5e2dea490b"
+  },
+  {
+    "name": "stats-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-6.png",
+    "path": "previews/quartz/stats-6.png",
+    "bytes": 28032,
+    "sha256": "f36caa4caff7fb888e0256e321e3417dd01e6b343b158865f1f1085e6fb2899e"
+  },
+  {
+    "name": "stats-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-3.png",
+    "path": "previews/quartz/stats-3.png",
+    "bytes": 43674,
+    "sha256": "9904ee9f9242031e38f268bb9fcc5a5b201042806ae463a69620ac40b533e93d"
+  },
+  {
+    "name": "stats-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/stats-2.png",
+    "path": "previews/quartz/stats-2.png",
+    "bytes": 72375,
+    "sha256": "f3dbd1f4254937c1d05271d18dda56e758dca55e663d51202cce87e25a0679d5"
+  },
+  {
+    "name": "team-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-8.png",
+    "path": "previews/quartz/team-8.png",
+    "bytes": 638283,
+    "sha256": "fd22635c15c0e5c496674268c1505501c571141b00d026915177c15030c47cf4"
+  },
+  {
+    "name": "team-11",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-11.png",
+    "path": "previews/quartz/team-11.png",
+    "bytes": 589146,
+    "sha256": "599e1d49a5015e0333b76309c838873c16e03c0bee9f541447af340422e740af"
+  },
+  {
+    "name": "team-15",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-15.png",
+    "path": "previews/quartz/team-15.png",
+    "bytes": 235928,
+    "sha256": "c692a4aac92480b8064fe807cb7922f3a51204fd4e918eee499d4fc635b7fba7"
+  },
+  {
+    "name": "team-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-5.png",
+    "path": "previews/quartz/team-5.png",
+    "bytes": 778383,
+    "sha256": "3c917576680da2630bcd1049494efc170cabf21f119340e78e6966ae34203c38"
+  },
+  {
+    "name": "team-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-4.png",
+    "path": "previews/quartz/team-4.png",
+    "bytes": 1028315,
+    "sha256": "5497ed3d059d548cd359676d023b1b82b0b3c91c34e92b58b70575208e5707d0"
+  },
+  {
+    "name": "team-14",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-14.png",
+    "path": "previews/quartz/team-14.png",
+    "bytes": 185435,
+    "sha256": "5673737350d2282c1d6965fed747d290da9635083c3f652ba684ff589ec89b4f"
+  },
+  {
+    "name": "team-9",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-9.png",
+    "path": "previews/quartz/team-9.png",
+    "bytes": 610737,
+    "sha256": "412165e8cf4b8dc2f980b0394f7734def452ea130aa939ede657ffda78c2fe5c"
+  },
+  {
+    "name": "team-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-1.png",
+    "path": "previews/quartz/team-1.png",
+    "bytes": 1018244,
+    "sha256": "65fb9b9aee9543a7d8a7115bcc69d9eabea8c8fdb7a896ceedb3df7a3fe24e1a"
+  },
+  {
+    "name": "team-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-7.png",
+    "path": "previews/quartz/team-7.png",
+    "bytes": 619384,
+    "sha256": "148898b651b83306de127c9628095e9ca1d8b9ba52284b843f407c8306072064"
+  },
+  {
+    "name": "team-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-6.png",
+    "path": "previews/quartz/team-6.png",
+    "bytes": 594112,
+    "sha256": "a962971799a19ef9a77929118d8c572fe8f23907441162936d65ce463167f511"
+  },
+  {
+    "name": "team-16",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-16.png",
+    "path": "previews/quartz/team-16.png",
+    "bytes": 229012,
+    "sha256": "bd735ec8948e4799038d7b6724b09f6ddc0354ca35846a9e5ca24ecc57b383a7"
+  },
+  {
+    "name": "team-10",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-10.png",
+    "path": "previews/quartz/team-10.png",
+    "bytes": 362976,
+    "sha256": "fba7815fef31a0b9452acfc26e9339b46fa9dca17a53caecfa5c9308691c00e2"
+  },
+  {
+    "name": "team-13",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-13.png",
+    "path": "previews/quartz/team-13.png",
+    "bytes": 294408,
+    "sha256": "3a6e4c761eadcef2144376efb483e156a3dfa2e6ad119f7938d3cc87e92c8922"
+  },
+  {
+    "name": "team-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-3.png",
+    "path": "previews/quartz/team-3.png",
+    "bytes": 221883,
+    "sha256": "7c411f2ae881d64102778b25789b292fa0405da484dfc9b8a70e04621970d375"
+  },
+  {
+    "name": "team-12",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-12.png",
+    "path": "previews/quartz/team-12.png",
+    "bytes": 210441,
+    "sha256": "81dfe08a216ef4b870b37b6e382755acc47da8054eff4ec22ce81de7870efadb"
+  },
+  {
+    "name": "team-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/team-2.png",
+    "path": "previews/quartz/team-2.png",
+    "bytes": 910311,
+    "sha256": "0a861627b1c6fb93b9aa80ce2a15d60dbb0710ff4ed511a4b846fb444b5fd5f4"
+  },
+  {
+    "name": "testimonials-8",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-8.png",
+    "path": "previews/quartz/testimonials-8.png",
+    "bytes": 397457,
+    "sha256": "63fff9836c8881906cb6bef4e03592e4e8d0afbbd56fc9343f5dff5be19a5a80"
+  },
+  {
+    "name": "testimonials-5",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-5.png",
+    "path": "previews/quartz/testimonials-5.png",
+    "bytes": 72402,
+    "sha256": "783113fdee70f7ff417bf7a1ccb31d7ff91e2e86b01a30afbb5e96df2a2f95d6"
+  },
+  {
+    "name": "testimonials-4",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-4.png",
+    "path": "previews/quartz/testimonials-4.png",
+    "bytes": 41318,
+    "sha256": "b6e797555f511b1db2a3656f375c2d4781e2ac58eb2ef84ec2aab35b2884f95e"
+  },
+  {
+    "name": "testimonials-1",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-1.png",
+    "path": "previews/quartz/testimonials-1.png",
+    "bytes": 50695,
+    "sha256": "61a589bf5ad0f7e03c1079d38e454bc89324bb8af0120ec750369785eb8fa6c5"
+  },
+  {
+    "name": "testimonials-7",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-7.png",
+    "path": "previews/quartz/testimonials-7.png",
+    "bytes": 58511,
+    "sha256": "846e493750c78599b964dc8a0f937a565d27c1743e288339f8a6a58d2ad83b9d"
+  },
+  {
+    "name": "testimonials-6",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-6.png",
+    "path": "previews/quartz/testimonials-6.png",
+    "bytes": 119026,
+    "sha256": "a5f0cb995c02e4c0e8ce42829a930e0f8bbc2b6b13124e31b47927c3f6e5946b"
+  },
+  {
+    "name": "testimonials-3",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-3.png",
+    "path": "previews/quartz/testimonials-3.png",
+    "bytes": 37086,
+    "sha256": "01e997d38f175d7c93a6e6fa650c0aca85c3c029a6cb110f39a7e6ab015ffd32"
+  },
+  {
+    "name": "testimonials-2",
+    "kit": "quartz",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/testimonials-2.png",
+    "path": "previews/quartz/testimonials-2.png",
+    "bytes": 88308,
+    "sha256": "7cc2c80007c0bcad7637f76c9da455f20e51fd1929d39b8e1bb281debd9fecaf"
+  },
+  {
+    "name": "veil-call-to-action-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/call-to-action-1.png",
+    "path": "previews/veil/veil-call-to-action-1.png",
+    "bytes": 18936,
+    "sha256": "0a7a642c2aec71ebd8c71812168c2b3a755c840c876b9ef06fe3586d910d6822"
+  },
+  {
+    "name": "veil-call-to-action-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/call-to-action-2.png",
+    "path": "previews/veil/veil-call-to-action-2.png",
+    "bytes": 22254,
+    "sha256": "840b824f2e002f59ca4c95407f5ab4d4ad5c6b426eeaafe3a9adf083e22ed15b"
+  },
+  {
+    "name": "veil-call-to-action-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/call-to-action-3.png",
+    "path": "previews/veil/veil-call-to-action-3.png",
+    "bytes": 15648,
+    "sha256": "524cb848595c8dc55bdbaf3ff63ea003526e3931f15a786182e1c663f6d3ed20"
+  },
+  {
+    "name": "veil-call-to-action-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/call-to-action-4.png",
+    "path": "previews/veil/veil-call-to-action-4.png",
+    "bytes": 35199,
+    "sha256": "f041846f7ad2ad5b37faa1303dee4b51fda21f38a75ad1334c863cab543ee38d"
+  },
+  {
+    "name": "veil-comparator-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/comparator-1.png",
+    "path": "previews/veil/veil-comparator-1.png",
+    "bytes": 55105,
+    "sha256": "0cd5d877371e50bfb882da421b69e059a80afea52bab9c836c88001906391f6f"
+  },
+  {
+    "name": "veil-comparator-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/comparator-2.png",
+    "path": "previews/veil/veil-comparator-2.png",
+    "bytes": 45705,
+    "sha256": "848627781cadf20a8d92b3481cd7639f596be5ac7f7d060cdc1aff47fde796ed"
+  },
+  {
+    "name": "veil-comparator-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/comparator-3.png",
+    "path": "previews/veil/veil-comparator-3.png",
+    "bytes": 77685,
+    "sha256": "e806e0b56d28674aca0cf937f242c5e2ef67ed8389b4bac7c484f3be2de08509"
+  },
+  {
+    "name": "veil-contact-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/contact-1.png",
+    "path": "previews/veil/veil-contact-1.png",
+    "bytes": 41680,
+    "sha256": "36dd2ef1dd23f9cb5979a611148afcd82f9b229f89ce9b11679898002dadbb70"
+  },
+  {
+    "name": "veil-contact-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/contact-2.png",
+    "path": "previews/veil/veil-contact-2.png",
+    "bytes": 41103,
+    "sha256": "d232cd856d9ccd3ff8da3a93da725ee0a2af07f3a73356da8b676c52d4826f76"
+  },
+  {
+    "name": "veil-content-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/content-1.png",
+    "path": "previews/veil/veil-content-1.png",
+    "bytes": 35314,
+    "sha256": "4b8a68c1a3079a174cb0bef3a86197e501fcaab017ac822d08788189b357c398"
+  },
+  {
+    "name": "veil-content-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/content-2.png",
+    "path": "previews/veil/veil-content-2.png",
+    "bytes": 25171,
+    "sha256": "c6eb6562f3fbbaf296f6e81aaf836b5be456fdc2863172e72af00b36b8c1e78a"
+  },
+  {
+    "name": "veil-content-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/content-3.png",
+    "path": "previews/veil/veil-content-3.png",
+    "bytes": 39018,
+    "sha256": "d80eaa0432e98ed1413455065caaf4d30df0442b0243fd967010b7a14560c8d0"
+  },
+  {
+    "name": "veil-faqs-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/faqs-1.png",
+    "path": "previews/veil/veil-faqs-1.png",
+    "bytes": 33882,
+    "sha256": "a2d3101cab3884eb21a4dd4619bb20bbc343dd44f0d3f5ff0768b469dfec69fa"
+  },
+  {
+    "name": "veil-faqs-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/faqs-2.png",
+    "path": "previews/veil/veil-faqs-2.png",
+    "bytes": 21790,
+    "sha256": "5a55dd38ae7c138d1deaa7a68fd9c3643e1492821cc65f133f97c4888c7b983a"
+  },
+  {
+    "name": "veil-faqs-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/faqs-3.png",
+    "path": "previews/veil/veil-faqs-3.png",
+    "bytes": 27354,
+    "sha256": "67633ceb77f84bcf9f516be176884dec107b585a8b7c18a02c2080d1403995c0"
+  },
+  {
+    "name": "veil-faqs-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/faqs-4.png",
+    "path": "previews/veil/veil-faqs-4.png",
+    "bytes": 68252,
+    "sha256": "b6304d69806e45b9f09fc3158ba26f7013250b368245d2a8fa6b3d30f3050bb0"
+  },
+  {
+    "name": "veil-faqs-5",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/faqs-5.png",
+    "path": "previews/veil/veil-faqs-5.png",
+    "bytes": 40567,
+    "sha256": "3307f67fb05ca2f4c4bda6c857d2b0be70d4cf44a62225bfba804236667922fc"
+  },
+  {
+    "name": "veil-features-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/features-1.png",
+    "path": "previews/veil/veil-features-1.png",
+    "bytes": 68949,
+    "sha256": "1c7eedd7fad6d3b8373ebd040625b18ba02167981ebc2aa2c978342b5196fff2"
+  },
+  {
+    "name": "veil-features-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/features-2.png",
+    "path": "previews/veil/veil-features-2.png",
+    "bytes": 68692,
+    "sha256": "a3a9bf776e9dc561d40cf7e4665aef77cab3c5feaf6a065c2eed0b858ffaacda"
+  },
+  {
+    "name": "veil-features-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/features-3.png",
+    "path": "previews/veil/veil-features-3.png",
+    "bytes": 40395,
+    "sha256": "192d44b4a5c61fbc1272d69e72806faf4fd2370f300a5faa76ea7a65259ec2a2"
+  },
+  {
+    "name": "veil-footer-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-1.png",
+    "path": "previews/veil/veil-footer-1.png",
+    "bytes": 26800,
+    "sha256": "d13755b0b4724b6d06221a9702317c091fd5f7ad7ded02fde3ac690da6b8bf80"
+  },
+  {
+    "name": "veil-footer-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-2.png",
+    "path": "previews/veil/veil-footer-2.png",
+    "bytes": 7174,
+    "sha256": "59baa161d701a03c3b1c30825859d16850b4ccc209bb13767950931255ad2ce0"
+  },
+  {
+    "name": "veil-footer-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-3.png",
+    "path": "previews/veil/veil-footer-3.png",
+    "bytes": 9390,
+    "sha256": "ddab8bf2e0e38f2627fa99e117cf594771f55afe4332d58b0579ecb05e3c8834"
+  },
+  {
+    "name": "veil-footer-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-4.png",
+    "path": "previews/veil/veil-footer-4.png",
+    "bytes": 13702,
+    "sha256": "ee2c83485ef68558b68a0532d4d17de713ef0f21479262dd9b3000afe02d1bb9"
+  },
+  {
+    "name": "veil-footer-5",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-5.png",
+    "path": "previews/veil/veil-footer-5.png",
+    "bytes": 7388,
+    "sha256": "b5f51c0f82bd7d3f7ba54f8509802524cadb1bd959c817235461fe499a05fb2c"
+  },
+  {
+    "name": "veil-footer-6",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/footer-6.png",
+    "path": "previews/veil/veil-footer-6.png",
+    "bytes": 7613,
+    "sha256": "ce8939fb6b64bdef70625ce1da0d1ac09d02ebfaf9257900d1519b5edefd47bb"
+  },
+  {
+    "name": "veil-forgot-password-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/forgot-password-1.png",
+    "path": "previews/veil/veil-forgot-password-1.png",
+    "bytes": 25206,
+    "sha256": "b87eb674263c5ac833f6e2c906135833190c0b0cec4a88d6a1a41ae42b969c8a"
+  },
+  {
+    "name": "veil-forgot-password-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/forgot-password-2.png",
+    "path": "previews/veil/veil-forgot-password-2.png",
+    "bytes": 24603,
+    "sha256": "f7de3c5c9e398dfeeb3712693edc4cb622cad72d2c310246a3aa34795a681b52"
+  },
+  {
+    "name": "veil-forgot-password-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/forgot-password-3.png",
+    "path": "previews/veil/veil-forgot-password-3.png",
+    "bytes": 19535,
+    "sha256": "96ddad496e178b2e7044dc2f41d4dbbf031cef1665d13d33d4a7ebb97e15165a"
+  },
+  {
+    "name": "veil-hero-section-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/hero-section-1.png",
+    "path": "previews/veil/veil-hero-section-1.png",
+    "bytes": 875939,
+    "sha256": "db6d6ed9bd055c3db7e3a3c5b278e456fa344dcb414ff46d65f9f163be88dfa4"
+  },
+  {
+    "name": "veil-hero-section-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/hero-section-2.png",
+    "path": "previews/veil/veil-hero-section-2.png",
+    "bytes": 985494,
+    "sha256": "0151e19a9c60f079481dca824d4c14bd7961b7fd25d2505a77077d9c0fe0cc06"
+  },
+  {
+    "name": "veil-hero-section-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/hero-section-3.png",
+    "path": "previews/veil/veil-hero-section-3.png",
+    "bytes": 282562,
+    "sha256": "e749781f469e04698f25a25b951b4b2fd7da99f0810725b7af98bfa6150e9150"
+  },
+  {
+    "name": "veil-hero-section-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/hero-section-4.png",
+    "path": "previews/veil/veil-hero-section-4.png",
+    "bytes": 793112,
+    "sha256": "2b5d3152e156cad150fc0e3ff35a2294e9ff48001e5b0498be2d00687fe52896"
+  },
+  {
+    "name": "veil-hero-section-5",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/hero-section-5.png",
+    "path": "previews/veil/veil-hero-section-5.png",
+    "bytes": 97244,
+    "sha256": "309b534b4440cecbfffc58a5a97bdb109640661c41e57bed6992ac3c0c17b3e6"
+  },
+  {
+    "name": "veil-integrations-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/integrations-1.png",
+    "path": "previews/veil/veil-integrations-1.png",
+    "bytes": 25412,
+    "sha256": "199a8aa530479c37b6c4a98682870ad473595698802e696882a4487471f73bcf"
+  },
+  {
+    "name": "veil-integrations-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/integrations-2.png",
+    "path": "previews/veil/veil-integrations-2.png",
+    "bytes": 43631,
+    "sha256": "288e4fb34884a2fcf76c99c6fefedd0a01efee8f7ff62e75db81c7655c9a28ac"
+  },
+  {
+    "name": "veil-login-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/login-1.png",
+    "path": "previews/veil/veil-login-1.png",
+    "bytes": 31393,
+    "sha256": "3eda0ebe6ca42855f40d0a0feb4922abba968631bf0ce8624c70b6a25524fef6"
+  },
+  {
+    "name": "veil-login-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/login-2.png",
+    "path": "previews/veil/veil-login-2.png",
+    "bytes": 28497,
+    "sha256": "070c742b5a1d007c21b8c733e2178a8ec3e4d4ffec589001ca55dcd3493d9f47"
+  },
+  {
+    "name": "veil-login-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/login-3.png",
+    "path": "previews/veil/veil-login-3.png",
+    "bytes": 23562,
+    "sha256": "a96dc76884293e5e245e8a0942ff84293c84cd689f48545c07586d690f559db3"
+  },
+  {
+    "name": "veil-logo-cloud-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/logo-cloud-1.png",
+    "path": "previews/veil/veil-logo-cloud-1.png",
+    "bytes": 3755,
+    "sha256": "7e86b9f35cdc6a5a678064ede6f28681251d89cbbb10779fb5cbf50f7a62631b"
+  },
+  {
+    "name": "veil-logo-cloud-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/logo-cloud-2.png",
+    "path": "previews/veil/veil-logo-cloud-2.png",
+    "bytes": 3219,
+    "sha256": "2059b316740f0ed7ebd7bf0a540f91449e42143b52a368078a1892bda0adbc8a"
+  },
+  {
+    "name": "veil-pricing-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/pricing-1.png",
+    "path": "previews/veil/veil-pricing-1.png",
+    "bytes": 87411,
+    "sha256": "e25997ebc82deaa5b97fb8aff1f45db4f5226c8972fa252ce77f375f31ce0a7c"
+  },
+  {
+    "name": "veil-pricing-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/pricing-2.png",
+    "path": "previews/veil/veil-pricing-2.png",
+    "bytes": 62677,
+    "sha256": "0b46929a5f47a1b8ceb155df07e42c0a629626770f63444013d148f363da8a5d"
+  },
+  {
+    "name": "veil-pricing-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/pricing-3.png",
+    "path": "previews/veil/veil-pricing-3.png",
+    "bytes": 54603,
+    "sha256": "bbc2384b8be986d0df8f763c6d4845b0f0089ce7647e0673f4c9b8113037bbe9"
+  },
+  {
+    "name": "veil-sign-up-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/sign-up-1.png",
+    "path": "previews/veil/veil-sign-up-1.png",
+    "bytes": 30708,
+    "sha256": "478f7c589f3ff2aa04b329fbc97791bd8d5ab2543abc6042f18cc6022ce43406"
+  },
+  {
+    "name": "veil-sign-up-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/sign-up-2.png",
+    "path": "previews/veil/veil-sign-up-2.png",
+    "bytes": 29934,
+    "sha256": "68e8d257575c47ea7b617af3e28eb15b8fdc4b296799b731e6e7c841bbff80f0"
+  },
+  {
+    "name": "veil-sign-up-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/sign-up-3.png",
+    "path": "previews/veil/veil-sign-up-3.png",
+    "bytes": 22950,
+    "sha256": "3d6e07b7addfbeed7baea399beceb51f4b1228212a484a25bb40e0efa02d6ae4"
+  },
+  {
+    "name": "veil-stats-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/stats-1.png",
+    "path": "previews/veil/veil-stats-1.png",
+    "bytes": 28463,
+    "sha256": "ab6541b11bd0fa4bb1e1c6957044a4bba425c8e97bd3d10c385d190daa6e0173"
+  },
+  {
+    "name": "veil-stats-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/stats-2.png",
+    "path": "previews/veil/veil-stats-2.png",
+    "bytes": 33569,
+    "sha256": "ba37d11c96dafc57ac1727dc45372b80e0c41370f1a87bbc5a696639950b05a5"
+  },
+  {
+    "name": "veil-stats-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/stats-3.png",
+    "path": "previews/veil/veil-stats-3.png",
+    "bytes": 774642,
+    "sha256": "7ff19cd0c4af733df7d5ca63cda50d6da2dcb13d7d9ffb3ea9dadedb3510dd64"
+  },
+  {
+    "name": "veil-stats-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/stats-4.png",
+    "path": "previews/veil/veil-stats-4.png",
+    "bytes": 790726,
+    "sha256": "2027133e7c6487f37541ce89a03eb2e15f034ad8ac348a84d89cabc1d8559545"
+  },
+  {
+    "name": "veil-team-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/team-1.png",
+    "path": "previews/veil/veil-team-1.png",
+    "bytes": 80657,
+    "sha256": "cf722dbbd37a8c8f55e82ca028460b83326660416a01015f6dbb0cb3b8a3c1de"
+  },
+  {
+    "name": "veil-team-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/team-2.png",
+    "path": "previews/veil/veil-team-2.png",
+    "bytes": 80977,
+    "sha256": "99a0420925d61e078b2e85624de548815047ed5abb0b31d2f73d21cf4628a0ed"
+  },
+  {
+    "name": "veil-testimonials-1",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/testimonials-1.png",
+    "path": "previews/veil/veil-testimonials-1.png",
+    "bytes": 63924,
+    "sha256": "1a4cc7baf518349947fe5e020e22a7399af4ab9821f406ffee3d9ebc64fc7535"
+  },
+  {
+    "name": "veil-testimonials-2",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/testimonials-2.png",
+    "path": "previews/veil/veil-testimonials-2.png",
+    "bytes": 66650,
+    "sha256": "887d1e87319f205ead2fffd22c75672cb5f16c660f61cf37a830aab976840e0c"
+  },
+  {
+    "name": "veil-testimonials-3",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/testimonials-3.png",
+    "path": "previews/veil/veil-testimonials-3.png",
+    "bytes": 21048,
+    "sha256": "7ddef7436543c95e1135e66b2aefd391b47d596472171d34b8e98ef4cac32efe"
+  },
+  {
+    "name": "veil-testimonials-4",
+    "kit": "veil",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/veil/testimonials-4.png",
+    "path": "previews/veil/veil-testimonials-4.png",
+    "bytes": 20932,
+    "sha256": "fe36a96822f7f085eb084efb19ed6e587da56ddbc3f205ccc725834f3b027998"
+  },
+  {
+    "name": "dusk-call-to-action-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/call-to-action-1.png",
+    "path": "previews/dusk/dusk-call-to-action-1.png",
+    "bytes": 17483,
+    "sha256": "8b5b71ed84d186df2c88008df5b8eed3bdf9df19f4c8a474910959fda1c260a2"
+  },
+  {
+    "name": "dusk-call-to-action-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/call-to-action-2.png",
+    "path": "previews/dusk/dusk-call-to-action-2.png",
+    "bytes": 9891,
+    "sha256": "0f80841b45aa8451188af83bb9baa15707da6f4192e2e1f812bcf690c1f561db"
+  },
+  {
+    "name": "dusk-content-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/content-1.png",
+    "path": "previews/dusk/dusk-content-1.png",
+    "bytes": 1523926,
+    "sha256": "5a1f9b7269d40f861d6f860e966cbc2e550ab8a0b22dd2b025bc9ac9702926dd"
+  },
+  {
+    "name": "dusk-content-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/content-2.png",
+    "path": "previews/dusk/dusk-content-2.png",
+    "bytes": 39906,
+    "sha256": "dc38e8ac7d34f8884e85c59bc43f3117ad24332fd768f2ab79af8f2fd4df1bd2"
+  },
+  {
+    "name": "dusk-content-3",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/content-3.png",
+    "path": "previews/dusk/dusk-content-3.png",
+    "bytes": 119170,
+    "sha256": "12cd2b254bc72801661556e76c45ba8a5dd510871d7d1de50793c5dd9f4224dc"
+  },
+  {
+    "name": "dusk-content-4",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/content-4.png",
+    "path": "previews/dusk/dusk-content-4.png",
+    "bytes": 61944,
+    "sha256": "566c8a935741044bd7e5b4f8dcbb5fae9342a312e823b0ce124a487036b2514a"
+  },
+  {
+    "name": "dusk-faqs-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/faqs-1.png",
+    "path": "previews/dusk/dusk-faqs-1.png",
+    "bytes": 37971,
+    "sha256": "f8ddcbf34177f2eb3d2882d8c4385161370f8bb9f1d8fa8342ee604030475be8"
+  },
+  {
+    "name": "dusk-features-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-1.png",
+    "path": "previews/dusk/dusk-features-1.png",
+    "bytes": 70990,
+    "sha256": "aeb02092d19f3339f9ddfa9876ee759c765516d223e2d448875b98be0af845c0"
+  },
+  {
+    "name": "dusk-features-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-2.png",
+    "path": "previews/dusk/dusk-features-2.png",
+    "bytes": 91702,
+    "sha256": "27224f327449d2205588ff41c9dae8c6314c5be07df233af4acc76bef41024a2"
+  },
+  {
+    "name": "dusk-features-3",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-3.png",
+    "path": "previews/dusk/dusk-features-3.png",
+    "bytes": 647786,
+    "sha256": "5f89fec8bd85244359d7f4a52ba7e0525c0ee753c4c7b4407b27d0725959070f"
+  },
+  {
+    "name": "dusk-features-4",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-4.png",
+    "path": "previews/dusk/dusk-features-4.png",
+    "bytes": 442599,
+    "sha256": "dc040cc40723ddca4bc5ec57c62e78ccd540f5ec48c3e786d515a761009bdeb1"
+  },
+  {
+    "name": "dusk-features-5",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-5.png",
+    "path": "previews/dusk/dusk-features-5.png",
+    "bytes": 78268,
+    "sha256": "8d898cf15f3d2640c987c9373565ce1749e19f11c987959a2a6c1c284d84a531"
+  },
+  {
+    "name": "dusk-features-6",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-6.png",
+    "path": "previews/dusk/dusk-features-6.png",
+    "bytes": 191877,
+    "sha256": "90f3f963795535427d04a9131fd0416ca6bd0c412ae10de203485e8b88766184"
+  },
+  {
+    "name": "dusk-features-7",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/features-7.png",
+    "path": "previews/dusk/dusk-features-7.png",
+    "bytes": 98066,
+    "sha256": "0d127a19e8914e251f2d81f266304629ebb8333d5293b2274a1b8d55f0d60565"
+  },
+  {
+    "name": "dusk-footer-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/footer-1.png",
+    "path": "previews/dusk/dusk-footer-1.png",
+    "bytes": 22830,
+    "sha256": "b7ebbe4e2753cafd4a57a522fc1979fcbf0a00b24a01277c7d43c24420f716d9"
+  },
+  {
+    "name": "dusk-footer-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/footer-2.png",
+    "path": "previews/dusk/dusk-footer-2.png",
+    "bytes": 16342,
+    "sha256": "2d20f56f70f5382fca1d7b74d310e03fd00d20bc9b1202a8c81b95c6f69f5304"
+  },
+  {
+    "name": "dusk-hero-section-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-1.png",
+    "path": "previews/dusk/dusk-hero-section-1.png",
+    "bytes": 257674,
+    "sha256": "e01fa43df9fb7ded21fc8d0b22570b2f8305f68aecaeb1d232ea6670efbcd299"
+  },
+  {
+    "name": "dusk-hero-section-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-2.png",
+    "path": "previews/dusk/dusk-hero-section-2.png",
+    "bytes": 216526,
+    "sha256": "68448ba7b7752937b909ed67bc7ea4e0fcc25190f54473872d12f1b1998fdae0"
+  },
+  {
+    "name": "dusk-hero-section-3",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-3.png",
+    "path": "previews/dusk/dusk-hero-section-3.png",
+    "bytes": 540311,
+    "sha256": "321a82bf5ceda23cfb73568d222092d47870023d3fa9d235c2abaab3474f337a"
+  },
+  {
+    "name": "dusk-hero-section-4",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-4.png",
+    "path": "previews/dusk/dusk-hero-section-4.png",
+    "bytes": 172353,
+    "sha256": "955f95a2fbc28a840867703618598377882bdff3be4668e0e3da379e8ee95c8c"
+  },
+  {
+    "name": "dusk-hero-section-5",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-5.png",
+    "path": "previews/dusk/dusk-hero-section-5.png",
+    "bytes": 495828,
+    "sha256": "c6456e404a6ae6f16677cceb7644f47a202d18bac4a31a3c51ae3ceaf2761100"
+  },
+  {
+    "name": "dusk-hero-section-6",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-6.png",
+    "path": "previews/dusk/dusk-hero-section-6.png",
+    "bytes": 393263,
+    "sha256": "b4cd9066d61dbcd4b08785813878a10f18a23775c7d94aba44b1b3442c239918"
+  },
+  {
+    "name": "dusk-hero-section-7",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-7.png",
+    "path": "previews/dusk/dusk-hero-section-7.png",
+    "bytes": 144332,
+    "sha256": "37abc1ad3856d49b4e8afbb309adc725bc74956ebeddaea941ea3976d936bd59"
+  },
+  {
+    "name": "dusk-hero-section-8",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-8.png",
+    "path": "previews/dusk/dusk-hero-section-8.png",
+    "bytes": 290488,
+    "sha256": "17813fc397e05c6538aabbe909858fcc1157ab828ce15f8a13c0015d3ae1b83f"
+  },
+  {
+    "name": "dusk-hero-section-9",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-9.png",
+    "path": "previews/dusk/dusk-hero-section-9.png",
+    "bytes": 487369,
+    "sha256": "5e7e58fb34929e5dcfb002387cf977a98f97014e262a5d67614318797a64125a"
+  },
+  {
+    "name": "dusk-hero-section-10",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/hero-section-10.png",
+    "path": "previews/dusk/dusk-hero-section-10.png",
+    "bytes": 263533,
+    "sha256": "e787cb7a64797d17acad3e53eae47ca713c584d7066a9147d6cef11ef9d2d495"
+  },
+  {
+    "name": "dusk-integrations-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/integrations-1.png",
+    "path": "previews/dusk/dusk-integrations-1.png",
+    "bytes": 60651,
+    "sha256": "fd7b25f79e60c3a25d41e43fb57bc69b64323fc60408eedcba2f3432be265710"
+  },
+  {
+    "name": "dusk-logo-cloud-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/logo-cloud-1.png",
+    "path": "previews/dusk/dusk-logo-cloud-1.png",
+    "bytes": 6060,
+    "sha256": "e8b32a71e54f11cca78d67d432df1f34a8bbc778287f01a1189a3f4078375ce2"
+  },
+  {
+    "name": "dusk-logo-cloud-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/logo-cloud-2.png",
+    "path": "previews/dusk/dusk-logo-cloud-2.png",
+    "bytes": 4814,
+    "sha256": "03db9040b633ec1a4ba4e459161a96079a641a7c7565fb70127c8659d93637e5"
+  },
+  {
+    "name": "dusk-logo-cloud-3",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/logo-cloud-3.png",
+    "path": "previews/dusk/dusk-logo-cloud-3.png",
+    "bytes": 4312,
+    "sha256": "9c4c57e241648ea27deec5576cca13c7809fe158d8354f5ec2a478735e22508f"
+  },
+  {
+    "name": "dusk-logo-cloud-4",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/logo-cloud-4.png",
+    "path": "previews/dusk/dusk-logo-cloud-4.png",
+    "bytes": 6195,
+    "sha256": "97b94c5cc47503fa908f979eb6a5c0370fb7be3fd48dfdea9556d64b569d434e"
+  },
+  {
+    "name": "dusk-pricing-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/pricing-1.png",
+    "path": "previews/dusk/dusk-pricing-1.png",
+    "bytes": 81567,
+    "sha256": "75bf84564ef3eb54b51181c6db27d41b77e80e1dadc409a8b02244ed137fa3f3"
+  },
+  {
+    "name": "dusk-pricing-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/pricing-2.png",
+    "path": "previews/dusk/dusk-pricing-2.png",
+    "bytes": 79743,
+    "sha256": "bc317030f6546fef035b9aee02b92d57349556c2687327a8e6143d66e010804b"
+  },
+  {
+    "name": "dusk-stats-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/stats-1.png",
+    "path": "previews/dusk/dusk-stats-1.png",
+    "bytes": 40742,
+    "sha256": "9e842e184a67a0a0787b47de92825b1c7537edec7ff222f414e0daf2696e81c0"
+  },
+  {
+    "name": "dusk-stats-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/stats-2.png",
+    "path": "previews/dusk/dusk-stats-2.png",
+    "bytes": 28226,
+    "sha256": "fc358d1163f95f0f4cebf0fa6f592c17f1a234b2d8505a849d0b7bdc94c9d3ef"
+  },
+  {
+    "name": "dusk-team-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/team-1.png",
+    "path": "previews/dusk/dusk-team-1.png",
+    "bytes": 625071,
+    "sha256": "91de14f38a4f6eff76bddbf7e0248fa80083da5ba5c7a8380fc0b7c5ae2e2d10"
+  },
+  {
+    "name": "dusk-team-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/team-2.png",
+    "path": "previews/dusk/dusk-team-2.png",
+    "bytes": 38853,
+    "sha256": "f1d750ceb932d4f3a78e904774aa099a7235ed993bccff7f7d369aca3f96de22"
+  },
+  {
+    "name": "dusk-testimonials-1",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/testimonials-1.png",
+    "path": "previews/dusk/dusk-testimonials-1.png",
+    "bytes": 313926,
+    "sha256": "2d34f710ba5768d15006668ee6319c3b85a888a4329e0159e3a7f2e207276cef"
+  },
+  {
+    "name": "dusk-testimonials-2",
+    "kit": "dusk",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/dusk-v1/testimonials-2.png",
+    "path": "previews/dusk/dusk-testimonials-2.png",
+    "bytes": 31107,
+    "sha256": "a3fba44f08c12309fb81b0840a90a1ec3df24e8ac4ed5abc83955f1bd9e280aa"
+  },
+  {
+    "name": "mist-call-to-action-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/call-to-action-1.png",
+    "path": "previews/mist/mist-call-to-action-1.png",
+    "bytes": 11302,
+    "sha256": "b152ad2a4bab02ea63dad3f8e1faef609d634139aacd2bf00f1bd6a757874d47"
+  },
+  {
+    "name": "mist-call-to-action-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/call-to-action-2.png",
+    "path": "previews/mist/mist-call-to-action-2.png",
+    "bytes": 10722,
+    "sha256": "c1dcd96197657824a1df88811c585bb03d30b451385ca9dee547a40344aba759"
+  },
+  {
+    "name": "mist-call-to-action-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/call-to-action-3.png",
+    "path": "previews/mist/mist-call-to-action-3.png",
+    "bytes": 22856,
+    "sha256": "49d174680ebd641da5561142ce82d6dd01ccf6ad3d377bc5096134591ef59309"
+  },
+  {
+    "name": "mist-comparator-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/comparator-1.png",
+    "path": "previews/mist/mist-comparator-1.png",
+    "bytes": 43123,
+    "sha256": "2cd43688587bfa1c128a1128edaadff048a88f26dbb1cd07b58d13ccb7111fa4"
+  },
+  {
+    "name": "mist-contact-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/contact-1.png",
+    "path": "previews/mist/mist-contact-1.png",
+    "bytes": 60419,
+    "sha256": "e032c64d2f8e149bd87cf0e3a0c86eab294b7b8e3548092fe1eac2744d563731"
+  },
+  {
+    "name": "mist-content-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/content-1.png",
+    "path": "previews/mist/mist-content-1.png",
+    "bytes": 80901,
+    "sha256": "915ec53ac508b5089c1e79203621f41d864b3db1940c841cccd9993ae4a11e12"
+  },
+  {
+    "name": "mist-content-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/content-2.png",
+    "path": "previews/mist/mist-content-2.png",
+    "bytes": 81262,
+    "sha256": "502294030109ee13c9d0a72ee2648f80079df9c2789ed5407246d01480c6ca88"
+  },
+  {
+    "name": "mist-content-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/content-3.png",
+    "path": "previews/mist/mist-content-3.png",
+    "bytes": 205298,
+    "sha256": "a0d77f4379b094d7cc7c524523884b2f9fd7b4cf1d3292ed19bb04afd38ae5da"
+  },
+  {
+    "name": "mist-content-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/content-4.png",
+    "path": "previews/mist/mist-content-4.png",
+    "bytes": 62179,
+    "sha256": "8da1200c2a78e1ecd8ebe6978af9a4fd537f6fa7d7a999dc2a9e5ea9d79195d7"
+  },
+  {
+    "name": "mist-faqs-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/faqs-1.png",
+    "path": "previews/mist/mist-faqs-1.png",
+    "bytes": 57112,
+    "sha256": "6ade2148917168364fdde7b985091843a82067b7e660ce89cff507247759275d"
+  },
+  {
+    "name": "mist-faqs-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/faqs-2.png",
+    "path": "previews/mist/mist-faqs-2.png",
+    "bytes": 43430,
+    "sha256": "5a08c18526b4f66984965d3ea35b412bdd2251caa23270e3ad0934774ecee184"
+  },
+  {
+    "name": "mist-faqs-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/faqs-3.png",
+    "path": "previews/mist/mist-faqs-3.png",
+    "bytes": 31793,
+    "sha256": "5fb2635c0522e680748815bb98316e38b7a366c8ca9d8a00dddce4ec8ca4d635"
+  },
+  {
+    "name": "mist-features-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-1.png",
+    "path": "previews/mist/mist-features-1.png",
+    "bytes": 104559,
+    "sha256": "143ba5c84737cfe01fbbe1585a947ac6ee77e648f10f1f961477781f28195e86"
+  },
+  {
+    "name": "mist-features-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-2.png",
+    "path": "previews/mist/mist-features-2.png",
+    "bytes": 56510,
+    "sha256": "c2e555139967737d303417d54bc294be37cbbd16872304171014c56f8b1ea566"
+  },
+  {
+    "name": "mist-features-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-3.png",
+    "path": "previews/mist/mist-features-3.png",
+    "bytes": 72522,
+    "sha256": "1ceea71a827e327218ae133b1304980df3bb838288dc8161455881d15a6c7c21"
+  },
+  {
+    "name": "mist-features-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-4.png",
+    "path": "previews/mist/mist-features-4.png",
+    "bytes": 71860,
+    "sha256": "856319e6d05f4307ec4cc84a6258493d49c0327df400b15b43b36caf260a1d23"
+  },
+  {
+    "name": "mist-features-5",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-5.png",
+    "path": "previews/mist/mist-features-5.png",
+    "bytes": 89485,
+    "sha256": "91ba6636c7fb5ef90147a9ec2491a29823e6fed9ec4d1123e8712954ec374978"
+  },
+  {
+    "name": "mist-features-6",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-6.png",
+    "path": "previews/mist/mist-features-6.png",
+    "bytes": 77971,
+    "sha256": "bc434848bda2a9caaf4b6d93ed3b9a80ef0990efbf8978d23619b1cf743f6b76"
+  },
+  {
+    "name": "mist-features-7",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-7.png",
+    "path": "previews/mist/mist-features-7.png",
+    "bytes": 110204,
+    "sha256": "767d57bca98ae361073d91c20cc96d418eef712c29cb439e1221fad97ca4bafa"
+  },
+  {
+    "name": "mist-features-8",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-8.png",
+    "path": "previews/mist/mist-features-8.png",
+    "bytes": 64352,
+    "sha256": "c2390cd16a1df1b1b450b8d71c1e983b1179f5fd59ba0de7100b067846a1bf4e"
+  },
+  {
+    "name": "mist-features-9",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-9.png",
+    "path": "previews/mist/mist-features-9.png",
+    "bytes": 79733,
+    "sha256": "6481a63547185778cfe2fb3333a7065d0d358b3193b79d2bcd42061f589f2142"
+  },
+  {
+    "name": "mist-features-10",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-10.png",
+    "path": "previews/mist/mist-features-10.png",
+    "bytes": 93529,
+    "sha256": "4724d378537079b54001d33b4c6775e17eddb4e50f38a7ff6656f6d489bfa4e2"
+  },
+  {
+    "name": "mist-features-11",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/features-11.png",
+    "path": "previews/mist/mist-features-11.png",
+    "bytes": 377208,
+    "sha256": "0324dadb83c43d160ca17afccba55fc7479067dff12f9a95d59a3ecb657c3430"
+  },
+  {
+    "name": "mist-footer-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/footer-1.png",
+    "path": "previews/mist/mist-footer-1.png",
+    "bytes": 12267,
+    "sha256": "18c24bcf6f6c991719f1e97201ca30ca566faae965cf78fc0848e009757e3802"
+  },
+  {
+    "name": "mist-footer-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/footer-2.png",
+    "path": "previews/mist/mist-footer-2.png",
+    "bytes": 23732,
+    "sha256": "3283152fdbede04a63079458c05a099f8db394d962c061071e4691ff0c232470"
+  },
+  {
+    "name": "mist-footer-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/footer-3.png",
+    "path": "previews/mist/mist-footer-3.png",
+    "bytes": 11213,
+    "sha256": "383e331c68a9e22d278d61979500f87f4868a22cb98a82a59afbec18de4f6dac"
+  },
+  {
+    "name": "mist-footer-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/footer-4.png",
+    "path": "previews/mist/mist-footer-4.png",
+    "bytes": 8916,
+    "sha256": "dfaf329e0eb29cd02409ceb15f93ff29d099da14f92a482015192d0724e75c13"
+  },
+  {
+    "name": "mist-forgot-password-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/forgot-password-1.png",
+    "path": "previews/mist/mist-forgot-password-1.png",
+    "bytes": 31479,
+    "sha256": "6684c35490ffbcba95ce63f756eb5be290dbf02fd7c452a71c861dec35d30cfc"
+  },
+  {
+    "name": "mist-hero-section-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-1.png",
+    "path": "previews/mist/mist-hero-section-1.png",
+    "bytes": 98248,
+    "sha256": "81aba2d6a4e1e3228739de2485fa98c4132c80daa2cbf9b4b2b00ba26340ed13"
+  },
+  {
+    "name": "mist-hero-section-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-2.png",
+    "path": "previews/mist/mist-hero-section-2.png",
+    "bytes": 85282,
+    "sha256": "b42777ea7c2705b16786aa1dca08013a1e34900e62d55f2f3a2fad3231eb0fdc"
+  },
+  {
+    "name": "mist-hero-section-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-3.png",
+    "path": "previews/mist/mist-hero-section-3.png",
+    "bytes": 83487,
+    "sha256": "7fa4cd0d717e58f35b9d7362320367fc718193805712927ee883d61acae991eb"
+  },
+  {
+    "name": "mist-hero-section-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-4.png",
+    "path": "previews/mist/mist-hero-section-4.png",
+    "bytes": 425591,
+    "sha256": "c15eddc41d90b10fff6ce0eb9a1d8ff6d520b43e6a9f25df2898729ffda044c2"
+  },
+  {
+    "name": "mist-hero-section-5",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-5.png",
+    "path": "previews/mist/mist-hero-section-5.png",
+    "bytes": 305236,
+    "sha256": "2a956dbdbcf2d025d1eb28a18c529b4800340e59adba0f7ff037a39eb8b075bc"
+  },
+  {
+    "name": "mist-hero-section-6",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/hero-section-6.png",
+    "path": "previews/mist/mist-hero-section-6.png",
+    "bytes": 309871,
+    "sha256": "9db34b964be699bec235f4f14bb5fb39572b21e2efea70afcc290789f2732e3c"
+  },
+  {
+    "name": "mist-integrations-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/integrations-1.png",
+    "path": "previews/mist/mist-integrations-1.png",
+    "bytes": 6254,
+    "sha256": "ddd9e2bdd26d8fa7a3a3b7d6e842ed07105d40e901e3177bd7e425226eede815"
+  },
+  {
+    "name": "mist-integrations-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/integrations-2.png",
+    "path": "previews/mist/mist-integrations-2.png",
+    "bytes": 17046,
+    "sha256": "774bc07c9e20e8893768cc8c9f8779a883f2da9a9af9975044d40ffb43e8b9a0"
+  },
+  {
+    "name": "mist-integrations-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/integrations-3.png",
+    "path": "previews/mist/mist-integrations-3.png",
+    "bytes": 67719,
+    "sha256": "9053df34bacfeac9e8f5287827335dd2aade4a742e4ad76827413643de8cd97e"
+  },
+  {
+    "name": "mist-login-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/login-1.png",
+    "path": "previews/mist/mist-login-1.png",
+    "bytes": 41348,
+    "sha256": "fcce3c1f8a8daaa4cfdb4f65deb4d2d507cfe4d99d817679b4992fa6465eac96"
+  },
+  {
+    "name": "mist-logo-cloud-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/logo-cloud-1.png",
+    "path": "previews/mist/mist-logo-cloud-1.png",
+    "bytes": 4956,
+    "sha256": "0bb8b48cfc300320a9f2db87b947f7237889155f85c8cee9ef7b151543167cd2"
+  },
+  {
+    "name": "mist-logo-cloud-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/logo-cloud-2.png",
+    "path": "previews/mist/mist-logo-cloud-2.png",
+    "bytes": 4981,
+    "sha256": "0b46dc5174da98bf813c0031d85e1d8d3e495b2ea0956d9d8f6aa0e6410b4d1c"
+  },
+  {
+    "name": "mist-pricing-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/pricing-1.png",
+    "path": "previews/mist/mist-pricing-1.png",
+    "bytes": 68336,
+    "sha256": "8a570108de281b3e0517cb1d4b29b65fce09d3d67732f1d5bbcba014e747b63d"
+  },
+  {
+    "name": "mist-pricing-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/pricing-2.png",
+    "path": "previews/mist/mist-pricing-2.png",
+    "bytes": 89359,
+    "sha256": "8fd8d5c2a31126c62d6e5daa9913e1eda9b816273171b8d3132bcf0137bda3ce"
+  },
+  {
+    "name": "mist-sign-up-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/sign-up-1.png",
+    "path": "previews/mist/mist-sign-up-1.png",
+    "bytes": 38758,
+    "sha256": "03b96ee05b17e5f156149bd2392720a4c69c165db1446cccec3eea6eee02e827"
+  },
+  {
+    "name": "mist-stats-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/stats-1.png",
+    "path": "previews/mist/mist-stats-1.png",
+    "bytes": 14122,
+    "sha256": "9bc54bbd0a556f2ab6fb7d270175aeb7487ac7e3772df8982ffb802e0f17ebd7"
+  },
+  {
+    "name": "mist-stats-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/stats-2.png",
+    "path": "previews/mist/mist-stats-2.png",
+    "bytes": 29485,
+    "sha256": "351c0840872832639120b29293ccebdb1fddd804a9337ce424d84d7a93822c39"
+  },
+  {
+    "name": "mist-stats-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/stats-3.png",
+    "path": "previews/mist/mist-stats-3.png",
+    "bytes": 26629,
+    "sha256": "4f1a8e6be4a75a80dc4c8763ed8bd7f076964a0bea8c343bdb3d08c414c3910c"
+  },
+  {
+    "name": "mist-stats-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/stats-4.png",
+    "path": "previews/mist/mist-stats-4.png",
+    "bytes": 15762,
+    "sha256": "04dc984067d30492177e400968f5edcfaacee452629230456f3bf08b99bbaab3"
+  },
+  {
+    "name": "mist-team-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/team-1.png",
+    "path": "previews/mist/mist-team-1.png",
+    "bytes": 73034,
+    "sha256": "6d9eb242914837b75461ad02428165fc3f6aee2f8426333034075035d79b4c50"
+  },
+  {
+    "name": "mist-team-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/team-2.png",
+    "path": "previews/mist/mist-team-2.png",
+    "bytes": 48152,
+    "sha256": "fabe0fe90eb2af667810fdcaee7cecd058a2fbc349354230e4af50a083f09cb6"
+  },
+  {
+    "name": "mist-testimonials-1",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/testimonials-1.png",
+    "path": "previews/mist/mist-testimonials-1.png",
+    "bytes": 21979,
+    "sha256": "de90078bb4fcb0282136ba59d012ec20828bbc847488c28401b6f6d32c9d7e17"
+  },
+  {
+    "name": "mist-testimonials-2",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/testimonials-2.png",
+    "path": "previews/mist/mist-testimonials-2.png",
+    "bytes": 62984,
+    "sha256": "936fd9c17b3537877e4e62bd7139ca77217a23cbd1c31fb0ee3d3411d43fd9c8"
+  },
+  {
+    "name": "mist-testimonials-3",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/testimonials-3.png",
+    "path": "previews/mist/mist-testimonials-3.png",
+    "bytes": 37337,
+    "sha256": "a8efcb432ccf59bc23a62b2181a18815b372431b4388ea594e45e8d17215dad6"
+  },
+  {
+    "name": "mist-testimonials-4",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/testimonials-4.png",
+    "path": "previews/mist/mist-testimonials-4.png",
+    "bytes": 26330,
+    "sha256": "de1244be71fab78be1a484cb70794b37fd669f53305ce492ade9a57b2c8f29d6"
+  },
+  {
+    "name": "mist-testimonials-5",
+    "kit": "mist",
+    "url": "https://cdn.jsdelivr.net/gh/tailark/pro-images@main/mist/testimonials-5.png",
+    "path": "previews/mist/mist-testimonials-5.png",
+    "bytes": 32952,
+    "sha256": "dcaa47051330e0b33957c3578ed8b31b310e6f3835404c973eaca234cca7dcdf"
+  }
+]

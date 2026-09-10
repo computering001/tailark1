@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-zip",
+  "type": "registry:component",
+  "title": "Document Illustration",
+  "description": "Tailark zip document illustration",
+  "meta": {
+    "category": "document",
+    "variant": "zip"
+  },
+  "files": [
+    {
+      "path": "illustrations/document-zip.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/document-zip.tsx",
+      "content": "export const DocumentZipIllustration = () => {\n  return (\n    <div aria-hidden className=\"relative size-fit\">\n      <div className=\"absolute -right-3 bottom-2 z-2 rounded bg-amber-600 px-1.5 py-0.5 text-[10px] font-semibold text-white shadow-lg shadow-amber-900/25 text-shadow-sm after:absolute after:inset-0 after:rounded after:border after:border-foreground/15\">\n        ZIP\n      </div>\n      <div className=\"bg-illustration corner-tr-bevel ring-border-illustration relative z-1 w-16 rounded-md rounded-tr-[15%] p-2.5 shadow-md ring-1 shadow-black/6.5\">\n        <div className=\"flex h-16 items-center justify-center\">\n          <div className=\"relative flex flex-col items-center\">\n            <div className=\"space-y-0.5\">\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n              </div>\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n              </div>\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n              </div>\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n              </div>\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n              </div>\n              <div className=\"flex overflow-hidden rounded-full\">\n                <div className=\"h-1.5 w-1.5 bg-foreground/5\" />\n                <div className=\"h-1.5 w-1.5 bg-foreground/30\" />\n              </div>\n            </div>\n            <div className=\"mt-0.5 h-2.5 w-4 rounded-sm border border-amber-500/40 bg-foreground/15\" />\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default DocumentZipIllustration\n"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-chat-interface",
+  "type": "registry:component",
+  "title": "Ai Chat Interface Illustration",
+  "description": "Tailark ai-chat-interface illustration",
+  "registryDependencies": [
+    "@tailark/core-linear"
+  ],
+  "meta": {
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-chat-interface.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-chat-interface.tsx",
+      "content": "import { Check, Circle } from \"lucide-react\"\nimport { Linear } from \"@/components/ui/svgs/linear\"\n\nexport const AIChatInterface = () => {\n  return (\n    <div aria-hidden className=\"min-w-xs space-y-4\">\n      <div className=\"bg-illustration ring-border-illustration ml-auto w-fit max-w-4/5 rounded-l-xl rounded-tr-xl rounded-br px-3 py-2 text-sm/5 text-muted-foreground shadow ring-1 shadow-black/6.5\">\n        Split{\" \"}\n        <span className=\"relative inline-flex pr-2.5 pl-6 text-foreground\">\n          <Linear className=\"absolute inset-y-0.5 left-1 size-4\" />\n          <span className=\"absolute inset-x-0 -inset-y-0.5 rounded-full border border-foreground/5 bg-foreground/5\"></span>\n          <span className=\"line-clamp-1 font-medium\">\n            fix: item doesn't exist\n          </span>\n        </span>\n        issue into smaller tasks\n      </div>\n\n      <div className=\"text-sm\">\n        Thought <span className=\"text-muted-foreground\">for 4s</span>\n      </div>\n\n      <div className=\"space-y-2\">\n        <div className=\"text-sm\">\n          I'll connect to Linear, analyze the issue and break it down.\n        </div>\n        <div className=\"bg-illustration ring-border-illustration w-fit rounded-xl p-4 shadow ring-1 shadow-black/6.5\">\n          <ul className=\"space-y-2.5 text-sm *:flex *:items-center *:gap-2.5\">\n            {[\n              \"Reproduce the bug locally\",\n              \"Add null check validation\",\n              \"Write unit test coverage\",\n              \"Update documentation\",\n              \"Create pull request\",\n            ].map((task) => (\n              <li\n                key={task}\n                className=\"group/todo cursor-default select-none not-hover:text-muted-foreground\"\n              >\n                <div className=\"relative size-4\">\n                  <Check\n                    strokeWidth={3}\n                    className=\"absolute inset-0 m-auto size-2.5 opacity-50 transition-opacity duration-100 not-group-hover/todo:opacity-0\"\n                  />\n                  <Circle className=\"size-4 opacity-50\" />\n                </div>\n                <span>{task}</span>\n              </li>\n            ))}\n          </ul>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default AIChatInterface\n"
+    }
+  ]
+}

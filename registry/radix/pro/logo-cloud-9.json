@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-9",
+  "type": "registry:block",
+  "title": "Logo Cloud 9",
+  "description": "Tailark logo-cloud variant 9 block",
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-cloudflare",
+    "@tailark/core-hulu",
+    "@tailark/core-open-ai",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "96/29",
+    "width": 686,
+    "height": 207
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/nine/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-9.tsx",
+      "content": "import { Spotify } from '@/components/ui/svgs/spotify'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Cloudflare } from '@/components/ui/svgs/cloudflare'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\n\nexport default function LogoCloud() {\n    return (\n        <section className=\"relative py-24\">\n            <div className=\"relative text-center\">\n                <div className=\"px-6\">\n                    <p className=\"text-muted-foreground mx-auto max-w-xl text-balance md:text-lg\">Tailark is trusted by leading teams from Generative AI Companies, Hosting Providers, Payments Providers, Streaming Providers</p>\n                </div>\n                <div className=\"border-foreground/10 mt-6 border-y\">\n                    <div className=\"mx-auto max-w-5xl px-2\">\n                        <div className=\"**:fill-foreground bg-foreground/10 *:hover:bg-background/70 *:bg-background/95 mx-px grid grid-cols-2 items-center justify-center gap-px *:h-20 *:transition-colors *:duration-200 sm:grid-cols-4\">\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Hulu\n                                    height={20}\n                                    width=\"auto\"\n                                />\n                            </div>\n\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Spotify\n                                    height={26}\n                                    width=\"auto\"\n                                />\n                            </div>\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Supabase\n                                    height={24}\n                                    width=\"auto\"\n                                />\n                            </div>\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Beacon\n                                    height={20}\n                                    width=\"auto\"\n                                />\n                            </div>\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <VercelFull\n                                    height={20}\n                                    width=\"auto\"\n                                />\n                            </div>\n\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Stripe\n                                    height={26}\n                                    width=\"auto\"\n                                />\n                            </div>\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <OpenAIFull\n                                    height={24}\n                                    width=\"auto\"\n                                />\n                            </div>\n                            <div className=\"flex items-center justify-center rounded px-6\">\n                                <Cloudflare\n                                    height={20}\n                                    width=\"auto\"\n                                />\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div\n                aria-hidden\n                className=\"border-foreground/10 pointer-events-none absolute inset-0 mx-auto flex max-w-5xl justify-between border-x\">\n                <div className=\"border-foreground/10 relative h-full w-2 border-r\" />\n                <div className=\"border-foreground/10 relative h-full w-2 border-l\" />\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

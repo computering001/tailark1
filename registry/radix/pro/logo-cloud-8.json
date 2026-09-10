@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-8",
+  "type": "registry:block",
+  "title": "Logo Cloud 8",
+  "description": "Tailark logo-cloud variant 8 block",
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-hulu",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "90/24",
+    "width": 686,
+    "height": 183
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/eight/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-8.tsx",
+      "content": "import { Beacon } from '@/components/ui/svgs/beacon'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Spotify } from '@/components/ui/svgs/spotify'\n\nexport default function LogoCloud() {\n    return (\n        <section className=\"py-24\">\n            <div className=\"mx-auto max-w-sm text-center\">\n                <div>\n                    <p className=\"text-foreground mx-auto w-fit max-w-56 text-balance text-sm\">Trusted by fast-growing companies around the world</p>\n                </div>\n                <div className=\"**:fill-foreground mt-4 grid grid-cols-2 items-center justify-center *:h-16 sm:grid-cols-3\">\n                    <div className=\"flex h-full items-center justify-center px-2\">\n                        <Hulu\n                            height={16}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex items-center justify-center px-2\">\n                        <Spotify\n                            height={22}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex items-center justify-center px-2\">\n                        <Stripe\n                            height={20}\n                            width=\"auto\"\n                        />\n                    </div>\n\n                    <div className=\"flex items-center justify-center px-2\">\n                        <Beacon\n                            height={16}\n                            width=\"auto\"\n                        />\n                    </div>\n\n                    <div className=\"flex items-center justify-center px-2\">\n                        <VercelFull\n                            height={16}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex items-center justify-center px-2\">\n                        <Supabase\n                            height={20}\n                            width=\"auto\"\n                        />\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "content-4",
+  "type": "registry:block",
+  "title": "Content 4",
+  "description": "Tailark content variant 4 block",
+  "registryDependencies": [
+    "@tailark/button"
+  ],
+  "meta": {
+    "aspect-ratio": "8/3",
+    "width": 686,
+    "height": 257
+  },
+  "files": [
+    {
+      "path": "blocks/content/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/content-4.tsx",
+      "content": "import { Button } from '@/components/ui/button'\nimport { ChevronRight } from 'lucide-react'\nimport Link from 'next/link'\n\nexport default function ContentSection() {\n    return (\n        <section className=\"py-16 md:py-32\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid gap-6 md:grid-cols-2 md:gap-12 lg:gap-24\">\n                    <h2 className=\"text-muted-foreground text-4xl font-semibold tracking-tight\">\n                        Building the next generation of <strong className=\"text-foreground font-semibold\">AI-powered Marketing Tools</strong>\n                    </h2>\n                    <div className=\"space-y-6\">\n                        <p className=\"text-muted-foreground text-balance text-lg leading-relaxed\">Our platform combines cutting-edge AI models with intuitive interfaces to streamline your development workflow and boost productivity.</p>\n                        <p className=\"text-muted-foreground text-balance text-lg leading-relaxed\">\n                            With <strong className=\"text-foreground font-semibold\">intelligent code completion</strong> and automated testing, developers can focus on solving complex problems rather than getting caught up in repetitive tasks.\n                        </p>\n                        <Button\n                            asChild\n                            variant=\"outline\"\n                            size=\"sm\"\n                            className=\"gap-1 pr-1.5\">\n                            <Link href=\"#\">\n                                <span>Explore Features</span>\n                                <ChevronRight className=\"size-2\" />\n                            </Link>\n                        </Button>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

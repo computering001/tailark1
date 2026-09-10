@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-4",
+  "type": "registry:block",
+  "title": "Logo Cloud 4",
+  "description": "Tailark logo-cloud variant 4 block",
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-open-ai",
+    "@tailark/core-prime",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase"
+  ],
+  "meta": {
+    "aspect-ratio": "36/7",
+    "width": 686,
+    "height": 133
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-4.tsx",
+      "content": "import { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Cisco } from '@/components/ui/svgs/cisco'\n\nexport default function LogoCloudTwo() {\n    return (\n        <section className=\"py-16\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"*:nth-4:border-r-0 grid grid-cols-3 gap-x-6 divide-dashed *:items-center *:px-4 *:py-6 sm:grid-cols-4 sm:divide-x sm:border-x\">\n                    <div className=\"flex\">\n                        <Primevideo\n                            height={28}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex\">\n                        <Cisco\n                            height={32}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex\">\n                        <Stripe\n                            height={24}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex\">\n                        <Hulu\n                            height={22}\n                            width=\"auto\"\n                        />\n                    </div>\n\n                    <div className=\"flex\">\n                        <Bolt\n                            height={20}\n                            width=\"auto\"\n                        />\n                    </div>\n\n                    <div className=\"flex\">\n                        <Supabase\n                            height={24}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex\">\n                        <OpenAIFull\n                            height={24}\n                            width=\"auto\"\n                        />\n                    </div>\n                    <div className=\"flex\">\n                        <Beacon\n                            height={20}\n                            width=\"auto\"\n                        />\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "description-list-4",
+  "type": "registry:block",
+  "title": "Description List 4",
+  "description": "Tailark description-list variant 4 block",
+  "meta": {
+    "aspect-ratio": "45/16",
+    "width": 686,
+    "height": 244
+  },
+  "files": [
+    {
+      "path": "blocks/description-list/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/description-list-4.tsx",
+      "content": "import { ChartPie, MessageCircleHeart, Tickets, UserRoundPen } from 'lucide-react'\n\nexport default function DescriptionListSection() {\n    return (\n        <section className=\"bg-background py-16 md:py-32\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid gap-6 md:grid-cols-2 md:gap-12 lg:grid-cols-3 lg:gap-24\">\n                    <h2 className=\"text-foreground text-balance text-4xl font-semibold tracking-tight\">AI-powered Marketing Tools</h2>\n                    <div className=\"@container lg:col-span-2\">\n                        <dl className=\"@md:grid-cols-2 grid gap-6 *:space-y-2\">\n                            <div>\n                                <dt className=\"text-foreground flex items-center gap-2 font-medium\">\n                                    <UserRoundPen className=\"*:not-nth-2:opacity-50 *:nth-2:fill-primary *:nth-2:stroke-primary size-4 drop-shadow\" />\n                                    AI-Powered Analytics\n                                </dt>\n                                <dd className=\"text-muted-foreground\">Leverage machine learning to gain deeper insights from your marketing data and optimize campaigns in real-time.</dd>\n                            </div>\n                            <div>\n                                <dt className=\"text-foreground flex items-center gap-2 font-medium\">\n                                    <ChartPie className=\"*:first:fill-primary *:first:stroke-primary size-4 drop-shadow\" />\n                                    Intelligent Automation\n                                </dt>\n                                <dd className=\"text-muted-foreground\">Automate repetitive tasks and workflows, allowing your team to focus on strategic initiatives.</dd>\n                            </div>\n                            <div>\n                                <dt className=\"text-foreground flex items-center gap-2 font-medium\">\n                                    <MessageCircleHeart className=\"*:last:fill-primary fill-illustration size-4 drop-shadow\" />\n                                    Predictive Targeting\n                                </dt>\n                                <dd className=\"text-muted-foreground\">Identify high-value audiences with precision using advanced predictive modeling.</dd>\n                            </div>\n                            <div>\n                                <dt className=\"text-foreground flex items-center gap-2 font-medium\">\n                                    <Tickets className=\"*:first:fill-primary size-4 drop-shadow\" />\n                                    Smart Personalization\n                                </dt>\n                                <dd className=\"text-muted-foreground\">Deliver tailored content and experiences to each user based on their behavior and preferences.</dd>\n                            </div>\n                        </dl>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

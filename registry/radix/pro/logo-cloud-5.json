@@ -1,0 +1,33 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-5",
+  "type": "registry:block",
+  "title": "Logo Cloud 5",
+  "description": "Tailark logo-cloud variant 5 block",
+  "registryDependencies": [
+    "@tailark/core-utils",
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-open-ai",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-tailwindcss",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "60/13",
+    "width": 686,
+    "height": 149
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/five/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-5.tsx",
+      "content": "import { cn } from '@/lib/utils'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Cisco } from '@/components/ui/svgs/cisco'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Spotify } from '@/components/ui/svgs/spotify'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport TailwindCSS from '@/components/ui/svgs/tailwindcss'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\n\nconst logos = [\n    {\n        key: 'cisco',\n        logo: (\n            <Cisco\n                height={32}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'stripe',\n        logo: (\n            <Stripe\n                height={24}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'hulu',\n        logo: (\n            <Hulu\n                height={22}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'bolt',\n        logo: (\n            <Bolt\n                height={20}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'supabase',\n        logo: (\n            <Supabase\n                height={24}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'openai',\n        logo: (\n            <OpenAIFull\n                height={24}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'beacon',\n        logo: (\n            <Beacon\n                height={20}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'tailwindcss',\n        logo: (\n            <TailwindCSS\n                height={16}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'vercel',\n        logo: (\n            <VercelFull\n                height={20}\n                width=\"auto\"\n            />\n        ),\n    },\n    {\n        key: 'spotify',\n        logo: (\n            <Spotify\n                height={24}\n                width=\"auto\"\n            />\n        ),\n    },\n]\n\nexport default function LogoCloud() {\n    return (\n        <section className=\"bg-background py-16\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"relative\">\n                    <PlusDecorator className=\"-translate-[calc(50%-0.5px)]\" />\n                    <PlusDecorator className=\"right-0 -translate-y-[calc(50%-0.5px)] translate-x-[calc(50%-0.5px)]\" />\n                    <PlusDecorator className=\"bottom-0 right-0 translate-x-[calc(50%-0.5px)] translate-y-[calc(50%-0.5px)]\" />\n                    <PlusDecorator className=\"bottom-0 -translate-x-[calc(50%-0.5px)] translate-y-[calc(50%-0.5px)]\" />\n\n                    <div className=\"**:fill-foreground lg:*:nth-5:border-r-0 lg:*:nth-[n+6]:nth-[-n+9]:border-b-0 grid grid-cols-3 divide-x divide-y border md:grid-cols-4 lg:grid-cols-5\">\n                        {logos.map(({ key, logo }) => (\n                            <div\n                                key={key}\n                                className=\"hover:bg-foreground/5 flex items-center justify-center px-4 py-6 lg:py-7\">\n                                {logo}\n                            </div>\n                        ))}\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n\nconst PlusDecorator = ({ className }: { className?: string }) => (\n    <div\n        aria-hidden\n        className={cn('mask-radial-from-15% before:bg-foreground/25 after:bg-foreground/25 absolute size-3 before:absolute before:inset-0 before:m-auto before:h-px after:absolute after:inset-0 after:m-auto after:w-px', className)}\n    />\n)\n"
+    }
+  ]
+}

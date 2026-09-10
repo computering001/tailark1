@@ -1,0 +1,30 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login-blocks-3",
+  "type": "registry:block",
+  "title": "Login Blocks 3",
+  "description": "Tailark login-blocks variant 3 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/input",
+    "@tailark/label",
+    "@tailark/core-logo",
+    "@tailark/core-slack",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "90/60",
+    "width": 686,
+    "height": 457,
+    "category-media": true,
+    "description": "The login page is part of the product experience. A returning user is not there to admire a landing page; they are there to get back to work."
+  },
+  "files": [
+    {
+      "path": "blocks/login-blocks/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/login-blocks-3.tsx",
+      "content": "import { Input } from '@/components/ui/input'\nimport { Label } from '@/components/ui/label'\nimport { Button } from '@/components/ui/button'\nimport { LogoIcon } from \"@/components/ui/logo\"\nimport { Vercel } from '@/components/ui/svgs/vercel'\nimport { Slack } from '@/components/ui/svgs/slack'\n\nimport Link from 'next/link'\nimport { ScanFace } from 'lucide-react'\n\nexport default function Login() {\n    return (\n        <main className=\"bg-background\">\n            <div className=\"flex min-h-dvh flex-col items-center justify-center gap-6 p-6 lg:col-span-2\">\n                <div className=\"m-auto max-w-xs text-center\">\n                    <Link\n                        href=\"#\"\n                        aria-label=\"go home\"\n                        className=\"mx-auto flex size-10 *:m-auto\">\n                        <LogoIcon className=\"size-6\" />\n                    </Link>\n\n                    <div className=\"mb-10 mt-6 space-y-2\">\n                        <h1 className=\"text-xl font-semibold\">Welcome Back</h1>\n                        <p className=\"text-muted-foreground text-sm\">Please login to your account</p>\n                    </div>\n\n                    <div className=\"space-y-5\">\n                        <div className=\"space-y-3\">\n                            <Button\n                                type=\"button\"\n                                className=\"w-full\"\n                                variant=\"outline\">\n                                <Vercel />\n                                Continue with Vercel\n                            </Button>\n\n                            <Button\n                                type=\"button\"\n                                className=\"w-full\"\n                                variant=\"outline\">\n                                <Slack />\n                                Continue with Slack\n                            </Button>\n                            <Button\n                                type=\"button\"\n                                className=\"w-full\"\n                                variant=\"outline\">\n                                <ScanFace />\n                                Continue with Passkey\n                            </Button>\n                        </div>\n\n                        <div className=\"grid grid-cols-[1fr_auto_1fr] items-center gap-3 py-3\">\n                            <div className=\"bg-border border-card h-0.5 border-b\" />\n                            <div className=\"text-muted-foreground text-center text-sm\">or</div>\n                            <div className=\"bg-border border-card h-0.5 border-b\" />\n                        </div>\n\n                        <form\n                            action=\"\"\n                            className=\"space-y-5\">\n                            <div className=\"space-y-2.5\">\n                                <Label\n                                    className=\"block text-left\"\n                                    htmlFor=\"email\">\n                                    Email\n                                </Label>\n                                <Input\n                                    type=\"email\"\n                                    id=\"email\"\n                                    required\n                                    placeholder=\"Enter your email\"\n                                    className=\"w-full\"\n                                />\n                            </div>\n                            <Button\n                                type=\"submit\"\n                                className=\"w-full\">\n                                Continue with Email\n                            </Button>\n                        </form>\n\n                        <div className=\"text-muted-foreground pt-5 text-sm\">\n                            Don't have an account?{' '}\n                            <Link\n                                href=\"#\"\n                                className=\"text-primary font-medium hover:underline\">\n                                Sign up\n                            </Link>\n                        </div>\n                    </div>\n                </div>\n\n                <div className=\"mx-auto mt-auto w-full border-t pt-6\">\n                    <div className=\"mx-auto flex max-w-xs items-center justify-center gap-6\">\n                        <Link\n                            href=\"#\"\n                            className=\"text-muted-foreground hover:text-foreground text-sm\">\n                            Privacy\n                        </Link>\n                        <Link\n                            href=\"#\"\n                            className=\"text-muted-foreground hover:text-foreground text-sm\">\n                            Terms\n                        </Link>\n                        <Link\n                            href=\"#\"\n                            className=\"text-muted-foreground hover:text-foreground text-sm\">\n                            Cookies\n                        </Link>\n                    </div>\n                </div>\n            </div>\n        </main>\n    )\n}\n"
+    }
+  ]
+}

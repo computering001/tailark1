@@ -1,0 +1,24 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations",
+  "type": "registry:component",
+  "title": "Integrations Illustration",
+  "description": "Tailark integrations illustration",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-gemini",
+    "@tailark/core-replit"
+  ],
+  "meta": {
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/integrations.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/integrations.tsx",
+      "content": "import { buttonVariants } from \"@/components/ui/button\"\nimport { Link, Plus } from \"lucide-react\"\nimport { Gemini } from \"@/components/ui/svgs/gemini\"\nimport { Replit } from \"@/components/ui/svgs/replit\"\n\nexport const IntegrationsIllustration = () => (\n  <div aria-hidden className=\"group rounded-2xl bg-foreground/5\">\n    <div className=\"flex items-center gap-1.5 px-6 py-2.5 text-sm font-medium\">\n      <Link className=\"size-3.5 opacity-50\" />\n      Integrations\n    </div>\n    <div className=\"relative\">\n      <div className=\"absolute inset-0 scale-100 blur-lg transition-opacity duration-300 dark:opacity-35\">\n        <div className=\"animate-hue-rotate absolute inset-x-6 top-12 bottom-0 -translate-y-3 bg-linear-to-r/increasing from-pink-400 to-purple-400\"></div>\n      </div>\n      <div className=\"bg-illustration relative overflow-hidden rounded-2xl border border-transparent px-6 py-3 shadow-md ring-1 shadow-black/5 ring-foreground/10\">\n        <Integration\n          icon={<Gemini />}\n          name=\"Gemini\"\n          description=\"The AI model that powers Google's search engine.\"\n        />\n        <Integration\n          icon={<Replit />}\n          name=\"Replit\"\n          description=\"The AI model that powers Google's search engine.\"\n        />\n      </div>\n    </div>\n  </div>\n)\n\nconst Integration = ({\n  icon,\n  name,\n  description,\n}: {\n  icon: React.ReactNode\n  name: string\n  description: string\n}) => {\n  return (\n    <div className=\"grid max-w-xs grid-cols-[auto_1fr_auto] items-center gap-3 border-b border-dashed py-3 last:border-b-0\">\n      <div className=\"flex size-12 items-center justify-center rounded-lg border border-foreground/5 bg-muted *:size-5\">\n        {icon}\n      </div>\n      <div className=\"space-y-0.5\">\n        <h3 className=\"text-sm font-medium\">{name}</h3>\n        <p className=\"line-clamp-1 text-sm text-muted-foreground\">\n          {description}\n        </p>\n      </div>\n      <div className={buttonVariants({ variant: \"outline\", size: \"icon\" })}>\n        <Plus className=\"size-4\" />\n      </div>\n    </div>\n  )\n}\n\nexport default IntegrationsIllustration\n"
+    }
+  ]
+}

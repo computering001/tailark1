@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "schedule",
+  "type": "registry:component",
+  "title": "Schedule Illustration",
+  "description": "Tailark schedule illustration",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/toggle-group"
+  ],
+  "meta": {
+    "category": "workspace",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/schedule.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/schedule.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport { buttonVariants } from \"@/components/ui/button\"\nimport {\n  ToggleGroup,\n  ToggleGroupItem,\n} from \"@/components/ui/toggle-group\"\nimport {\n  Calendar1,\n  Bold,\n  Italic,\n  Strikethrough,\n  Underline,\n  Ellipsis,\n} from \"lucide-react\"\n\nexport const ScheduleIllustration = ({ className }: { className?: string }) => {\n  return (\n    <div aria-hidden className={cn(\"relative pt-8\", className)}>\n      <div\n        className={cn(\n          \"absolute flex -translate-x-1/8 translate-y-[-110%] items-center gap-2 rounded-xl border border-foreground/10 bg-background p-1 shadow-md shadow-black/6.5\"\n        )}\n      >\n        <div\n          className={buttonVariants({\n            size: \"sm\",\n            variant: \"default\",\n            className: \"ml-0.5 [--color-primary-foreground:var(--color-white)]\",\n          })}\n        >\n          <Calendar1 className=\"size-3\" />\n          <span className=\"text-sm font-medium\">Schedule</span>\n        </div>\n        <span className=\"block h-4 w-px bg-border\"></span>\n        <ToggleGroup type=\"multiple\" size=\"sm\" className=\"gap-0.5 *:rounded-md\">\n          <ToggleGroupItem value=\"bold\" aria-label=\"Toggle bold\">\n            <Bold className=\"size-4\" />\n          </ToggleGroupItem>\n          <ToggleGroupItem value=\"italic\" aria-label=\"Toggle italic\">\n            <Italic className=\"size-4\" />\n          </ToggleGroupItem>\n          <ToggleGroupItem value=\"underline\" aria-label=\"Toggle underline\">\n            <Underline className=\"size-4\" />\n          </ToggleGroupItem>\n          <ToggleGroupItem\n            value=\"strikethrough\"\n            aria-label=\"Toggle strikethrough\"\n          >\n            <Strikethrough className=\"size-4\" />\n          </ToggleGroupItem>\n        </ToggleGroup>\n        <span className=\"block h-4 w-px bg-border\"></span>\n        <div\n          className={buttonVariants({\n            size: \"icon\",\n            variant: \"ghost\",\n          })}\n        >\n          <Ellipsis className=\"size-3\" />\n        </div>\n      </div>\n      <span>\n        <span className=\"bg-primary/10 py-1 font-medium text-foreground\">\n          Tomorrow 8:30 pm\n        </span>{\" \"}\n        is our priority.\n      </span>\n    </div>\n  )\n}\n\nexport default ScheduleIllustration\n"
+    }
+  ]
+}

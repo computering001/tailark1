@@ -1,0 +1,22 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "face-scan-2",
+  "type": "registry:component",
+  "title": "Face Scan Illustration",
+  "description": "Tailark 2 face-scan illustration",
+  "dependencies": [
+    "motion"
+  ],
+  "meta": {
+    "category": "scan",
+    "variant": "2"
+  },
+  "files": [
+    {
+      "path": "illustrations/face-scan-2.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/face-scan-2.tsx",
+      "content": "\"use client\"\nimport { cn } from \"@/lib/utils\"\nimport { LazyMotion, domAnimation, m } from \"motion/react\"\nimport Image from \"next/image\"\n\nexport const FaceScan2Illustration = () => {\n  return (\n    <LazyMotion features={domAnimation}>\n    <div\n      aria-hidden\n      className=\"group relative mask-[radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]\"\n    >\n      <div className=\"group relative\">\n        <div className=\"absolute inset-x-17 top-1/4 bottom-1/4 z-1 mx-auto rounded border border-white/10 bg-white/15 bg-radial from-sky-500/25 to-transparent\">\n          <CardDecorator className=\"animate-breathing\" />\n        </div>\n        <div className=\"aspect-square size-56\">\n          <Image\n            src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/human-face_kf9mt7.png\"\n            alt=\"Woman face\"\n            className=\"inverted size-full object-cover contrast-105 grayscale\"\n            width={224}\n            height={224}\n          />\n        </div>\n\n        <div className=\"absolute inset-0 isolate mix-blend-plus-lighter transition-none duration-300\">\n          <m.div\n            initial={{ opacity: 0.5, maskSize: \"100% 0%\" }}\n            animate={{\n              opacity: 1,\n              maskSize: [\"100% 0%\", \"100% 100%\", \"100% 500%\"],\n            }}\n            transition={{\n              opacity: { duration: 0.75, delay: 2 },\n              maskSize: {\n                duration: 5,\n                delay: 2,\n                repeat: Infinity,\n                ease: \"easeInOut\",\n              },\n            }}\n            className=\"absolute inset-0 aspect-square size-56 max-w-xs bg-[url('https://raw.githubusercontent.com/tailark/assets/refs/heads/main/human-wire-face_lryi6q.png')] mask-[url('https://raw.githubusercontent.com/tailark/assets/refs/heads/main/mask-bg_v7vpk7.png')] bg-cover bg-position-[50%_50%] bg-no-repeat mask-no-repeat group-hover:opacity-95\"\n          />\n        </div>\n      </div>\n    </div>\n  \n    </LazyMotion>)\n}\n\nexport const CardDecorator = ({ className }: { className?: string }) => (\n  <>\n    <span\n      className={cn(\n        \"absolute -top-px -left-px block size-2 rounded-tl border-t-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -top-px -right-px block size-2 rounded-tr border-t-[1.5px] border-r-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -bottom-px -left-px block size-2 rounded-bl border-b-[1.5px] border-l-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n    <span\n      className={cn(\n        \"absolute -right-px -bottom-px block size-2 rounded-br border-r-[1.5px] border-b-[1.5px] border-white\",\n        className\n      )}\n    ></span>\n  </>\n)\n\nexport default FaceScan2Illustration\n"
+    }
+  ]
+}

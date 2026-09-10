@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-5",
+  "type": "registry:block",
+  "title": "Integrations 5",
+  "description": "Tailark integrations variant 5 block",
+  "registryDependencies": [
+    "@tailark/core-claude",
+    "@tailark/core-gemini",
+    "@tailark/core-open-ai",
+    "@tailark/core-stripe",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "60/19",
+    "width": 686,
+    "height": 217
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/five/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-5.tsx",
+      "content": "import { Gemini } from '@/components/ui/svgs/gemini'\nimport { Claude } from '@/components/ui/svgs/claude'\nimport { OpenAI } from '@/components/ui/svgs/open-ai'\nimport { Vercel } from '@/components/ui/svgs/vercel'\nimport { Stripe } from '@/components/ui/svgs/stripe'\n\nexport default function IntegrationsSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid grid-cols-4 grid-rows-6 border *:border-dashed md:grid-cols-10 md:grid-rows-3\">\n                    <div className=\"col-span-full row-span-3 space-y-4 p-8 md:col-span-7\">\n                        <h2 className=\"text-balance text-3xl font-semibold md:text-4xl tracking-tight\">Seamlessly Integrate with your favorite Tools</h2>\n                        <p className=\"text-muted-foreground text-balance md:text-lg\">Each Kit is a full recreation of every shadcn/ui component, plus extra elements, all crafted with precision and an eye for modern trends. In addition to having a unique design style.</p>\n                    </div>\n\n                    <div className=\"col-start-4 flex items-center justify-center border-b border-l max-md:row-start-4 max-md:border-t md:col-start-10\">\n                        <Gemini className=\"size-6\" />\n                    </div>\n\n                    <div className=\"col-start-3 row-start-5 flex items-center justify-center border-l border-t md:col-start-9 md:row-start-2\">\n                        <Vercel className=\"size-6\" />\n                    </div>\n                    <div className=\"col-start-4 row-start-5 flex items-center justify-center border-l md:col-start-10 md:row-start-2\">\n                        <Claude className=\"size-6\" />\n                    </div>\n                    <div className=\"col-start-2 row-start-6 flex items-center justify-center border-l border-t md:col-start-8 md:row-start-3\">\n                        <OpenAI className=\"size-6\" />\n                    </div>\n                    <div className=\"col-start-3 col-end-5 row-start-6 flex items-center justify-center border-l border-t md:col-start-9 md:col-end-11 md:row-start-3\">\n                        <Stripe className=\"h-6 w-16\" />\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

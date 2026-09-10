@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "core-copyright-year",
+  "type": "registry:ui",
+  "title": "Copyright Year",
+  "description": "Cached current year for copyright footers",
+  "files": [
+    {
+      "path": "core/ui/copyright-year.tsx",
+      "type": "registry:ui",
+      "target": "@ui/copyright-year.tsx",
+      "content": "import { cacheLife } from \"next/cache\"\n\nexport async function CopyrightYear() {\n  \"use cache\"\n  cacheLife(\"max\")\n  return new Date().getFullYear()\n}\n"
+    }
+  ]
+}

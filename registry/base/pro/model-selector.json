@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "model-selector",
+  "type": "registry:component",
+  "title": "Model Selector Illustration",
+  "description": "Tailark model-selector illustration",
+  "registryDependencies": [
+    "@tailark/core-claude",
+    "@tailark/core-openai",
+    "@tailark/core-gemini"
+  ],
+  "meta": {
+    "col-span": "2",
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/model-selector.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/model-selector.tsx",
+      "content": "import { Check, ChevronDown } from \"lucide-react\"\nimport { Claude } from \"@/components/ui/svgs/claude\"\nimport { Openai } from \"@/components/ui/svgs/openai\"\nimport { Gemini } from \"@/components/ui/svgs/gemini\"\n\nexport const ModelSelectorIllustration = () => {\n  return (\n    <div aria-hidden className=\"min-w-sm mask-b-from-65% px-4 pt-1\">\n      <div className=\"ring-border-illustration rounded-t-2xl bg-card/75 p-2 shadow-lg ring-1 shadow-black/6.5\">\n        <div className=\"px-3 py-2 text-sm font-medium\">Select AI Model</div>\n\n        <div className=\"ring-border-illustration space-y-3 rounded-2xl bg-background p-3 ring-1\">\n          <div className=\"bg-illustration group cursor-pointer rounded-lg p-3 shadow-md ring-1 shadow-primary/10 ring-primary/40 transition-shadow\">\n            <div className=\"flex items-start justify-between gap-2\">\n              <div>\n                <Openai className=\"size-4 fill-foreground\" />\n              </div>\n              <div className=\"flex-1\">\n                <div className=\"flex items-center gap-2\">\n                  <div className=\"text-sm font-semibold\">GPT-4 Turbo</div>\n                  <div className=\"rounded-full bg-primary/10 px-1.5 py-0.5 text-[10px] font-medium text-primary\">\n                    Recommended\n                  </div>\n                </div>\n                <div className=\"mt-1 text-xs text-muted-foreground\">\n                  Most capable, best for complex tasks\n                </div>\n              </div>\n              <Check className=\"size-4 shrink-0 text-primary\" />\n            </div>\n          </div>\n\n          <div className=\"hover:ring-border-illustration/80 bg-illustration ring-border-illustration group cursor-pointer rounded-lg p-3 ring-1 transition-colors hover:bg-foreground/5\">\n            <div className=\"flex items-start justify-between gap-2\">\n              <div>\n                <Claude className=\"size-4\" />\n              </div>\n              <div className=\"flex-1\">\n                <div className=\"text-sm font-semibold\">Claude 4.5 Sonnet</div>\n                <div className=\"mt-1 text-xs text-muted-foreground\">\n                  Balanced performance and speed\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div className=\"hover:ring-border-illustration/80 bg-illustration ring-border-illustration group cursor-pointer rounded-lg p-3 ring-1 transition-colors hover:bg-foreground/5\">\n            <div className=\"flex items-start justify-between gap-2\">\n              <div>\n                <Gemini className=\"size-4\" />\n              </div>\n              <div className=\"flex-1\">\n                <div className=\"text-sm font-semibold\">Gemini 2.0 Flash</div>\n                <div className=\"mt-1 text-xs text-muted-foreground\">\n                  Balanced performance and speed\n                </div>\n              </div>\n            </div>\n          </div>\n        </div>\n\n        <div className=\"mt-3 flex w-full items-center justify-between rounded-lg border border-border px-3 py-2 text-xs transition-colors hover:bg-muted\">\n          <span>View all models</span>\n          <ChevronDown className=\"size-3\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default ModelSelectorIllustration\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "Tailark Base UI Card component",
+  "registryDependencies": [
+    "@tailark/core-utils"
+  ],
+  "files": [
+    {
+      "path": "ui/card.tsx",
+      "type": "registry:ui",
+      "target": "@ui/card.tsx",
+      "content": "import * as React from \"react\"\nimport { cn } from \"@/lib/utils\"\n\ntype CardProps = React.ComponentProps<\"div\"> & {\n  render?: React.ReactElement\n}\n\nfunction Card({ className, render, children, ...props }: CardProps) {\n  const classes = cn(\n    \"rounded-xl bg-card text-card-foreground shadow ring shadow-black/6.5 ring-border\",\n    className\n  )\n\n  if (render) {\n    const renderProps = render.props as {\n      className?: string\n      children?: React.ReactNode\n    }\n\n    return React.cloneElement(\n      render as React.ReactElement<Record<string, unknown>>,\n      {\n        ...props,\n        className: cn(classes, renderProps.className),\n        // Prefer children already provided inside `render={...}`\n        children: children ?? renderProps.children,\n      }\n    )\n  }\n\n  return (\n    <div data-slot=\"card\" className={classes} {...props}>\n      {children}\n    </div>\n  )\n}\n\nfunction CardHeader({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-header\"\n      className={cn(\"flex flex-col gap-1.5 p-6\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardTitle({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-title\"\n      className={cn(\"leading-none font-semibold tracking-tight\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardDescription({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-description\"\n      className={cn(\"text-sm text-muted-foreground\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardContent({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-content\"\n      className={cn(\"p-6 pt-0\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardFooter({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-footer\"\n      className={cn(\"flex items-center p-6 pt-0\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }\n"
+    }
+  ]
+}

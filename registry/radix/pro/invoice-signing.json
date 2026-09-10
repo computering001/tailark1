@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "invoice-signing",
+  "type": "registry:component",
+  "title": "Invoice Illustration",
+  "description": "Tailark signing invoice illustration",
+  "registryDependencies": [
+    "@tailark/core-logo"
+  ],
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "signing"
+  },
+  "files": [
+    {
+      "path": "illustrations/invoice-signing.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/invoice-signing.tsx",
+      "content": "import { LogoIcon } from \"@/components/ui/logo\"\nimport { cn } from \"@/lib/utils\"\n\nexport const InvoiceSigningIllustration = ({\n  className,\n}: {\n  className?: string\n}) => {\n  return (\n    <div aria-hidden className={cn(\"mask-b-from-65% px-4 pt-4\", className)}>\n      <div className=\"ring-border-illustration relative min-w-xs overflow-hidden rounded-2xl bg-card p-8 text-sm shadow-lg ring-1 shadow-black/6.5\">\n        <div className=\"space-y-0.5\">\n          <LogoIcon />\n          <div className=\"mt-4 font-mono text-xs\">INV-456789</div>\n          <div className=\"mt-1 -translate-x-1 font-mono text-2xl font-semibold\">\n            $284,342.57\n          </div>\n          <div className=\"text-xs font-medium\">Due in 15 days</div>\n        </div>\n\n        <div className=\"my-6 flex h-24 items-center justify-center rounded-md border border-dashed border-foreground/15 bg-foreground/5\">\n          <div className=\"border-b px-6 font-serif\">Sign here</div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default InvoiceSigningIllustration\n"
+    }
+  ]
+}

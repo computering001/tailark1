@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-11",
+  "type": "registry:block",
+  "title": "Secondary Hero 11",
+  "description": "Tailark secondary-hero variant 11 block",
+  "dependencies": [
+    "motion"
+  ],
+  "meta": {
+    "aspect-ratio": "45/50",
+    "width": 686,
+    "height": 762
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/eleven/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-11.tsx",
+      "content": "import React from 'react'\nimport { Image } from '@/components/illustrations/image'\n\nexport default function HeroSection() {\n    return (\n        <section>\n            <div className=\"pb-56 pt-56 lg:pt-96\">\n                <div className=\"mx-auto mb-8 max-w-6xl px-6 lg:mb-12 lg:px-12\">\n                    <h1 className=\"text-balance text-4xl font-semibold md:text-5xl tracking-tight\">Building the next generation of AI-powered Marketing Tools</h1>\n                </div>\n                <Image />\n                <div className=\"mx-auto mt-8 max-w-6xl px-6 lg:mt-12 lg:px-12\">\n                    <div className=\"grid gap-6 md:grid-cols-2 md:gap-12\">\n                        <p className=\"text-muted-foreground\">\n                            Our advanced visual processing system can <strong className=\"text-foreground font-semibold\">analyze and interpret complex images</strong>, enabling applications from medical diagnostics to autonomous navigation and content moderation.\n                        </p>\n\n                        <p className=\"text-muted-foreground\">\n                            Our platform <strong className=\"text-foreground font-semibold\">integrates text, image, and audio processing</strong> into a unified framework, creating more intuitive and powerful AI systems that understand the world more like humans do.\n                        </p>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/secondary-hero/eleven/illustrations/image.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/image.tsx",
+      "content": "'use client'\nimport { LazyMotion, domAnimation, m, useScroll, useTransform, useMotionTemplate } from 'motion/react'\n\nexport const Image = () => {\n    const { scrollY } = useScroll()\n\n    const maxClip = 5\n    const maxScale = 1.4\n    const scale = useTransform(scrollY, [0, 1500], [maxScale, 1], { clamp: true })\n    const clip = useTransform(scrollY, [0, 500], [maxClip, 0], { clamp: true })\n    const clipPath = useMotionTemplate`inset(${clip}% ${clip}% ${clip}% ${clip}% round 0.75rem)`\n\n    return (\n        <LazyMotion features={domAnimation}>\n        <m.div\n            className=\"perspective-near aspect-3/2 mx-auto max-w-7xl overflow-hidden md:aspect-video\"\n            style={{ clipPath }}>\n            <m.img\n                src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/flower_a5umwb.webp\"\n                alt=\"flower background\"\n                style={{ scale }}\n                className=\"origin-top\"\n                width={2270}\n                height={1578}\n            />\n        </m.div>\n    \n        </LazyMotion>)\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "features-2",
+  "type": "registry:block",
+  "title": "Features 2",
+  "description": "Tailark features variant 2 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-gemini",
+    "@tailark/core-replit"
+  ],
+  "meta": {
+    "aspect-ratio": "32/13",
+    "width": 686,
+    "height": 279
+  },
+  "files": [
+    {
+      "path": "blocks/features/two/index.tsx",
+      "type": "registry:component",
+      "target": "@components/features-2.tsx",
+      "content": "import { Message } from '@/components/illustrations/message'\nimport { Integrations } from '@/components/illustrations/integrations'\n\nexport default function FeaturesSection() {\n    return (\n        <section className=\"bg-background @container py-24\">\n            <div className=\"mx-auto w-full max-w-5xl px-6\">\n                <div className=\"ring-border @4xl:grid-cols-2 @max-4xl:divide-y @4xl:divide-x bg-card/50 relative grid overflow-hidden rounded-2xl border border-transparent shadow-md shadow-black/5 ring-1\">\n                    <div className=\"row-span-2 grid grid-rows-subgrid gap-8 p-8\">\n                        <div className=\"mx-auto max-w-xs self-center\">\n                            <Message />\n                        </div>\n                        <div className=\"mx-auto max-w-sm text-center\">\n                            <h3 className=\"text-balance font-semibold\">Powerful analytics dashboard</h3>\n                            <p className=\"text-muted-foreground mt-3 text-balance\">Track performance metrics with real-time data visualization and customizable reports for informed.</p>\n                        </div>\n                    </div>\n                    <div className=\"row-span-2 grid grid-rows-subgrid gap-8 p-8\">\n                        <div className=\"@4xl:px-8 mx-auto max-w-sm\">\n                            <Integrations />\n                        </div>\n                        <div className=\"relative z-10 mx-auto max-w-sm text-center\">\n                            <h3 className=\"text-balance font-semibold\">Streamlined invoicing system</h3>\n                            <p className=\"text-muted-foreground mt-3 text-balance\">Generate, send, and manage professional invoices automatically with integrated payment tracking.</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/features/two/illustrations/integrations.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/integrations.tsx",
+      "content": "import { buttonVariants } from '@/components/ui/button'\nimport { Link, Plus } from 'lucide-react'\nimport { Gemini } from '@/components/ui/svgs/gemini'\nimport { Replit } from '@/components/ui/svgs/replit'\n\nexport const Integrations = () => (\n    <div\n        aria-hidden\n        className=\"bg-foreground/5 group rounded-2xl\">\n        <div className=\"flex items-center gap-1.5 px-6 py-2.5 text-sm font-medium\">\n            <Link className=\"size-3.5 opacity-50\" />\n            Integrations\n        </div>\n        <div className=\"relative\">\n            <div className=\"absolute inset-0 scale-100 opacity-100 blur-lg transition-opacity duration-300\">\n                <div className=\"bg-linear-to-r/increasing animate-hue-rotate absolute inset-x-6 bottom-0 top-12 -translate-y-3 from-pink-400 to-purple-400\"></div>\n            </div>\n            <div className=\"bg-card ring-foreground/10 relative overflow-hidden rounded-2xl border border-transparent px-6 py-3 shadow-md shadow-black/5 ring-1\">\n                <Integration\n                    icon={<Gemini />}\n                    name=\"Gemini\"\n                    description=\"The AI model that powers Google's search engine.\"\n                />\n                <Integration\n                    icon={<Replit />}\n                    name=\"Replit\"\n                    description=\"The AI model that powers Google's search engine.\"\n                />\n            </div>\n        </div>\n    </div>\n)\n\nconst Integration = ({ icon, name, description }: { icon: React.ReactNode; name: string; description: string }) => {\n    return (\n        <div className=\"grid grid-cols-[auto_1fr_auto] items-center gap-3 border-b border-dashed py-3 last:border-b-0\">\n            <div className=\"bg-muted border-foreground/5 flex size-12 items-center justify-center rounded-lg border *:size-5\">{icon}</div>\n            <div className=\"space-y-0.5\">\n                <h3 className=\"text-sm font-medium\">{name}</h3>\n                <p className=\"text-muted-foreground line-clamp-1 text-sm\">{description}</p>\n            </div>\n            <div className={buttonVariants({ variant: 'outline', size: 'icon' })}>\n                <Plus className=\"size-4\" />\n            </div>\n        </div>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/features/two/illustrations/message.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/message.tsx",
+      "content": "import Image from 'next/image'\n\nconst MESCHAC_AVATAR = 'https://avatars.githubusercontent.com/u/47919550?v=4'\n\nexport const Message = () => (\n    <div aria-hidden>\n        <div className=\"flex items-center gap-2\">\n            <Image\n                src={MESCHAC_AVATAR}\n                className=\"size-4 rounded-full\"\n                alt=\"Méschac Irung\"\n                loading=\"lazy\"\n                width=\"46\"\n                height=\"46\"\n            />\n            <span className=\"text-sm\">Irung</span>\n        </div>\n\n        <div className=\"bg-illustration ring-border-illustration mt-2 w-fit rounded-2xl rounded-tl border border-transparent p-3 text-sm shadow shadow-black/10 ring-1\">\n            Hey <span className=\"text-primary\">@bernard</span>, I've updated the dashboard metrics.\n        </div>\n    </div>\n)\n"
+    }
+  ]
+}

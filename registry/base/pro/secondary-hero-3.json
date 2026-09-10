@@ -1,0 +1,37 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-3",
+  "type": "registry:block",
+  "title": "Secondary Hero 3",
+  "description": "Tailark secondary-hero variant 3 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-claude",
+    "@tailark/core-cloudflare",
+    "@tailark/core-gemini",
+    "@tailark/core-linear",
+    "@tailark/core-open-ai",
+    "@tailark/core-replit",
+    "@tailark/core-vercel",
+    "@tailark/core-vs-codium"
+  ],
+  "meta": {
+    "aspect-ratio": "80/41",
+    "width": 686,
+    "height": 352
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-3.tsx",
+      "content": "import React from 'react'\nimport Link from 'next/link'\nimport { Button } from '@/components/ui/button'\nimport { Integrations } from '@/components/illustrations/integrations'\n\nexport default function HeroSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <Integrations />\n\n                <div className=\"mx-auto mt-20 max-w-2xl text-center\">\n                    <span className=\"text-primary bg-primary/5 border-primary/10 rounded-full border px-2 py-1 text-sm font-medium\">Integrations</span>\n                    <h1 className=\"mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl tracking-tight\">Connect all your preferred applications</h1>\n                    <p className=\"text-muted-foreground mx-auto mb-6 mt-4 max-w-xl text-balance text-lg\">With Tailark's integrations, connect with all your preferred applications and get your projects to the finish line faster.</p>\n\n                    <Button\n                        render={<Link href=\"#link\">Browse Integrations</Link>}\n                        nativeButton={false}\n                    />\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/secondary-hero/three/illustrations/integrations.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/integrations.tsx",
+      "content": "import { OpenAI } from '@/components/ui/svgs/open-ai'\nimport { Linear } from '@/components/ui/svgs/linear'\nimport { Vercel } from '@/components/ui/svgs/vercel'\nimport { Cloudflare } from '@/components/ui/svgs/cloudflare'\nimport { Claude } from '@/components/ui/svgs/claude'\nimport { Gemini } from '@/components/ui/svgs/gemini'\nimport { Replit } from '@/components/ui/svgs/replit'\nimport { VSCodium } from '@/components/ui/svgs/vs-codium'\n\nexport const Integrations = () => {\n    return (\n        <div>\n            <div className=\"relative mx-auto max-w-sm\">\n                <div className=\"w-1/7 border-foreground/10 absolute -bottom-64 -top-16 left-0 border-l border-dashed\" />\n                <div className=\"w-1/7 left-1/7 border-foreground/10 -top-13 absolute -bottom-56 border-l border-dashed\" />\n                <div className=\"w-1/7 left-2/7 border-foreground/10 absolute -bottom-52 -top-9 border-l border-dashed\" />\n                <div className=\"w-1/7 left-3/7 border-foreground/10 absolute -bottom-48 -top-6 border-x border-dashed\" />\n                <div className=\"w-1/7 left-5/7 border-foreground/10 absolute -bottom-52 -top-9 border-x border-dashed\" />\n                <div className=\"w-1/7 left-6/7 border-foreground/10 -top-13 absolute -bottom-64 border-r border-dashed\" />\n            </div>\n            <div className=\"lg:before:mask-x-from-85% before:border-foreground/10 relative mx-auto max-w-xl before:absolute before:inset-0 before:border-t before:border-dashed\">\n                <div className=\"*:bg-illustration *:ring-border shadow-black/6.5 mx-auto grid max-w-sm grid-cols-7 *:relative *:flex *:aspect-square *:items-center *:justify-center *:rounded-lg *:shadow-md *:ring-1\">\n                    <div className=\"col-start-4\">\n                        <Cloudflare className=\"size-5\" />\n                    </div>\n                    <div className=\"col-start-6\">\n                        <Gemini className=\"size-5\" />\n                    </div>\n                </div>\n            </div>\n            <div className=\"lg:before:mask-x-from-85% before:border-foreground/10 relative before:absolute before:inset-0 before:border-y before:border-dashed\">\n                <div className=\"mx-auto grid max-w-sm grid-cols-7 *:relative *:flex *:aspect-square *:items-center *:justify-center\">\n                    <div className=\"bg-foreground/3 -mr-px border\">\n                        <Vercel className=\"size-5\" />\n                    </div>\n                    <div className=\"bg-foreground/3 col-start-3 -mr-px border\">\n                        <VSCodium className=\"*:fill-foreground size-5\" />\n                    </div>\n                    <div className=\"bg-illustration ring-border-illustration shadow-black/6.5 col-start-5 rounded-lg shadow-md ring-1\">\n                        <Linear className=\"size-5\" />\n                    </div>\n                    <div className=\"bg-foreground/3 col-start-7 -mb-px -ml-px border\">\n                        <Replit className=\"*:fill-foreground size-5\" />\n                    </div>\n                </div>\n            </div>\n            <div className=\"lg:before:mask-x-from-85% before:border-foreground/10 relative mx-auto max-w-2xl before:absolute before:inset-0 before:border-b before:border-dashed\">\n                <div className=\"mx-auto grid max-w-sm grid-cols-7 *:relative *:flex *:aspect-square *:items-center *:justify-center\">\n                    <div className=\"bg-foreground/3 col-start-2 -mr-px -mt-px border\">\n                        <OpenAI className=\"size-5\" />\n                    </div>\n                    <div className=\"bg-illustration ring-border-illustration shadow-black/6.5 col-start-5 rounded-lg shadow-md ring-1\">\n                        <Claude className=\"size-5\" />\n                    </div>\n                </div>\n            </div>\n        </div>\n    )\n}\n"
+    }
+  ]
+}

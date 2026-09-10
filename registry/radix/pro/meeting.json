@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "meeting",
+  "type": "registry:component",
+  "title": "Meeting Illustration",
+  "description": "Tailark meeting illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/meeting.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/meeting.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport { Plus } from \"lucide-react\"\n\nconst agendaItems = [\n  { title: \"Review Q4 metrics\", duration: \"10 min\", completed: true },\n  { title: \"Discuss roadmap updates\", duration: \"15 min\", completed: true },\n  { title: \"Team announcements\", duration: \"5 min\", completed: false },\n  { title: \"Open discussion\", duration: \"10 min\", completed: false },\n]\n\nexport const MeetingIllustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"ring-border-illustration min-w-xs rounded-3xl bg-card/25 p-2 shadow-lg ring-1 shadow-black/4\"\n    >\n      <div className=\"flex items-center justify-between px-3 py-2\">\n        <span className=\"text-sm font-semibold\">Meeting Agenda</span>\n        <div className=\"rounded-full p-1 hover:bg-foreground/5\">\n          <Plus className=\"size-4 opacity-50\" />\n        </div>\n      </div>\n\n      <div className=\"bg-illustration space-y-1 rounded-2xl border border-border/50 p-2\">\n        {agendaItems.map((item, index) => (\n          <div\n            key={index}\n            className={cn(\n              \"flex items-center justify-between rounded-xl p-2\",\n              item.completed ? \"bg-foreground/5\" : \"\"\n            )}\n          >\n            <div className=\"flex items-center gap-2\">\n              <div\n                className={cn(\n                  \"flex size-5 items-center justify-center rounded-full border\",\n                  item.completed\n                    ? \"border-emerald-500 bg-emerald-500/10\"\n                    : \"border-foreground/20\"\n                )}\n              >\n                {item.completed && (\n                  <svg\n                    className=\"size-3 text-emerald-500\"\n                    fill=\"none\"\n                    viewBox=\"0 0 24 24\"\n                    stroke=\"currentColor\"\n                  >\n                    <path\n                      strokeLinecap=\"round\"\n                      strokeLinejoin=\"round\"\n                      strokeWidth={2}\n                      d=\"M5 13l4 4L19 7\"\n                    />\n                  </svg>\n                )}\n              </div>\n              <span\n                className={cn(\n                  \"text-sm\",\n                  item.completed ? \"text-foreground/50 line-through\" : \"\"\n                )}\n              >\n                {item.title}\n              </span>\n            </div>\n            <span className=\"text-xs text-muted-foreground\">\n              {item.duration}\n            </span>\n          </div>\n        ))}\n      </div>\n    </div>\n  )\n}\n\nexport default MeetingIllustration\n"
+    }
+  ]
+}

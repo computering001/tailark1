@@ -1,0 +1,166 @@
+"use client"
+
+import { cn } from "@/lib/utils"
+import { ArrowUp, SmilePlus, X } from "lucide-react"
+import Image from "next/image"
+import { useState } from "react"
+
+const SHADCN_AVATAR = "https://avatars.githubusercontent.com/u/124599?v=4"
+
+export const CollbarationCommentIllustration = () => {
+  const [reactions, setReactions] = useState([
+    { emoji: "🔥", count: 2, active: false },
+    { emoji: "🚀", count: 12, active: false },
+  ])
+
+  const [showComment, setShowComment] = useState(true)
+
+  const toggleReaction = (index: number) => {
+    setReactions((prev) =>
+      prev.map((reaction, i) =>
+        i === index
+          ? {
+              ...reaction,
+              count: reaction.active ? reaction.count - 1 : reaction.count + 1,
+              active: !reaction.active,
+            }
+          : reaction
+      )
+    )
+  }
+
+  const addReaction = () => {
+    const emojis = ["👍", "❤️", "😂", "😮", "😢", "👏"]
+    const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)]
+    const existingIndex = reactions.findIndex((r) => r.emoji === randomEmoji)
+
+    if (existingIndex >= 0) {
+      toggleReaction(existingIndex)
+    } else {
+      setReactions((prev) => [
+        ...prev,
+        { emoji: randomEmoji, count: 1, active: true },
+      ])
+    }
+  }
+
+  return (
+    <div>
+      <div className="peer py-12">
+        <div className="min-w-sm space-y-2 mask-radial-[100%_100%] mask-radial-from-65% mask-radial-at-top">
+          <div className="mb-4 size-20 rounded-2xl border border-border/50 bg-foreground/4"></div>
+
+          <div className="flex gap-2">
+            <div className="h-1 w-20 rounded bg-foreground/6.5" />
+            <div className="h-1 w-11/12 rounded bg-foreground/6.5" />
+            <div className="h-1 w-4/5 rounded bg-foreground/6.5" />
+          </div>
+
+          <div className="flex gap-2">
+            <div className="h-1 w-20 rounded bg-foreground/6.5" />
+            <div className="h-1 w-20 rounded bg-foreground/6.5" />
+            <div className="h-1 w-16 rounded bg-foreground/6.5" />
+          </div>
+          <div className="flex gap-2">
+            <div className="h-1 w-12 rounded bg-foreground/6.5" />
+            <div className="h-1 w-20 rounded bg-foreground/6.5" />
+            <div className="h-1 w-16 rounded bg-foreground/6.5" />
+          </div>
+          <div className="space-y-2">
+            <div className="h-1 w-full rounded bg-foreground/6.5" />
+            <div className="h-1 w-2/12 rounded bg-foreground/6.5" />
+            <div className="h-1 w-1/12 rounded bg-foreground/6.5" />
+          </div>
+        </div>
+      </div>
+      <div className="group absolute inset-0 m-auto flex size-fit min-w-sm justify-end gap-2">
+        <button
+          type="button"
+          aria-label={showComment ? "Hide comment" : "Show comment"}
+          onClick={() => setShowComment(!showComment)}
+          className="mt-1.5 h-fit shrink-0 cursor-pointer rounded-t-full rounded-r-full bg-primary p-1.5 shadow-md shadow-black/6.5"
+        >
+          <div className="relative size-6 overflow-hidden rounded-full border shadow-md before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20">
+            <Image src={SHADCN_AVATAR} alt="shadcn" width={56} height={56} />
+          </div>
+        </button>
+
+        <div
+          data-shown={showComment}
+          className="bg-illustration ring-border-illustration relative max-w-2xs origin-top-left rounded-2xl shadow-lg ring-1 shadow-black/6.5 transition-[opacity,transform] duration-200 not-data-[shown=true]:scale-99 not-data-[shown=true]:opacity-0 group-peer-active:scale-99"
+        >
+          <button
+            type="button"
+            aria-label="Close comment"
+            onClick={() => setShowComment(false)}
+            className="absolute top-1 right-1 flex size-7 rounded-full hover:bg-foreground/5"
+          >
+            <X className="m-auto size-3.5" />
+          </button>
+          <div className="grid grid-cols-[auto_1fr] gap-2.5 p-5">
+            <div className="relative size-7 overflow-hidden rounded-full shadow-md before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20">
+              <Image src={SHADCN_AVATAR} alt="shadcn" width={56} height={56} />
+            </div>
+            <div className="space-y-1.5">
+              <div className="flex items-end gap-1">
+                <div className="text-sm font-medium [text-trim:both]">
+                  Shadcn
+                </div>
+                <div className="border border-transparent text-xs text-foreground/50 [text-trim:both]">
+                  6:32 pm
+                </div>
+              </div>
+              <div>
+                <div className="text-sm/6 text-foreground/65">
+                  Hey team, I've been thinking about the new dashboard redesign.
+                </div>
+                <div className="mt-3 flex flex-wrap gap-2 text-muted-foreground *:cursor-pointer">
+                  {reactions.flatMap((reaction, index) =>
+                    reaction.count > 0
+                      ? [
+                          <button
+                            type="button"
+                            key={reaction.emoji}
+                            aria-pressed={reaction.active}
+                            aria-label={`${reaction.active ? "Remove" : "Add"} ${reaction.emoji} reaction`}
+                            onClick={() => toggleReaction(index)}
+                            className={cn(
+                              "flex h-6 items-center gap-1 rounded-full px-1.5 transition-colors select-none",
+                              reaction.active
+                                ? "bg-primary/20 ring-1 ring-primary/50"
+                                : "bg-foreground/5 hover:bg-foreground/6.5"
+                            )}
+                          >
+                            <span className="text-sm">{reaction.emoji}</span>
+                            <span className="text-xs font-medium">
+                              {reaction.count}
+                            </span>
+                          </button>,
+                        ]
+                      : []
+                  )}
+                  <button
+                    type="button"
+                    aria-label="Add reaction"
+                    onClick={addReaction}
+                    className="flex h-6 items-center gap-1 rounded-full bg-foreground/5 px-1.5 hover:bg-foreground/6.5"
+                  >
+                    <SmilePlus className="size-3.5" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex items-center justify-between border-t py-3 pr-3 pl-5">
+            <span className="text-sm text-foreground/40">Reply</span>
+            <div className="flex size-5 rounded-full border bg-foreground/10">
+              <ArrowUp className="m-auto size-3.5 opacity-50" strokeWidth={2} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default CollbarationCommentIllustration

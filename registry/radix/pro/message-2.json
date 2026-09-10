@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message-2",
+  "type": "registry:component",
+  "title": "Message Illustration",
+  "description": "Tailark 2 message illustration",
+  "meta": {
+    "category": "message",
+    "variant": "2"
+  },
+  "files": [
+    {
+      "path": "illustrations/message-2.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/message-2.tsx",
+      "content": "import { SmilePlus } from \"lucide-react\"\nimport Image from \"next/image\"\n\nconst SHADCN_AVATAR = \"https://avatars.githubusercontent.com/u/124599?v=4\"\n\nexport const Message2Illustration = () => (\n  <div aria-hidden className=\"min-w-xs\">\n    <div className=\"grid grid-cols-[auto_1fr] gap-2.5\">\n      <div className=\"relative size-9 overflow-hidden rounded-full shadow-md shadow-black/6.5 before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20\">\n        <Image src={SHADCN_AVATAR} alt=\"shadcn\" width={56} height={56} />\n      </div>\n      <div className=\"space-y-1.5\">\n        <div className=\"flex items-end gap-1\">\n          <div className=\"text-sm font-medium [text-trim:both]\">Shadcn</div>\n          <div className=\"border border-transparent text-xs text-foreground/50 [text-trim:both]\">\n            6:32 pm\n          </div>\n        </div>\n        <div>\n          <div className=\"text-sm/6 text-foreground/65\">\n            Hey team, I've been thinking about the new dashboard redesign.\n          </div>\n          <div className=\"mt-3 flex gap-2 text-muted-foreground *:cursor-pointer\">\n            <div className=\"flex h-7 items-center gap-1 rounded-full bg-foreground/5 px-2 hover:bg-foreground/6.5\">\n              <span className=\"text-base\">🔥</span>\n              <span className=\"text-xs font-medium\">2</span>\n            </div>\n            <div className=\"flex h-7 items-center gap-1 rounded-full bg-foreground/5 px-2 hover:bg-foreground/6.5\">\n              <span className=\"text-base\">🚀</span>\n              <span className=\"text-xs font-medium\">12</span>\n            </div>\n            <div className=\"flex h-7 items-center gap-1 rounded-full bg-foreground/5 px-2 hover:bg-foreground/6.5\">\n              <SmilePlus className=\"size-4\" />\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n)\n\nexport default Message2Illustration\n"
+    }
+  ]
+}

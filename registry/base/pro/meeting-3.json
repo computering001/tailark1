@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "meeting-3",
+  "type": "registry:component",
+  "title": "Meeting Illustration",
+  "description": "Tailark 3 meeting illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "3"
+  },
+  "files": [
+    {
+      "path": "illustrations/meeting-3.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/meeting-3.tsx",
+      "content": "import { Phone, ScreenShare, Video } from \"lucide-react\"\nimport Image from \"next/image\"\n\nexport const Meeting3Illustration = () => {\n  return (\n    <div aria-hidden className=\"rounded-3xl border border-border/50 p-2\">\n      <div className=\"ring-border-illustration max-w-sm min-w-80 rounded-2xl bg-card p-4 shadow-xl ring-1 shadow-black/6.5\">\n        <Video className=\"ml-2 size-5 stroke-transparent *:fill-zinc-500/45 *:first:fill-zinc-500\" />\n\n        <div className=\"relative mt-3 overflow-hidden rounded-lg shadow-md shadow-black/4 before:absolute before:inset-0 before:rounded-lg before:border before:border-dotted before:border-foreground/25\">\n          <div className=\"text-shadow absolute bottom-1 left-1 block rounded bg-black/20 px-1 py-0.5 text-xs text-white inset-ring-1 inset-ring-white/15 backdrop-blur\">\n            Maya\n          </div>\n\n          <Image\n            src=\"https://images.unsplash.com/photo-1758598304204-5bec31342d05?q=80&w=3132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\"\n            alt=\"woman in meet\"\n            width={800}\n            height={300}\n          />\n        </div>\n        <div className=\"relative flex justify-center px-3 pt-3\">\n          <div className=\"absolute top-3 bottom-0 left-2 my-auto flex h-fit gap-1 text-xs font-medium text-muted-foreground\">\n            5:54\n          </div>\n\n          <div className=\"flex gap-3\">\n            <div className=\"flex h-7 w-8 cursor-pointer items-center rounded-full bg-foreground/6.5 hover:bg-foreground/10\">\n              <ScreenShare className=\"m-auto size-4\" />\n            </div>\n            <div className=\"flex h-7 w-11 cursor-pointer items-center rounded-full bg-rose-500 shadow inset-ring-1 inset-ring-foreground/20\">\n              <Phone className=\"m-auto size-4 rotate-136 fill-white stroke-transparent\" />\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default Meeting3Illustration\n"
+    }
+  ]
+}

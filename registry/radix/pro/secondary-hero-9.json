@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-9",
+  "type": "registry:block",
+  "title": "Secondary Hero 9",
+  "description": "Tailark secondary-hero variant 9 block",
+  "meta": {
+    "aspect-ratio": "45/13",
+    "width": 686,
+    "height": 198
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/nine/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-9.tsx",
+      "content": "import React from 'react'\nimport { Search } from 'lucide-react'\n\nexport default function HeroSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-4xl text-center\">\n                    <span className=\"text-primary bg-primary/5 border-primary/10 rounded-full border px-2 py-1 text-sm font-medium\">Support</span>\n                    <h1 className=\"mt-4 text-balance text-4xl font-semibold md:text-5xl lg:text-6xl lg:tracking-tight tracking-tight\">How can we help?</h1>\n                    <p className=\"text-muted-foreground mb-6 mt-4 text-balance text-lg\">Find answers to your questions and get support for our services.</p>\n\n                    <div className=\"mx-auto max-w-lg\">\n                        <label\n                            htmlFor=\"search\"\n                            className=\"mb-2 block text-left text-sm font-medium\">\n                            Search support\n                        </label>\n                        <div className=\"relative\">\n                            <Search className=\"absolute left-5 top-1/2 size-4 -translate-y-1/2\" />\n                            <input\n                                type=\"text\"\n                                name=\"search\"\n                                id=\"search\"\n                                className=\"focus:ring-primary border-foreground/15 h-14 w-full rounded-full border py-3 pl-12 pr-4 outline-none focus:border-transparent focus:ring-2\"\n                                placeholder=\"Ask a question\"\n                            />\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

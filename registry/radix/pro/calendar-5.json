@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-5",
+  "type": "registry:component",
+  "title": "Calendar Illustration",
+  "description": "Tailark 5 calendar illustration",
+  "meta": {
+    "category": "workspace",
+    "variant": "5"
+  },
+  "files": [
+    {
+      "path": "illustrations/calendar-5.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/calendar-5.tsx",
+      "content": "import { CalendarDays, ListTodo } from \"lucide-react\"\n\nexport const Calendar5Illustration = () => {\n  return (\n    <div aria-hidden className=\"group min-w-2xs space-y-2\">\n      <div className=\"pt-32\">\n        <div className=\"bg-illustration ring-border-illustration absolute min-w-72 -translate-x-6.5 translate-y-[-102%] rounded-2xl border border-transparent shadow-lg ring-1 shadow-black/6.5 transition-transform duration-200 group-active:scale-99\">\n          <div className=\"grid grid-cols-2 divide-x divide-dashed border-b border-dashed pb-px\">\n            <div className=\"flex cursor-pointer flex-col items-center gap-1.5 rounded-tl-2xl p-4 hover:bg-muted dark:hover:bg-background\">\n              <div className=\"rounded-bl-0 flex size-9 rounded-3xl bg-foreground/5 *:m-auto\">\n                <CalendarDays className=\"size-4\" />\n              </div>\n              <div className=\"text-xs font-medium\">New Event</div>\n            </div>\n            <div className=\"flex cursor-pointer flex-col items-center gap-1.5 rounded-tr-2xl p-4 hover:bg-muted dark:hover:bg-background\">\n              <div className=\"flex size-9 rounded-3xl bg-foreground/5 *:m-auto\">\n                <ListTodo className=\"size-4\" />\n              </div>\n              <div className=\"text-xs font-medium\">New Reminder</div>\n            </div>\n          </div>\n          <div className=\"space-y-1 p-5 pt-4\">\n            <div className=\"text-sm font-medium text-foreground/50\">\n              Create Quick Event\n            </div>\n            <div className=\"flex h-8 items-center rounded-lg border bg-background pr-3 pl-2\">\n              <div className=\"h-4.5 w-0.5 animate-pulse rounded bg-primary\"></div>\n              <div className=\"text-sm font-medium text-foreground/50\">\n                Team standup meeting at 9am\n              </div>\n            </div>\n          </div>\n        </div>\n        <span className=\"text-foreground/65\">\n          <span className=\"border-b-2 border-primary py-0.5 text-foreground\">\n            Team standup meeting at 9am\n          </span>{\" \"}\n          has been added to your calendar.\n        </span>\n      </div>\n    </div>\n  )\n}\n\nexport default Calendar5Illustration\n"
+    }
+  ]
+}

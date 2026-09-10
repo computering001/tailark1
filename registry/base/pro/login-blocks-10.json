@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login-blocks-10",
+  "type": "registry:block",
+  "title": "Login Blocks 10",
+  "description": "Tailark login-blocks variant 10 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/input",
+    "@tailark/label",
+    "@tailark/core-logo",
+    "@tailark/core-slack",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "90/60",
+    "width": 686,
+    "height": 457
+  },
+  "files": [
+    {
+      "path": "blocks/login-blocks/ten/index.tsx",
+      "type": "registry:component",
+      "target": "@components/login-blocks-10.tsx",
+      "content": "import { Input } from '@/components/ui/input'\nimport { Label } from '@/components/ui/label'\nimport { Button } from '@/components/ui/button'\nimport { LogoIcon } from \"@/components/ui/logo\"\nimport { Vercel } from '@/components/ui/svgs/vercel'\nimport { Slack } from '@/components/ui/svgs/slack'\n\nimport Link from 'next/link'\n\nexport default function Login() {\n    return (\n        <main className=\"bg-background\">\n            <div className=\"flex min-h-dvh items-center justify-center p-6\">\n                <div className=\"m-auto w-full max-w-72 text-center\">\n                    <Link\n                        href=\"#\"\n                        aria-label=\"go home\"\n                        className=\"mx-auto flex size-10 *:m-auto\">\n                        <LogoIcon className=\"size-7\" />\n                    </Link>\n\n                    <div className=\"my-10 space-y-2\">\n                        <h1 className=\"text-xl font-semibold\">Sign in</h1>\n                        <p className=\"text-muted-foreground text-sm\">Please sign in to your account</p>\n                    </div>\n\n                    <div className=\"space-y-10\">\n                        <form\n                            action=\"\"\n                            className=\"space-y-5\">\n                            <div>\n                                <Label\n                                    className=\"sr-only\"\n                                    htmlFor=\"email\">\n                                    Email\n                                </Label>\n                                <Input\n                                    type=\"email\"\n                                    id=\"email\"\n                                    required\n                                    placeholder=\"Enter your email\"\n                                    className=\"w-full\"\n                                />\n                            </div>\n                            <Button\n                                type=\"submit\"\n                                className=\"w-full\">\n                                Continue with Email\n                            </Button>\n                        </form>\n\n                        <div className=\"grid grid-cols-2 gap-3\">\n                            <Button\n                                type=\"button\"\n                                className=\"w-full\"\n                                variant=\"outline\">\n                                <Vercel />\n                                Vercel\n                            </Button>\n\n                            <Button\n                                type=\"button\"\n                                className=\"w-full\"\n                                variant=\"outline\">\n                                <Slack />\n                                Slack\n                            </Button>\n                        </div>\n\n                        <div className=\"text-muted-foreground text-sm\">\n                            Don't have an account?{' '}\n                            <Link\n                                href=\"#\"\n                                className=\"text-primary font-medium hover:underline\">\n                                Sign up\n                            </Link>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </main>\n    )\n}\n"
+    }
+  ]
+}

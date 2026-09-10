@@ -1,0 +1,127 @@
+'use client'
+
+import Image from 'next/image'
+import { cn } from '@/lib/utils'
+import { useState } from 'react'
+import { LazyMotion, domAnimation, m, AnimatePresence } from 'motion/react'
+import { Globe, Bot, Brain } from 'lucide-react'
+import { Campaign } from '@/components/illustrations/campaign'
+import { Collaboration } from '@/components/illustrations/collaboration'
+import { Notes2 } from '@/components/illustrations/notes-2'
+
+const features = [
+    {
+        title: 'AI Models',
+        description: 'Switch between ChatGPT, Claude, and Gemini from a unified interface with seamless provider switching and consistent API responses.',
+        icon: Brain,
+        illustration: <Campaign />,
+        image: 'https://images.unsplash.com/photo-1723869791623-3b6a012f996b?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        title: 'Global Reach',
+        description: 'Collaborate in real time with teammates across the globe using live presence indicators, instant syncing, and automatic conflict resolution.',
+        icon: Globe,
+        illustration: <Collaboration />,
+        image: 'https://images.unsplash.com/photo-1721111648084-5e4f18a8635c?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        title: 'Smart Agent',
+        description: 'Automate repetitive tasks with context-aware AI agents that learn your workflow patterns and provide intelligent suggestions.',
+        icon: Bot,
+        illustration: <Notes2 />,
+        image: 'https://images.unsplash.com/photo-1770106678115-ec9aa241cdf6?q=80&w=2342&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+]
+
+export default function ExpandableFeatures() {
+    const [expandedIndex, setExpandedIndex] = useState<number>(0)
+
+    const handleSelect = (index: number) => {
+        if (index === expandedIndex) return
+        setExpandedIndex(index)
+    }
+
+    return (
+        <LazyMotion features={domAnimation}>
+        <section className="bg-background @container relative overflow-hidden py-24">
+            <div className="mx-auto my-1 max-w-6xl px-6">
+                <div className="bg-background relative mb-12 grid items-end gap-6 rounded-t-[15px] sm:mb-20 md:grid-cols-2 lg:gap-12 lg:px-12">
+                    <h2 className="text-foreground text-balance text-4xl font-semibold tracking-tight">Ship with confidence using our unified platform</h2>
+                    <p className="text-muted-foreground text-balance text-lg">Streamline your workflow with tools designed to enhance productivity at every step.</p>
+                </div>
+
+                <div className="mask-b-from-35% mask-b-to-95%">
+                    <div className="bg-background relative overflow-hidden rounded-t-2xl px-3 pt-3 sm:px-12 sm:pt-12">
+                        <AnimatePresence
+                            initial={false}
+                            mode="popLayout">
+                            <m.div
+                                variants={{
+                                    initial: { opacity: 0 },
+                                    animate: { opacity: 1 },
+                                    exit: { opacity: 0 },
+                                }}
+                                initial="initial"
+                                animate="animate"
+                                exit="exit"
+                                transition={{ duration: 0.5, type: 'spring', bounce: 0.1 }}
+                                className="bg-card *:scale-85 ring-border shadow-black/4 aspect-4/5 relative z-10 flex h-full items-center justify-center overflow-hidden rounded-xl shadow-md ring sm:aspect-square md:aspect-video"
+                                key={expandedIndex}>
+                                {features[expandedIndex].illustration}
+                            </m.div>
+                        </AnimatePresence>
+
+                        <AnimatePresence
+                            initial={false}
+                            mode="popLayout">
+                            <m.div
+                                key={expandedIndex}
+                                initial={{ opacity: 0 }}
+                                animate={{ opacity: 1 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.5 }}
+                                className="before:border-foreground/10 absolute inset-0 before:pointer-events-none before:absolute before:inset-0 before:z-10 before:rounded-t-2xl before:border">
+                                <div className="dither absolute inset-0 opacity-25 dark:opacity-30">
+                                    <Image
+                                        src={features[expandedIndex].image}
+                                        alt="feature background image"
+                                        fill
+                                        sizes="(max-width: 1151px) calc(100vw - 3rem), 1104px"
+                                        className="size-full object-cover opacity-50"
+                                    />
+                                </div>
+                                <Image
+                                    src={features[expandedIndex].image}
+                                    alt="feature background image"
+                                    fill
+                                    sizes="(max-width: 1151px) calc(100vw - 3rem), 1104px"
+                                    className="size-full object-cover opacity-50"
+                                />
+                            </m.div>
+                        </AnimatePresence>
+                    </div>
+                </div>
+
+                <div className="relative grid gap-px sm:grid-cols-2">
+                    <div className="py-4 max-md:-ml-3 md:px-3 md:px-9 md:py-10">
+                        {features.map((feature, index) => (
+                            <button type="button"
+                                key={feature.title}
+                                data-expanded={expandedIndex === index}
+                                onClick={() => handleSelect(index)}
+                                className="active:scale-98 not-data-[expanded=true]:hover:bg-foreground/5 group flex w-fit cursor-pointer items-center gap-3 rounded-lg px-3 py-2 text-left transition-[transform,background-color,color,box-shadow] duration-200">
+                                <feature.icon className={cn('size-4 shrink-0 transition-colors', expandedIndex === index ? 'text-foreground' : 'text-muted-foreground group-hover:text-foreground')} />
+                                <span className={cn('group-hover:text-foreground font-medium transition-colors', expandedIndex === index ? 'text-foreground' : 'text-muted-foreground')}>{feature.title}</span>
+                            </button>
+                        ))}
+                    </div>
+
+                    <div className="max-sm:rounded-l-[15px] sm:py-6 lg:p-12">
+                        <p className="text-muted-foreground text-balance">{features[expandedIndex].description}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        </LazyMotion>)
+}

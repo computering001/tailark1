@@ -1,0 +1,27 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "call-to-action-1",
+  "type": "registry:block",
+  "title": "Call To Action 1",
+  "description": "Tailark call-to-action variant 1 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/card",
+    "@tailark/core-logo"
+  ],
+  "meta": {
+    "aspect-ratio": "60/22",
+    "width": 686,
+    "height": 252,
+    "category-media": true,
+    "description": "A CTA section should not introduce a new argument. It should collect the momentum the page already built and point it at one action."
+  },
+  "files": [
+    {
+      "path": "blocks/call-to-action/one/index.tsx",
+      "type": "registry:component",
+      "target": "@components/call-to-action-1.tsx",
+      "content": "import { Button } from '@/components/ui/button'\nimport Link from 'next/link'\nimport { Card } from '@/components/ui/card'\nimport { LogoIcon } from \"@/components/ui/logo\"\n\nexport default function CallToAction() {\n    return (\n        <section className=\"bg-background py-12 md:py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <Card className=\"relative overflow-hidden p-8 shadow-lg md:px-32 md:py-20\">\n                    <LogoIcon\n                        uniColor\n                        aria-hidden\n                        className=\"text-foreground/10 pointer-events-none absolute inset-0 size-full translate-y-3/4\"\n                    />\n                    <div className=\"relative text-center\">\n                        <h2 className=\"text-foreground text-balance text-3xl font-semibold md:text-4xl tracking-tight\">Create, Sell and Grow</h2>\n                        <p className=\"text-muted-foreground mb-6 mt-4 text-balance\">Join a community of over 1000+ companies and developers who have already discovered the power of Tailark. </p>\n\n                        <Button\n                            render={<Link href=\"#\">Contact Sales</Link>}\n                            nativeButton={false}\n                        />\n                    </div>\n                </Card>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

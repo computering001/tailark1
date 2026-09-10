@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-3",
+  "type": "registry:component",
+  "title": "Ai Illustration",
+  "description": "Tailark 3 ai illustration",
+  "meta": {
+    "category": "ai",
+    "variant": "3"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-3.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-3.tsx",
+      "content": "import { Sparkles } from 'lucide-react'\n\nexport const AIIllustration3 = () => {\n    return (\n        <div\n            aria-hidden\n            className=\"min-w-xs shadow-black/6.5 ring-border-illustration bg-illustration rounded-2xl p-6 shadow ring-1\">\n            <div className=\"space-y-4\">\n                <div className=\"space-y-2\">\n                    <div className=\"bg-border-illustration h-1.5 rounded-full\"></div>\n                    <div className=\"flex items-center gap-1\">\n                        <div className=\"bg-border-illustration h-1.5 w-2/5 rounded-full\"></div>\n                        <div className=\"bg-border-illustration h-1.5 w-1/5 rounded-full\"></div>\n                        <div className=\"bg-border-illustration h-1.5 w-2/5 rounded-full\"></div>\n                    </div>\n                </div>\n\n                <div className=\"space-y-2\">\n                    <div className=\"flex items-center gap-1\">\n                        <div className=\"bg-border-illustration h-1.5 w-2/5 rounded-full\"></div>\n                        <div className=\"bg-border-illustration h-1.5 w-1/5 rounded-full\"></div>\n                    </div>\n                    <div className=\"flex items-center gap-1\">\n                        <div className=\"bg-border-illustration h-1.5 w-1/5 rounded-full\"></div>\n                        <div className=\"bg-border-illustration h-1.5 w-4/5 rounded-full\"></div>\n                    </div>\n                </div>\n            </div>\n\n            <div className=\"relative mt-6 h-8 w-fit overflow-hidden rounded-full p-px\">\n                <div className=\"bg-linear-to-br/increasing animate-hue-rotate absolute inset-0 from-pink-400 to-purple-400 opacity-50\"></div>\n                <div className=\"bg-illustration relative flex h-full items-center gap-2 rounded-full px-3 text-sm\">\n                    <Sparkles className=\"fill-foreground *:not-first:opacity-50 size-3\" />\n                    Summarize\n                </div>\n            </div>\n        </div>\n    )\n}\n\nexport default AIIllustration3\n"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "magic-ui-border-beam",
+  "type": "registry:component",
+  "title": "Border Beam",
+  "description": "Tailark Magic UI border-beam component",
+  "dependencies": [
+    "motion"
+  ],
+  "files": [
+    {
+      "path": "core/ui/magicui/border-beam.tsx",
+      "type": "registry:component",
+      "target": "@ui/magic-ui/border-beam.tsx",
+      "content": "'use client'\n\nimport { cn } from '@/lib/utils'\nimport { motion, type MotionStyle, type Transition } from 'motion/react'\n\ninterface BorderBeamProps {\n    /**\n     * The size of the border beam.\n     */\n    size?: number\n    /**\n     * The duration of the border beam.\n     */\n    duration?: number\n    /**\n     * The delay of the border beam.\n     */\n    delay?: number\n    /**\n     * The color of the border beam from.\n     */\n    colorFrom?: string\n    /**\n     * The color of the border beam to.\n     */\n    colorTo?: string\n    /**\n     * The motion transition of the border beam.\n     */\n    transition?: Transition\n    /**\n     * The class name of the border beam.\n     */\n    className?: string\n    /**\n     * The style of the border beam.\n     */\n    style?: React.CSSProperties\n    /**\n     * Whether to reverse the animation direction.\n     */\n    reverse?: boolean\n    /**\n     * The initial offset position (0-100).\n     */\n    initialOffset?: number\n}\n\nexport const BorderBeam = ({ className, size = 50, delay = 0, duration = 6, colorFrom = '#ffaa40', colorTo = '#9c40ff', transition, style, reverse = false, initialOffset = 0 }: BorderBeamProps) => {\n    return (\n        <div className=\"pointer-events-none absolute inset-0 rounded-[inherit] border border-transparent [mask-clip:padding-box,border-box] [mask-composite:intersect] [mask-image:linear-gradient(transparent,transparent),linear-gradient(#000,#000)]\">\n            <motion.div\n                className={cn('absolute aspect-square', 'bg-gradient-to-l from-[var(--color-from)] via-[var(--color-to)] to-transparent', className)}\n                style={\n                    {\n                        width: size,\n                        offsetPath: `rect(0 auto auto 0 round ${size}px)`,\n                        '--color-from': colorFrom,\n                        '--color-to': colorTo,\n                        ...style,\n                    } as MotionStyle\n                }\n                initial={{ offsetDistance: `${initialOffset}%` }}\n                animate={{\n                    offsetDistance: reverse ? [`${100 - initialOffset}%`, `${-initialOffset}%`] : [`${initialOffset}%`, `${100 + initialOffset}%`],\n                }}\n                transition={{\n                    repeat: Infinity,\n                    ease: 'linear',\n                    duration,\n                    delay: -delay,\n                    ...transition,\n                }}\n            />\n        </div>\n    )\n}\n"
+    }
+  ]
+}

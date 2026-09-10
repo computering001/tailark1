@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "veil-label",
+  "type": "registry:ui",
+  "title": "Label",
+  "description": "Tailark Veil label component",
+  "files": [
+    {
+      "path": "veil/ui/label.tsx",
+      "type": "registry:ui",
+      "content": "import * as React from 'react'\nimport { cn } from '@/lib/utils'\n\nfunction Label({ className, ...props }: React.ComponentProps) {\n    return (\n        <label\n            data-slot=\"label\"\n            className={cn('flex select-none items-center gap-2 text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-50 group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50', className)}\n            {...props}\n        />\n    )\n}\n\nexport { Label }\n",
+      "target": "@ui/label.tsx"
+    }
+  ]
+}

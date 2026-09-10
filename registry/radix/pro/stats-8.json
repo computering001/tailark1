@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-8",
+  "type": "registry:block",
+  "title": "Stats 8",
+  "description": "Tailark stats variant 8 block",
+  "dependencies": [
+    "dotted-map"
+  ],
+  "meta": {
+    "aspect-ratio": "60/28",
+    "width": 686,
+    "height": 320
+  },
+  "files": [
+    {
+      "path": "blocks/stats/eight/index.tsx",
+      "type": "registry:component",
+      "target": "@components/stats-8.tsx",
+      "content": "import { Map } from './map'\n\nexport default function StatsSection() {\n    return (\n        <section className=\"bg-background @container py-16 md:py-24\">\n            <div className=\"relative mx-auto max-w-5xl px-6\">\n                <div className=\"@max-md:scale-200 @max-md:mask-t-from-75%\">\n                    <Map />\n                </div>\n\n                <div className=\"@xl:absolute @xl:inset-x-6 @xl:bottom-0 relative\">\n                    <div className=\"**:text-center bg-card *:hover:bg-foreground/2 ring-border @xl:grid-cols-3 shadow-black/6.5 grid grid-cols-2 divide-x rounded-xl shadow-lg ring-1 *:p-6 sm:*:p-8\">\n                        <div className=\"space-y-2\">\n                            <div className=\"bg-linear-to-t from-foreground to-muted-foreground bg-clip-text text-3xl font-medium text-transparent md:text-5xl tracking-tight\">+85%</div>\n                            <p className=\"text-muted-foreground text-sm\">Conversion Rate</p>\n                        </div>\n                        <div className=\"@max-xl:border-0 space-y-2\">\n                            <div className=\"bg-linear-to-t from-foreground to-muted-foreground bg-clip-text text-3xl font-medium text-transparent md:text-5xl tracking-tight\">12K</div>\n                            <p className=\"text-muted-foreground text-sm\">Active Users</p>\n                        </div>\n                        <div className=\"@max-xl:hidden space-y-2\">\n                            <div className=\"bg-linear-to-t from-foreground to-muted-foreground bg-clip-text text-3xl font-medium text-transparent md:text-5xl tracking-tight\">40%</div>\n                            <p className=\"text-muted-foreground text-sm\">Revenue Growth</p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    },
+    {
+      "path": "blocks/stats/eight/map.tsx",
+      "type": "registry:component",
+      "target": "@components/map.tsx",
+      "content": "'use client'\nimport DottedMap from 'dotted-map'\n\nconst pins = [\n    { lat: 40.73061, lng: -73.935242 },\n    { lat: 48.8534, lng: 2.3488 },\n    { lat: 51.5074, lng: -0.1278 },\n    { lat: 35.6895, lng: 139.6917 },\n    { lat: 34.0522, lng: -118.2437 },\n    { lat: 55.7558, lng: 37.6173 },\n    { lat: 39.9042, lng: 116.4074 },\n    { lat: 19.4326, lng: -99.1332 },\n    { lat: 37.7749, lng: -122.4194 },\n    { lat: -33.8688, lng: 151.2093 },\n    { lat: 28.6139, lng: 77.209 },\n    { lat: 52.52, lng: 13.405 },\n    { lat: 41.9028, lng: 12.4964 },\n    { lat: 43.65107, lng: -79.347015 },\n    { lat: -23.55052, lng: -46.633308 },\n    { lat: 31.2304, lng: 121.4737 },\n    { lat: 55.9533, lng: -3.1883 },\n    { lat: 35.6762, lng: 139.6503 },\n    { lat: 1.3521, lng: 103.8198 },\n    { lat: 37.5665, lng: 126.978 },\n    { lat: 53.3498, lng: -6.2603 },\n    { lat: 30.0444, lng: 31.2357 },\n    { lat: 50.4501, lng: 30.5234 },\n    { lat: -34.6037, lng: -58.3816 },\n    { lat: 59.9343, lng: 30.3351 },\n    { lat: 25.276987, lng: 55.296249 },\n    { lat: 45.4642, lng: 9.19 },\n    { lat: -22.9068, lng: -43.1729 },\n    { lat: 40.4168, lng: -3.7038 },\n    { lat: 41.3851, lng: 2.1734 },\n    { lat: 13.7563, lng: 100.5018 },\n    { lat: 52.3676, lng: 4.9041 },\n    { lat: -37.8136, lng: 144.9631 },\n    { lat: 60.1695, lng: 24.9354 }, // Helsinki\n    { lat: 47.4979, lng: 19.0402 }, // Budapest\n    { lat: 59.3293, lng: 18.0686 }, // Stockholm\n    { lat: 35.9078, lng: 127.7669 }, // South Korea (center)\n    { lat: 40.4168, lng: -3.7038 }, // Madrid\n    { lat: 46.2044, lng: 6.1432 }, // Geneva\n    { lat: 33.8688, lng: 151.2093 }, // Sydney\n    { lat: 29.7604, lng: -95.3698 }, // Houston\n    { lat: 39.7392, lng: -104.9903 }, // Denver\n    { lat: -11.6647, lng: 27.4794 }, // Lubumbashi\n    { lat: -10.7026, lng: 25.5122 }, // Kolwezi\n    { lat: -4.4419, lng: 15.2663 }, // Kinshasa\n]\n\nexport const Map = () => {\n    const map = new DottedMap({ height: 55, grid: 'diagonal' })\n\n    pins.forEach((pin) => {\n        map.addPin({\n            ...pin,\n            svgOptions: { color: 'oklch(51.1% 0.262 276.966)', radius: 0.15 },\n        })\n    })\n\n    const svgMap = map.getSVG({\n        radius: 0.05,\n        color: 'oklch(37% 0.013 285.805)',\n        shape: 'circle',\n        backgroundColor: 'transparent',\n    })\n\n    return (\n        <img\n            src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}\n            alt=\"dotted map illustration\"\n        />\n    )\n}\n"
+    }
+  ]
+}

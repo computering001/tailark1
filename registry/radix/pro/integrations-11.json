@@ -1,0 +1,28 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-11",
+  "type": "registry:block",
+  "title": "Integrations 11",
+  "description": "Tailark integrations variant 11 block",
+  "registryDependencies": [
+    "@tailark/core-claude",
+    "@tailark/core-gemini",
+    "@tailark/core-google-palm",
+    "@tailark/core-linear",
+    "@tailark/core-open-ai",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "90/23",
+    "width": 686,
+    "height": 175
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/eleven/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-11.tsx",
+      "content": "import { Gemini } from '@/components/ui/svgs/gemini'\nimport { GooglePaLM } from '@/components/ui/svgs/google-palm'\nimport { Claude } from '@/components/ui/svgs/claude'\nimport { OpenAI } from '@/components/ui/svgs/open-ai'\nimport { Linear } from '@/components/ui/svgs/linear'\nimport { Vercel } from '@/components/ui/svgs/vercel'\n\nexport default function IntegrationsSection() {\n    return (\n        <section className=\"bg-background py-24\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-xl\">\n                    <div\n                        aria-hidden\n                        className=\"aspect-ratio *:ring-border grid grid-cols-8 gap-px *:flex *:aspect-square *:rounded-xl *:ring-1 sm:grid-cols-10\">\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <Linear className=\"m-auto size-6\" />\n                        </div>\n                        <div aria-hidden />\n                        <div />\n                        <div />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <Vercel className=\"m-auto size-6\" />\n                        </div>\n                        <div />\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n                        <div />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <Claude className=\"m-auto size-6\" />\n                        </div>\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <Gemini className=\"m-auto size-6\" />\n                        </div>\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <GooglePaLM className=\"m-auto size-6\" />\n                        </div>\n                        <div aria-hidden />\n                        <div className=\"bg-illustration relative shadow-md shadow-black/10\">\n                            <OpenAI className=\"m-auto size-6\" />\n                        </div>\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div aria-hidden />\n                        <div\n                            aria-hidden\n                            className=\"max-sm:hidden\"\n                        />\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "testimonials-4",
+  "type": "registry:block",
+  "title": "Testimonials 4",
+  "description": "Tailark testimonials variant 4 block",
+  "meta": {
+    "aspect-ratio": "90/36",
+    "width": 686,
+    "height": 274
+  },
+  "files": [
+    {
+      "path": "blocks/testimonials/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/testimonials-4.tsx",
+      "content": "import { Quote } from 'lucide-react'\nimport Image from 'next/image'\n\nconst MESCHAC_AVATAR = 'https://avatars.githubusercontent.com/u/47919550?v=4'\n\nexport default function TestimonialsSection() {\n    return (\n        <section className=\"bg-background py-16 md:py-32\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-2xl\">\n                    <Quote\n                        aria-hidden\n                        className=\"fill-illustration dark:stroke-muted-foreground stroke-illustration dark:fill-muted-foreground size-6 drop-shadow-md\"\n                    />\n                    <div className=\"mt-12\">\n                        <p className='md:text-3xl/9.5 text-xl font-medium before:mr-1 before:content-[\"\\201C\"] after:ml-1 after:content-[\"\\201D\"] tracking-tight'>Using Tailark has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>\n\n                        <div className=\"mt-12 flex items-center gap-3\">\n                            <div className=\"ring-foreground/10 aspect-square size-10 overflow-hidden rounded-full border border-transparent shadow-md shadow-black/15 ring-1\">\n                                <Image\n                                    src={MESCHAC_AVATAR}\n                                    alt=\"Méschac Irung's avatar\"\n                                    width={120}\n                                    height={120}\n                                    className=\"size-full object-cover\"\n                                />\n                            </div>\n                            <div className=\"space-y-px\">\n                                <p className=\"text-sm font-medium\">Méschac Irung</p>\n                                <p className=\"text-muted-foreground text-xs\">Founder & CEO, Stripe</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "testimonials-3",
+  "type": "registry:block",
+  "title": "Testimonials 3",
+  "description": "Tailark testimonials variant 3 block",
+  "registryDependencies": [
+    "@tailark/core-stripe"
+  ],
+  "meta": {
+    "aspect-ratio": "90/37",
+    "width": 686,
+    "height": 282
+  },
+  "files": [
+    {
+      "path": "blocks/testimonials/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/testimonials-3.tsx",
+      "content": "import { Stripe } from '@/components/ui/svgs/stripe'\nimport { Quote } from 'lucide-react'\n\nexport default function TestimonialsSection() {\n    return (\n        <section className=\"bg-background py-16 md:py-32\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto max-w-2xl\">\n                    <Quote\n                        aria-hidden\n                        className=\"fill-illustration dark:stroke-muted-foreground stroke-illustration dark:fill-muted-foreground size-6 drop-shadow-md\"\n                    />\n                    <div className=\"mt-12\">\n                        <p className='md:text-3xl/9.5 text-xl font-medium before:mr-1 before:content-[\"\\201C\"] after:ml-1 after:content-[\"\\201D\"] tracking-tight'>Using Tailark has been like unlocking a secret design superpower. It's the perfect fusion of simplicity and versatility, enabling us to create UIs that are as stunning as they are user-friendly.</p>\n\n                        <div className=\"mt-12 flex items-center gap-6\">\n                            <Stripe className=\"h-auto w-16\" />\n                            <div className=\"border-foreground/10 space-y-px border-l pl-6\">\n                                <p className=\"text-sm font-medium\">John Doe</p>\n                                <p className=\"text-muted-foreground text-xs\">Founder & CEO, Stripe</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

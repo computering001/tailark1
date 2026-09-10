@@ -1,0 +1,41 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-2",
+  "type": "registry:block",
+  "title": "Logo Cloud 2",
+  "description": "Tailark logo-cloud variant 2 block",
+  "dependencies": [
+    "motion"
+  ],
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-cloudflare",
+    "@tailark/core-gemini",
+    "@tailark/core-hulu",
+    "@tailark/core-leap-wallet",
+    "@tailark/core-open-ai",
+    "@tailark/core-paypal",
+    "@tailark/core-polars",
+    "@tailark/core-prime",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-utils",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "60/7",
+    "width": 686,
+    "height": 80
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/two/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-2.tsx",
+      "content": "'use client'\nimport { GeminiFull } from '@/components/ui/svgs/gemini'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Cisco } from '@/components/ui/svgs/cisco'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { Polars } from '@/components/ui/svgs/polars'\nimport { LazyMotion, domAnimation, m, AnimatePresence } from 'motion/react'\nimport React, { useEffect, useState } from 'react'\nimport { Cloudflare } from '@/components/ui/svgs/cloudflare'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Spotify } from '@/components/ui/svgs/spotify'\nimport { PayPal } from '@/components/ui/svgs/paypal'\nimport { LeapWallet } from '@/components/ui/svgs/leap-wallet'\nimport { cn } from '@/lib/utils'\n\nconst aiLogos: React.ReactNode[] = [\n    <OpenAIFull\n        key=\"openai\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Bolt\n        key=\"bolt\"\n        height={20}\n        width=\"auto\"\n    />,\n    <GeminiFull\n        key=\"gemini\"\n        height={24}\n        width=\"auto\"\n        className=\"-translate-y-0.5\"\n    />,\n]\n\nconst hostingLogos: React.ReactNode[] = [\n    <Supabase\n        key=\"supabase\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Cloudflare\n        key=\"cloudflare\"\n        height={24}\n        width=\"auto\"\n    />,\n    <VercelFull\n        key=\"vercel\"\n        height={20}\n        width=\"auto\"\n    />,\n]\n\nconst paymentsLogos: React.ReactNode[] = [\n    <Stripe\n        key=\"stripe\"\n        height={24}\n        width=\"auto\"\n    />,\n    <PayPal\n        key=\"paypal\"\n        height={24}\n        width=\"auto\"\n    />,\n    <LeapWallet\n        key=\"leapwallet\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst streamingLogos: React.ReactNode[] = [\n    <Primevideo\n        key=\"primevideo\"\n        height={28}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={22}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst otherLogos: React.ReactNode[] = [\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Beacon\n        key=\"beacon\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Polars\n        key=\"polars\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst logoGroups = [aiLogos, hostingLogos, paymentsLogos, streamingLogos, otherLogos]\n\nexport default function LogoCloudTwo() {\n    const [logoIndices, setLogoIndices] = useState([0, 0, 0, 0, 0])\n\n    useEffect(() => {\n        let wrapperIndex = 0\n        const interval = setInterval(() => {\n            setLogoIndices((prev) => {\n                const newIndices = [...prev]\n                const groupLogos = logoGroups[wrapperIndex]\n                newIndices[wrapperIndex] = (newIndices[wrapperIndex] + 1) % groupLogos.length\n                return newIndices\n            })\n            wrapperIndex = (wrapperIndex + 1) % logoGroups.length\n        }, 2000)\n\n        return () => clearInterval(interval)\n    }, [])\n\n    return (\n        <section className=\"bg-background py-16\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid grid-cols-2 gap-y-6 md:grid-cols-4 lg:grid-cols-5\">\n                    <LogoWrapper\n                        logos={aiLogos}\n                        group=\"ai\"\n                        logoIndex={logoIndices[1]}\n                    />\n                    <LogoWrapper\n                        logos={hostingLogos}\n                        group=\"hosting\"\n                        logoIndex={logoIndices[3]}\n                    />\n                    <LogoWrapper\n                        logos={paymentsLogos}\n                        group=\"payments\"\n                        logoIndex={logoIndices[0]}\n                    />\n                    <LogoWrapper\n                        logos={streamingLogos}\n                        group=\"streaming\"\n                        logoIndex={logoIndices[4]}\n                    />\n                    <LogoWrapper\n                        logos={otherLogos}\n                        group=\"other\"\n                        logoIndex={logoIndices[2]}\n                        className=\"max-lg:hidden\"\n                    />\n                </div>\n            </div>\n        </section>\n    )\n}\n\nconst LogoWrapper = ({ logos, group, logoIndex = 0, className }: { logos: React.ReactNode[]; group?: string; logoIndex?: number; className?: string }) => {\n    return (\n        <LazyMotion features={domAnimation}>\n        <div className={cn('relative h-10', className)}>\n            <AnimatePresence\n                mode=\"popLayout\"\n                initial={false}>\n                <m.div\n                    key={`${group}-${logoIndex}`}\n                    initial={{ opacity: 0, scale: 0.75, y: -24, filter: 'blur(6px)' }}\n                    animate={{ opacity: 1, scale: 1, y: 0, filter: 'blur(0px)' }}\n                    exit={{ opacity: 0, scale: 0.75, y: 24, filter: 'blur(6px)' }}\n                    transition={{ duration: 0.5 }}\n                    className=\"absolute inset-0 flex *:m-auto\">\n                    {logos[logoIndex]}\n                </m.div>\n            </AnimatePresence>\n        </div>\n    \n        </LazyMotion>)\n}\n"
+    }
+  ]
+}

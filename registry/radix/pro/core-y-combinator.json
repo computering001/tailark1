@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "core-y-combinator",
+  "type": "registry:ui",
+  "title": "Y Combinator logo",
+  "description": "Tailark core y-combinator svg logo",
+  "files": [
+    {
+      "path": "core/ui/svgs/y-combinator.tsx",
+      "type": "registry:ui",
+      "target": "@ui/svgs/y-combinator.tsx",
+      "content": "import type { SVGProps } from 'react'\n\nexport const YCombinator = (props: SVGProps<SVGSVGElement>) => {\n    return (\n        <svg\n            width=\"120\"\n            height=\"120\"\n            viewBox=\"0 0 120 120\"\n            fill=\"none\"\n            xmlns=\"http://www.w3.org/2000/svg\"\n            {...props}>\n            <g clipPath=\"url(#clip0_38_2)\">\n                <path\n                    d=\"M120 0H0V120H120V0Z\"\n                    fill=\"#FB651E\"\n                />\n                <path\n                    d=\"M55.96 67.85L35.36 29.26H44.77L56.89 53.68C57.08 54.12 57.29 54.57 57.54 55.03C57.79 55.5 58.01 55.98 58.19 56.48C58.32 56.67 58.41 56.84 58.47 56.99C58.54 57.15 58.6 57.29 58.66 57.41C58.97 58.03 59.25 58.64 59.5 59.23C59.75 59.82 59.96 60.36 60.15 60.86C60.65 59.8 61.19 58.67 61.78 57.46C62.37 56.25 62.98 54.99 63.6 53.68L75.9 29.26H84.66L63.88 68.32V93.2H55.96V67.85Z\"\n                    fill=\"white\"\n                />\n            </g>\n            <defs>\n                <clipPath id=\"clip0_38_2\">\n                    <rect\n                        width=\"120\"\n                        height=\"120\"\n                        fill=\"white\"\n                    />\n                </clipPath>\n            </defs>\n        </svg>\n    )\n}\n"
+    }
+  ]
+}

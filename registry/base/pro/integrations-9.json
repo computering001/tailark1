@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-9",
+  "type": "registry:block",
+  "title": "Integrations 9",
+  "description": "Tailark integrations variant 9 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-claude",
+    "@tailark/core-cloudflare",
+    "@tailark/core-gemini",
+    "@tailark/core-intellij",
+    "@tailark/core-open-ai",
+    "@tailark/core-utils",
+    "@tailark/core-vercel",
+    "@tailark/core-vs-code"
+  ],
+  "meta": {
+    "aspect-ratio": "60/22",
+    "width": 686,
+    "height": 252
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/nine/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-9.tsx",
+      "content": "import { Gemini } from \"@/components/ui/svgs/gemini\"\nimport { Claude } from \"@/components/ui/svgs/claude\"\nimport { OpenAI } from \"@/components/ui/svgs/open-ai\"\nimport { VisualStudioCode as VSCode } from \"@/components/ui/svgs/vs-code\"\nimport { Vercel } from \"@/components/ui/svgs/vercel\"\nimport { cn } from \"@/lib/utils\"\nimport { IntelliJIDEA } from \"@/components/ui/svgs/intellij\"\nimport { Button } from \"@/components/ui/button\"\nimport Link from \"next/link\"\nimport { Cloudflare } from \"@/components/ui/svgs/cloudflare\"\n\nexport default function IntegrationsSection() {\n  return (\n    <section className=\"@container bg-background py-24\">\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"mx-auto max-w-xl text-center\">\n          <h2 className=\"text-3xl font-semibold text-balance md:text-5xl md:tracking-tight tracking-tight\">\n            Seamless Integration\n          </h2>\n          <p className=\"mt-4 mb-6 text-lg text-balance text-muted-foreground\">\n            Seamlessly integrate with over 200+ tools and platforms to\n            streamline your workflow and boost productivity.\n          </p>\n          <Button\n              render={<Link href=\"#\">Get Started</Link>}\n              nativeButton={false} variant=\"outline\" size=\"sm\"\n          />\n        </div>\n        <div className=\"relative mx-auto mt-12 grid max-w-2xl grid-cols-4 gap-4 @max-xl:max-w-xs @xl:grid-cols-9\">\n          <div\n            aria-hidden\n            className=\"absolute inset-x-0 inset-y-4 m-auto bg-[linear-gradient(to_right,var(--color-foreground)_1px,transparent_1px),linear-gradient(to_bottom,var(--color-foreground)_1px,transparent_1px)] mask-radial-to-85% bg-[size:12px_12px] opacity-5\"\n          />\n          <div\n            aria-hidden\n            className=\"absolute inset-x-6 inset-y-4 m-auto translate-[0.5px] bg-[radial-gradient(var(--color-foreground)_1px,transparent_1px)] mask-radial-to-85% bg-size-[24px_24px] opacity-25\"\n          />\n\n          <IntegrationsGroup\n            label=\"Development\"\n            className=\"@max-xl:row-start-3\"\n          >\n            <div className=\"grid grid-cols-2 gap-2\">\n              <IntegrationCard>\n                <IntelliJIDEA />\n              </IntegrationCard>\n\n              <IntegrationCard>\n                <VSCode />\n              </IntegrationCard>\n            </div>\n          </IntegrationsGroup>\n\n          <div aria-hidden className=\"@max-xl:hidden\" />\n\n          <IntegrationsGroup\n            label=\"LLMs\"\n            className=\"col-span-3 @max-xl:col-span-4 @max-xl:row-start-1 @max-xl:w-3/4 @max-xl:place-self-center\"\n          >\n            <div className=\"grid grid-cols-3 gap-2\">\n              <IntegrationCard>\n                <OpenAI />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Claude />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Gemini />\n              </IntegrationCard>\n            </div>\n          </IntegrationsGroup>\n\n          <div aria-hidden className=\"@max-xl:hidden\" />\n\n          <IntegrationsGroup label=\"Hosting\">\n            <div className=\"grid grid-cols-2 gap-2\">\n              <IntegrationCard>\n                <Cloudflare className=\"!w-7\" />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Vercel />\n              </IntegrationCard>\n            </div>\n          </IntegrationsGroup>\n        </div>\n      </div>\n    </section>\n  )\n}\n\nconst IntegrationCard = ({\n  children,\n  className,\n}: {\n  children?: React.ReactNode\n  className?: string\n}) => {\n  return (\n    <div\n      className={cn(\n        \"flex aspect-square size-full rounded-lg border border-transparent bg-card shadow ring-1 ring-foreground/10 *:m-auto *:size-5\",\n        className\n      )}\n    >\n      {children}\n    </div>\n  )\n}\n\nconst IntegrationsGroup = ({\n  children,\n  label,\n  className,\n}: {\n  children?: React.ReactNode\n  label?: string\n  className?: string\n}) => {\n  return (\n    <div\n      className={cn(\n        \"relative z-20 col-span-2 row-span-2 grid grid-rows-subgrid gap-1.5 self-center rounded-2xl border border-transparent bg-foreground/3 p-2 shadow ring-1 ring-foreground/5 backdrop-blur\",\n        className\n      )}\n    >\n      <span className=\"block self-center text-center text-sm text-balance text-muted-foreground\">\n        {label}\n      </span>\n      {children}\n    </div>\n  )\n}\n"
+    }
+  ]
+}

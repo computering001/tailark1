@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "calendar-8",
+  "type": "registry:component",
+  "title": "Calendar Illustration",
+  "description": "Tailark 8 calendar illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "workspace",
+    "variant": "8"
+  },
+  "files": [
+    {
+      "path": "illustrations/calendar-8.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/calendar-8.tsx",
+      "content": "import { Clock } from 'lucide-react'\n\nconst timeSlots = [\n    { time: '09:00', event: null },\n    { time: '10:00', event: { title: 'Design Review', duration: 2, color: 'indigo' } },\n    { time: '11:00', event: null },\n    { time: '12:00', event: { title: 'Lunch', duration: 1, color: 'emerald' } },\n    { time: '13:00', event: null },\n    { time: '14:00', event: { title: 'Client Call', duration: 1, color: 'purple' } },\n]\n\nexport const Calendar8Illustration = () => {\n    return (\n        <div\n            aria-hidden\n            className=\"ring-border-illustration bg-illustration shadow-black/6.5 min-w-72 rounded-2xl p-3 shadow-lg ring-1\">\n            <div className=\"mb-3 flex items-start justify-between px-1\">\n                <div className=\"space-y-0.5\">\n                    <div className=\"font-semibold\">Thursday</div>\n                    <div className=\"text-muted-foreground text-xs\">January 29, 2026</div>\n                </div>\n                <div className=\"bg-foreground/5 flex items-center gap-1.5 rounded-full py-1 pl-1.5 pr-2.5\">\n                    <Clock className=\"size-3 opacity-50\" />\n                    <span className=\"text-xs font-medium\">Day View</span>\n                </div>\n            </div>\n\n            <div className=\"space-y-0\">\n                {timeSlots.map((slot, index) => (\n                    <div\n                        key={index}\n                        className=\"flex gap-3\">\n                        <div className=\"text-muted-foreground w-10 shrink-0 py-2 text-right text-xs\">{slot.time}</div>\n                        <div className=\"border-border/50 relative flex-1 border-t py-2\">\n                            {slot.event && (\n                                <div\n                                    className={`absolute inset-x-0 top-1 rounded-lg p-2 ${slot.event.color === 'indigo' ? 'bg-indigo-500/10 ring-1 ring-indigo-500/25' : slot.event.color === 'emerald' ? 'bg-emerald-500/10 ring-1 ring-emerald-500/25' : 'bg-purple-500/10 ring-1 ring-purple-500/25'}`}\n                                    style={{ height: `${slot.event.duration * 40 - 8}px` }}>\n                                    <div className={`text-xs font-medium ${slot.event.color === 'indigo' ? 'text-indigo-700 dark:text-indigo-300' : slot.event.color === 'emerald' ? 'text-emerald-700 dark:text-emerald-300' : 'text-purple-700 dark:text-purple-300'}`}>{slot.event.title}</div>\n                                </div>\n                            )}\n                        </div>\n                    </div>\n                ))}\n            </div>\n        </div>\n    )\n}\n\nexport default Calendar8Illustration\n"
+    }
+  ]
+}

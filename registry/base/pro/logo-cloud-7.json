@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-7",
+  "type": "registry:block",
+  "title": "Logo Cloud 7",
+  "description": "Tailark logo-cloud variant 7 block",
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-hulu",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-tailwindcss",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "5/1",
+    "width": 686,
+    "height": 137
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/seven/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-7.tsx",
+      "content": "import { Beacon } from '@/components/ui/svgs/beacon'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Spotify } from '@/components/ui/svgs/spotify'\nimport Link from 'next/link'\nimport TailwindCSS from '@/components/ui/svgs/tailwindcss'\n\nexport default function LogoCloud() {\n    return (\n        <div className=\"relative py-24\">\n            <div className=\"mx-auto max-w-6xl px-6 lg:px-12\">\n                <div className=\"grid items-center gap-12 lg:grid-cols-[auto_1fr] lg:gap-6\">\n                    <div className=\"space-y-4 max-lg:text-center\">\n                        <p className=\"text-foreground w-fit max-w-sm text-balance text-xl max-lg:mx-auto\">Trusted by fast-growing companies around the world</p>\n\n                        <Link\n                            href=\"#\"\n                            className=\"text-primary text-sm underline\">\n                            Read case studies\n                        </Link>\n                    </div>\n                    <div className=\"**:fill-foreground grid grid-cols-3 items-center gap-y-12 sm:grid-cols-4\">\n                        <div className=\"flex h-full items-center justify-center px-2\">\n                            <Hulu\n                                height={16}\n                                width=\"auto\"\n                            />\n                        </div>\n\n                        <div className=\"flex items-center justify-center px-2\">\n                            <Spotify\n                                height={22}\n                                width=\"auto\"\n                            />\n                        </div>\n                        <div className=\"flex items-center justify-center px-2\">\n                            <Supabase\n                                height={20}\n                                width=\"auto\"\n                            />\n                        </div>\n                        <div className=\"flex items-center justify-center px-2\">\n                            <Beacon\n                                height={16}\n                                width=\"auto\"\n                            />\n                        </div>\n                        <div className=\"flex items-center justify-center px-2\">\n                            <VercelFull\n                                height={16}\n                                width=\"auto\"\n                            />\n                        </div>\n\n                        <div className=\"flex items-center justify-center px-2\">\n                            <Stripe\n                                height={20}\n                                width=\"auto\"\n                            />\n                        </div>\n                        <div className=\"flex items-center justify-center px-2\">\n                            <TailwindCSS\n                                height={20}\n                                width=\"auto\"\n                            />\n                        </div>\n                        <div className=\"flex items-center justify-center px-2\">\n                            <Stripe\n                                height={20}\n                                width=\"auto\"\n                            />\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    )\n}\n"
+    }
+  ]
+}

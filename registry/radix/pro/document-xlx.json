@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "document-xlx",
+  "type": "registry:component",
+  "title": "Document Illustration",
+  "description": "Tailark xlx document illustration",
+  "meta": {
+    "category": "document",
+    "variant": "xlx"
+  },
+  "files": [
+    {
+      "path": "illustrations/document-xlx.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/document-xlx.tsx",
+      "content": "export const DocumentXlxIllustration = () => {\n  return (\n    <div aria-hidden className=\"relative size-fit\">\n      <div className=\"absolute -right-3 bottom-2 z-2 rounded bg-emerald-500 px-1.5 py-0.5 text-[10px] font-semibold text-white shadow-lg shadow-emerald-900/25 text-shadow-sm after:absolute after:inset-0 after:rounded after:border after:border-foreground/15\">\n        XLX\n      </div>\n      <div className=\"bg-illustration corner-tr-bevel ring-border-illustration relative z-1 w-16 space-y-2 rounded-md rounded-tr-[15%] p-2 shadow-md ring-1 shadow-black/6.5\">\n        <div className=\"corner-tr-bevel grid grid-cols-3 gap-px overflow-hidden rounded-tr border-foreground/10\">\n          <div className=\"col-span-3 grid grid-cols-3 gap-px bg-foreground/5\">\n            <div className=\"h-2 bg-foreground/10\" />\n            <div className=\"h-2 bg-foreground/10\" />\n            <div className=\"h-2 bg-foreground/10\" />\n          </div>\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n          <div className=\"h-2 bg-foreground/5\" />\n        </div>\n      </div>\n    </div>\n  )\n}\n\nexport default DocumentXlxIllustration\n"
+    }
+  ]
+}

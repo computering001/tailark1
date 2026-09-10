@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "comment",
+  "type": "registry:component",
+  "title": "Comment Illustration",
+  "description": "Tailark comment illustration",
+  "meta": {
+    "category": "message",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/comment.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/comment.tsx",
+      "content": "import Image from \"next/image\"\n\nconst SHADCN_AVATAR = \"https://avatars.githubusercontent.com/u/124599?v=4\"\n\nexport const CommentIllustration = () => {\n  return (\n    <div\n      aria-hidden\n      className=\"ring-border-illustration max-w-2xs overflow-hidden rounded-xl bg-foreground/3 shadow ring-1 shadow-black/6.5\"\n    >\n      <div className=\"bg-illustration border-border-illustration -mx-px rounded-lg border-x border-b p-3 text-sm text-muted-foreground\">\n        <div className=\"mb-3 flex items-center gap-2\">\n          <div className=\"relative size-5 overflow-hidden rounded-full shadow shadow-black/6.5 before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/15\">\n            <Image\n              src={SHADCN_AVATAR}\n              alt=\"shadcn\"\n              width={32}\n              height={32}\n              className=\"rounded-full\"\n            />\n          </div>\n          <span className=\"text-xs font-medium text-foreground\">Shadcn</span>\n        </div>\n        <span>Added corresponding “ghost” stroke lines for both series.</span>\n      </div>\n\n      <div className=\"px-3 py-2 text-xs text-muted-foreground\">\n        <span>Reply...</span>\n      </div>\n    </div>\n  )\n}\n\nexport default CommentIllustration\n"
+    }
+  ]
+}

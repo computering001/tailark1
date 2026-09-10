@@ -1,0 +1,31 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-6",
+  "type": "registry:block",
+  "title": "Logo Cloud 6",
+  "description": "Tailark logo-cloud variant 6 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-open-ai",
+    "@tailark/core-prime",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase"
+  ],
+  "meta": {
+    "aspect-ratio": "90/25",
+    "width": 686,
+    "height": 191
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/six/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-6.tsx",
+      "content": "import { ChevronRight } from 'lucide-react'\nimport Link from 'next/link'\nimport { Button } from '@/components/ui/button'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Cisco } from '@/components/ui/svgs/cisco'\n\nexport default function LogoCloudTwo() {\n    return (\n        <section className=\"py-16\">\n            <div className=\"relative m-auto max-w-5xl px-6 text-center\">\n                <h2 className=\"text-center text-xl font-medium\">Trusted by leading teams worldwide</h2>\n\n                <div className=\"mx-auto my-12 grid max-w-3xl grid-cols-3 gap-x-6 gap-y-8 *:justify-center *:transition-none *:duration-200 sm:grid-cols-4 sm:gap-y-12\">\n                    <div className=\"group flex\">\n                        <Primevideo\n                            height={28}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Cisco\n                            height={32}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Stripe\n                            height={24}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Hulu\n                            height={20}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Bolt\n                            height={20}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Supabase\n                            height={24}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <OpenAIFull\n                            height={24}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                    <div className=\"group flex\">\n                        <Beacon\n                            height={20}\n                            width=\"auto\"\n                            className=\"not-group-hover:*:fill-foreground!\"\n                        />\n                    </div>\n                </div>\n                <Button\n                    variant=\"outline\"\n                    size=\"sm\"\n                    asChild\n                    className=\"pr-2\">\n                    <Link href=\"#\">\n                        Meet our Customers\n                        <ChevronRight className=\"size-3.5!\" />\n                    </Link>\n                </Button>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

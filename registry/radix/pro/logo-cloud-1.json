@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "logo-cloud-1",
+  "type": "registry:block",
+  "title": "Logo Cloud 1",
+  "description": "Tailark logo-cloud variant 1 block",
+  "dependencies": [
+    "motion"
+  ],
+  "registryDependencies": [
+    "@tailark/core-beacon",
+    "@tailark/core-bolt",
+    "@tailark/core-cisco",
+    "@tailark/core-hulu",
+    "@tailark/core-leap-wallet",
+    "@tailark/core-open-ai",
+    "@tailark/core-paypal",
+    "@tailark/core-polars",
+    "@tailark/core-prime",
+    "@tailark/core-spotify",
+    "@tailark/core-stripe",
+    "@tailark/core-supabase",
+    "@tailark/core-vercel"
+  ],
+  "meta": {
+    "aspect-ratio": "90/22",
+    "width": 686,
+    "height": 168
+  },
+  "files": [
+    {
+      "path": "blocks/logo-cloud/one/index.tsx",
+      "type": "registry:component",
+      "target": "@components/logo-cloud-1.tsx",
+      "content": "'use client'\nimport { Beacon } from '@/components/ui/svgs/beacon'\nimport { Bolt } from '@/components/ui/svgs/bolt'\nimport { Cisco } from '@/components/ui/svgs/cisco'\nimport { Hulu } from '@/components/ui/svgs/hulu'\nimport { OpenAIFull } from '@/components/ui/svgs/open-ai'\nimport { Primevideo } from '@/components/ui/svgs/prime'\nimport { Stripe } from '@/components/ui/svgs/stripe'\nimport { Supabase } from '@/components/ui/svgs/supabase'\nimport { Polars } from '@/components/ui/svgs/polars'\nimport { LazyMotion, domAnimation, m, AnimatePresence } from 'motion/react'\nimport React, { useEffect, useState } from 'react'\nimport { VercelFull } from '@/components/ui/svgs/vercel'\nimport { Spotify } from '@/components/ui/svgs/spotify'\nimport { PayPal } from '@/components/ui/svgs/paypal'\nimport { LeapWallet } from '@/components/ui/svgs/leap-wallet'\n\nconst aiLogos: React.ReactNode[] = [\n    <OpenAIFull\n        key=\"openai\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Bolt\n        key=\"bolt\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={22}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst hostingLogos: React.ReactNode[] = [\n    <Supabase\n        key=\"supabase\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={22}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n    <VercelFull\n        key=\"vercel\"\n        height={20}\n        width=\"auto\"\n    />,\n]\n\nconst paymentsLogos: React.ReactNode[] = [\n    <Stripe\n        key=\"stripe\"\n        height={24}\n        width=\"auto\"\n    />,\n    <PayPal\n        key=\"paypal\"\n        height={24}\n        width=\"auto\"\n    />,\n    <LeapWallet\n        key=\"leapwallet\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Beacon\n        key=\"beacon\"\n        height={20}\n        width=\"auto\"\n    />,\n    <Polars\n        key=\"polars\"\n        height={24}\n        width=\"auto\"\n    />,\n]\n\nconst streamingLogos: React.ReactNode[] = [\n    <Primevideo\n        key=\"primevideo\"\n        height={28}\n        width=\"auto\"\n    />,\n    <Hulu\n        key=\"hulu\"\n        height={22}\n        width=\"auto\"\n    />,\n    <Spotify\n        key=\"spotify\"\n        height={24}\n        width=\"auto\"\n    />,\n    <Cisco\n        key=\"cisco\"\n        height={32}\n        width=\"auto\"\n    />,\n    <Beacon\n        key=\"beacon\"\n        height={20}\n        width=\"auto\"\n    />,\n]\n\ntype LogoGroup = 'ai' | 'hosting' | 'payments' | 'streaming'\n\nconst logos: { [key in LogoGroup]: React.ReactNode[] } = {\n    ai: aiLogos,\n    hosting: hostingLogos,\n    payments: paymentsLogos,\n    streaming: streamingLogos,\n}\n\nexport default function LogoCloudTwo() {\n    const [currentGroup, setCurrentGroup] = useState<LogoGroup>('ai')\n\n    useEffect(() => {\n        const interval = setInterval(() => {\n            setCurrentGroup((prev) => {\n                const groups = Object.keys(logos) as LogoGroup[]\n                const currentIndex = groups.indexOf(prev)\n                const nextIndex = (currentIndex + 1) % groups.length\n                return groups[nextIndex]\n            })\n        }, 2500)\n\n        return () => clearInterval(interval)\n    }, [])\n\n    return (\n        <LazyMotion features={domAnimation}>\n        <section\n            className=\"bg-background py-16\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"mx-auto mb-12 max-w-xl text-balance text-center md:mb-16\">\n                    <h2 className=\"text-4xl font-semibold tracking-tight\">You're in good company</h2>\n                    <p\n                        data-current={currentGroup}\n                        className=\"text-muted-foreground mt-4 text-lg\">\n                        Tailark is trusted by leading teams from <span className=\"in-data-[current=ai]:text-foreground transition-colors duration-200\">Generative AI Companies,</span> <span className=\"in-data-[current=hosting]:text-foreground transition-colors duration-200\">Hosting Providers,</span> <span className=\"in-data-[current=payments]:text-foreground transition-colors duration-200\">Payments Providers,</span>{' '}\n                        <span className=\"in-data-[current=streaming]:text-foreground transition-colors duration-200\">Streaming Providers</span>\n                    </p>\n                </div>\n                <div className=\"perspective-dramatic mx-auto grid max-w-5xl grid-cols-3 items-center gap-8 md:h-10 md:grid-cols-5\">\n                    <AnimatePresence\n                        initial={false}\n                        mode=\"popLayout\">\n                        {logos[currentGroup].map((logo, i) => (\n                            <m.div\n                                key={`${currentGroup}-${(logo as React.ReactElement).key}`}\n                                className=\"**:fill-foreground! flex items-center justify-center\"\n                                initial={{ opacity: 0, y: 24, filter: 'blur(6px)' }}\n                                animate={{ opacity: 1, y: 0, filter: 'blur(0px)' }}\n                                exit={{ opacity: 0, y: -24, filter: 'blur(6px)', scale: 0.5 }}\n                                transition={{ delay: i * 0.05, duration: 0.4 }}>\n                                {logo}\n                            </m.div>\n                        ))}\n                    </AnimatePresence>\n                </div>\n            </div>\n        </section>\n        </LazyMotion>\n    )\n}\n"
+    }
+  ]
+}

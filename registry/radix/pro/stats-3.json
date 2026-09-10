@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "stats-3",
+  "type": "registry:block",
+  "title": "Stats 3",
+  "description": "Tailark stats variant 3 block",
+  "meta": {
+    "aspect-ratio": "60/17",
+    "width": 686,
+    "height": 194
+  },
+  "files": [
+    {
+      "path": "blocks/stats/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/stats-3.tsx",
+      "content": "export default function StatsSection() {\n    return (\n        <section className=\"bg-background py-12 md:py-20\">\n            <div className=\"mx-auto max-w-5xl px-6\">\n                <div className=\"grid gap-12 sm:grid-cols-2\">\n                    <div className=\"space-y-6\">\n                        <h2 className=\"text-muted-foreground text-balance text-4xl font-semibold md:w-2/3 tracking-tight\">\n                            Building the next generation of <strong className=\"text-foreground font-semibold\">AI-powered Marketing Tools</strong>\n                        </h2>\n\n                        <p className=\"text-muted-foreground\">\n                            Our advanced visual processing system can <strong className=\"text-foreground font-semibold\">analyze and interpret complex images</strong>, enabling applications.\n                        </p>\n                    </div>\n                    <div className=\"space-y-6 border-l sm:mx-auto sm:max-w-xs\">\n                        <div className=\"space-y-4 *:block\">\n                            <span className=\"border-primary -ml-px border-l pl-6 text-3xl font-semibold lg:pl-8 tracking-tight\">99.9%</span>\n                            <p className=\"text-muted-foreground text-balance pl-6 text-sm lg:pl-8\">\n                                <strong className=\"text-foreground font-medium\">Uptime guarantee</strong> for all our services. Experience reliability with minimal interruptions.\n                            </p>\n                        </div>\n                        <div className=\"space-y-4 *:block\">\n                            <span className=\"border-primary -ml-px border-l pl-6 text-3xl font-semibold lg:pl-8 tracking-tight\">24/7</span>\n                            <p className=\"text-muted-foreground text-balance pl-6 text-sm lg:pl-8\">\n                                <strong className=\"text-foreground font-medium\">24/7 support</strong> available around the clock. Get help whenever you need it, wherever you are.\n                            </p>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </section>\n    )\n}\n"
+    }
+  ]
+}

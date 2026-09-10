@@ -1,0 +1,21 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "card",
+  "type": "registry:ui",
+  "title": "Card",
+  "description": "Tailark Radix Card component",
+  "dependencies": [
+    "@radix-ui/react-slot"
+  ],
+  "registryDependencies": [
+    "@tailark/core-utils"
+  ],
+  "files": [
+    {
+      "path": "ui/card.tsx",
+      "type": "registry:ui",
+      "target": "@ui/card.tsx",
+      "content": "import * as React from \"react\"\nimport { cn } from \"@/lib/utils\"\nimport { Slot } from \"@radix-ui/react-slot\"\n\nexport interface CardProps extends React.HTMLAttributes<HTMLDivElement> {\n  asChild?: boolean\n}\n\nfunction Card({ className, asChild = false, ...props }: CardProps) {\n  const Comp = asChild ? Slot : \"div\"\n  return (\n    <Comp\n      data-slot=\"card\"\n      className={cn(\n        \"rounded-xl bg-card text-card-foreground shadow ring-1 shadow-black/6.5 ring-border\",\n        className\n      )}\n      {...props}\n    />\n  )\n}\n\nfunction CardHeader({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-header\"\n      className={cn(\"flex flex-col gap-1.5 p-6\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardTitle({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-title\"\n      className={cn(\"leading-none font-semibold tracking-tight\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardDescription({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-description\"\n      className={cn(\"text-sm text-muted-foreground\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardContent({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-content\"\n      className={cn(\"p-6 pt-0\", className)}\n      {...props}\n    />\n  )\n}\n\nfunction CardFooter({ className, ...props }: React.ComponentProps<\"div\">) {\n  return (\n    <div\n      data-slot=\"card-footer\"\n      className={cn(\"flex items-center p-6 pt-0\", className)}\n      {...props}\n    />\n  )\n}\n\nexport { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent }\n"
+    }
+  ]
+}

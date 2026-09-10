@@ -1,0 +1,25 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "call-to-action-3",
+  "type": "registry:block",
+  "title": "Call To Action 3",
+  "description": "Tailark call-to-action variant 3 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/input",
+    "@tailark/label"
+  ],
+  "meta": {
+    "aspect-ratio": "72/23",
+    "width": 686,
+    "height": 219
+  },
+  "files": [
+    {
+      "path": "blocks/call-to-action/three/index.tsx",
+      "type": "registry:component",
+      "target": "@components/call-to-action-3.tsx",
+      "content": "import { Button } from \"@/components/ui/button\"\nimport { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\n\nexport default function CallToAction() {\n  return (\n    <section className=\"bg-background py-16 md:py-32\">\n      <div className=\"mx-auto max-w-5xl px-6\">\n        <div className=\"mx-auto max-w-lg text-center\">\n          <h2 className=\"text-3xl font-semibold text-balance text-foreground md:text-4xl tracking-tight\">\n            Create, Sell and Grow\n          </h2>\n          <p className=\"mt-4 text-balance text-muted-foreground\">\n            Join a community of over 1000+ companies and developers who have\n            already discovered the power of Tailark.{\" \"}\n          </p>\n\n          <form className=\"mx-auto my-6 w-full max-w-xs\">\n            <Label\n              className=\"sr-only block text-sm font-medium\"\n              htmlFor=\"email\"\n            >\n              Join Waitlist\n            </Label>\n            <div className=\"flex gap-2\">\n              <Input\n                className=\"h-8 border-transparent bg-background shadow ring-1 ring-foreground/10\"\n                placeholder=\"Your email\"\n                type=\"email\"\n                id=\"email\"\n                required\n                name=\"email\"\n              />\n              <Button type=\"submit\" size=\"sm\">\n                <span>Join Waitlist</span>\n              </Button>\n            </div>\n          </form>\n\n          <p className=\"text-sm text-muted-foreground\">\n            <span className=\"font-mono font-semibold text-foreground\">78</span>{\" \"}\n            Companies Joined Today\n          </p>\n        </div>\n      </div>\n    </section>\n  )\n}\n"
+    }
+  ]
+}

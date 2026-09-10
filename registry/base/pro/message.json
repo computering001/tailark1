@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "message",
+  "type": "registry:component",
+  "title": "Message Illustration",
+  "description": "Tailark message illustration",
+  "meta": {
+    "category": "message",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/message.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/message.tsx",
+      "content": "import Image from \"next/image\"\n\nconst MESCHAC_AVATAR = \"https://avatars.githubusercontent.com/u/47919550?v=4\"\n\nexport const MessageIllustration = () => (\n  <div aria-hidden>\n    <div className=\"flex items-center gap-2\">\n      <Image\n        src={MESCHAC_AVATAR}\n        className=\"size-4 rounded-full\"\n        alt=\"Méschac Irung\"\n        width=\"460\"\n        height=\"460\"\n      />\n      <span className=\"text-sm\">Irung</span>\n    </div>\n\n    <div className=\"bg-illustration ring-border-illustration mt-2 w-fit rounded-2xl rounded-tl border border-transparent p-3 text-sm shadow ring-1 shadow-black/10\">\n      Hey <span className=\"text-primary\">@bernard</span>, I've updated the\n      dashboard metrics.\n    </div>\n  </div>\n)\n\nexport default MessageIllustration\n"
+    }
+  ]
+}

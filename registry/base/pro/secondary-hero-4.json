@@ -1,0 +1,26 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "secondary-hero-4",
+  "type": "registry:block",
+  "title": "Secondary Hero 4",
+  "description": "Tailark secondary-hero variant 4 block",
+  "meta": {
+    "aspect-ratio": "90/58",
+    "width": 686,
+    "height": 442
+  },
+  "files": [
+    {
+      "path": "blocks/secondary-hero/four/index.tsx",
+      "type": "registry:component",
+      "target": "@components/secondary-hero-4.tsx",
+      "content": "import { Image } from \"@/components/illustrations/image\"\n\nexport default function HeroSection() {\n  return (\n    <section data-theme=\"light\" className=\"bg-white py-24 md:pt-32 lg:pt-44\">\n      <div className=\"mx-auto mb-12 max-w-5xl px-6\">\n        <Image />\n        <div className=\"relative mt-6 grid items-end gap-6 md:-mt-12 md:grid-cols-2\">\n          <h1 className=\"text-4xl font-semibold text-balance sm:text-5xl lg:text-6xl tracking-tight\">\n            Building the roots for your Startup growth\n          </h1>\n          <p className=\"text-lg text-balance text-muted-foreground\">\n            Your team’s toolkit to stop configuring and start innovating.\n            Securely build, deploy, and scale the best web experiences with\n            Vercel.\n          </p>\n        </div>\n      </div>\n    </section>\n  )\n}\n"
+    },
+    {
+      "path": "blocks/secondary-hero/four/illustrations/image.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/image.tsx",
+      "content": "\"use client\"\n\nimport NextImage from \"next/image\"\nimport { useState, useEffect } from \"react\"\n\nexport const Image = () => {\n  const [mouse, setMouse] = useState<{ x: number; y: number }>({ x: 0, y: 0 })\n  useEffect(() => {\n    const onMove = (e: MouseEvent) => {\n      setMouse({ x: e.clientX, y: e.clientY })\n    }\n    window.addEventListener(\"mousemove\", onMove)\n    return () => window.removeEventListener(\"mousemove\", onMove)\n  }, [])\n  return (\n    <div className=\"relative aspect-63/30 overflow-hidden\">\n      <NextImage\n        src=\"https://raw.githubusercontent.com/tailark/assets/refs/heads/main/3d_gsnqq2.webp\"\n        alt=\"building\"\n        width={3000}\n        height={1401}\n        className=\"size-full object-cover\"\n      />\n\n      <div\n        aria-hidden\n        className=\"pointer-events-none absolute inset-0 top-0 left-0 z-0 size-40 mix-blend-overlay blur-2xl transition-none duration-200 md:size-72\"\n        style={{ transform: `translate(${mouse.x}px, ${mouse.y}px)` }}\n      >\n        <div className=\"absolute inset-0 translate-x-[-150%] -translate-y-full rounded-full bg-linear-to-r from-indigo-400 via-emerald-400 to-rose-500\" />\n      </div>\n    </div>\n  )\n}\n"
+    }
+  ]
+}

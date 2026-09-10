@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-suggestion",
+  "type": "registry:component",
+  "title": "Ai Suggestion Illustration",
+  "description": "Tailark ai-suggestion illustration",
+  "meta": {
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-suggestion.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-suggestion.tsx",
+      "content": "import { Apple, CornerDownLeft, X } from 'lucide-react'\n\nexport const AiSuggestion2Illustration = () => {\n    return (\n        <div\n            aria-hidden\n            className=\"min-w-xs relative max-w-xs\">\n            <div className=\"z-1 absolute inset-x-6 top-6\">\n                <div className=\"absolute inset-0 scale-100 opacity-75 blur-lg transition-opacity duration-300 dark:opacity-50\">\n                    <div className=\"bg-linear-to-r/increasing animate-hue-rotate absolute inset-x-6 bottom-0 top-12 -translate-y-3 from-pink-400 to-purple-400\"></div>\n                </div>\n                <div className=\"bg-illustration/95 ring-border-illustration shadow-black/6.5 relative rounded-xl shadow-lg ring-1 backdrop-blur\">\n                    <X className=\"absolute right-2 top-2 size-3\" />\n\n                    <span className=\"text-muted-foreground block p-3 text-xs\">Enter instruction</span>\n\n                    <div className=\"flex justify-between border-t p-2\">\n                        <span className=\"hover:bg-foreground/5 text-muted-foreground hover:text-foreground flex h-6 cursor-pointer items-center gap-1.5 rounded-md p-2 transition-colors duration-100\">\n                            <Apple className=\"size-3.5 opacity-75\" />\n                            <span className=\"text-xs\">Professional</span>\n                        </span>\n                        <div className=\"bg-primary before:border-foreground/20 relative flex size-6 rounded-md text-white shadow before:absolute before:inset-0 before:rounded-md before:border\">\n                            <CornerDownLeft className=\"m-auto size-3.5 drop-shadow\" />\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div className=\"mask-b-from-25% mask-b-to-85% space-y-3 text-sm leading-relaxed\">\n                <div className=\"text-muted-foreground\">\n                    Web applications with <span className=\"bg-linear-to-r from-primary rounded to-emerald-500 bg-clip-text px-1 text-transparent\">React and TypeScript</span> using best practices.\n                </div>\n                <div className=\"text-muted-foreground\">This guide covers component architecture, state management, and performance optimization techniques.</div>\n            </div>\n        </div>\n    )\n}\n\nexport default AiSuggestion2Illustration\n"
+    }
+  ]
+}

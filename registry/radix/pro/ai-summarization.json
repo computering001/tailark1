@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "ai-summarization",
+  "type": "registry:component",
+  "title": "Ai Summarization Illustration",
+  "description": "Tailark ai-summarization illustration",
+  "meta": {
+    "col-span": "2",
+    "category": "ai",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/ai-summarization.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/ai-summarization.tsx",
+      "content": "import { Sparkles } from 'lucide-react'\nimport Image from 'next/image'\nconst SHADCN_AVATAR = 'https://avatars.githubusercontent.com/u/124599?v=4'\n\nexport const AiSummarizationIllustration = () => {\n    return (\n        <div\n            aria-hidden\n            className=\"min-w-xs max-w-xs space-y-3\">\n            <div className=\"mask-b-from-35% -m-2 p-2\">\n                <div className=\"grid grid-cols-[auto_1fr] gap-2.5\">\n                    <div className=\"before:border-foreground/20 relative size-9 overflow-hidden rounded-full shadow-md before:absolute before:inset-0 before:rounded-full before:border\">\n                        <Image\n                            src={SHADCN_AVATAR}\n                            alt=\"shadcn\"\n                            width={56}\n                            height={56}\n                        />\n                    </div>\n                    <div className=\"space-y-1.5\">\n                        <div className=\"flex items-end gap-1\">\n                            <div className=\"text-sm font-medium [text-trim:both]\">Shadcn</div>\n                            <div className=\"text-foreground/50 border border-transparent text-xs [text-trim:both]\">6:32 pm</div>\n                        </div>\n                        <div className=\"text-foreground/65 text-sm/6\">Hey team, I've been thinking about the new dashboard redesign. We should prioritize mobile responsiveness and add dark mode support. Also, the current loading states need improvement - users are confused when data is fetching.</div>\n                    </div>\n                </div>\n            </div>\n\n            <div className=\"text-foreground flex items-center gap-2 text-sm\">\n                <Sparkles className=\"text-foreground fill-foreground *:nth-2:text-purple-400 *:nth-3:text-purple-400 *:not-first:text-foreground/25 size-3.5\" />\n                Summarize\n            </div>\n\n            <div className=\"relative\">\n                <div className=\"bg-linear-to-r/shorter from-primary absolute inset-0 rounded-xl to-emerald-500 opacity-25 blur-2xl\"></div>\n                <div className=\"bg-card/90 ring-border-illustration shadow-black/6.5 relative rounded-xl p-3 shadow-md ring-1\">\n                    <div className=\"text-foreground text-sm/6\">Dashboard redesign priorities: mobile-first approach, dark mode implementation, and improved loading state UX.</div>\n                </div>\n            </div>\n\n            <div className=\"*:active:scale-98 flex items-center gap-1 *:cursor-pointer *:rounded-md *:transition-transform *:duration-100\">\n                <div className=\"bg-foreground/5 ring-border-illustration rounded px-2 py-1 text-xs font-medium ring-1\">Brief</div>\n                <div className=\"hover:bg-foreground/5 text-muted-foreground rounded px-2 py-1 text-xs\">Details</div>\n                <div className=\"hover:bg-foreground/5 text-muted-foreground rounded px-2 py-1 text-xs\">Bullets</div>\n            </div>\n        </div>\n    )\n}\n\nexport default AiSummarizationIllustration\n"
+    }
+  ]
+}

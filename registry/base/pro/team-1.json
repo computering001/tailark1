@@ -1,0 +1,23 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "team-1",
+  "type": "registry:block",
+  "title": "Team 1",
+  "description": "Tailark team variant 1 block",
+  "registryDependencies": [
+    "@tailark/core-utils"
+  ],
+  "meta": {
+    "aspect-ratio": "80/65",
+    "width": 686,
+    "height": 557
+  },
+  "files": [
+    {
+      "path": "blocks/team/one/index.tsx",
+      "type": "registry:component",
+      "target": "@components/team-1.tsx",
+      "content": "import { cn } from \"@/lib/utils\"\nimport Image from \"next/image\"\n\ntype Member = {\n  name: string\n  position: string\n  image: string\n  decoratorColors: string\n}\n\nconst members: Member[] = [\n  {\n    name: \"Alexander Chee\",\n    position: \"Co-Founder, CEO\",\n    image:\n      \"https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1361&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-purple-400 via-blue-400 to-amber-500\",\n  },\n  {\n    name: \"Sarah Johnson\",\n    position: \"Co-Founder, CTO\",\n    image:\n      \"https://images.unsplash.com/photo-1629559915090-ee09fc9787c1?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-purple-400 via-sky-400 to-emerald-500\",\n  },\n  {\n    name: \"Michael Chen\",\n    position: \"Head of Engineering\",\n    image:\n      \"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-rose-400 via-orange-400 to-yellow-500\",\n  },\n  {\n    name: \"Emily Rodriguez\",\n    position: \"Head of Design\",\n    image:\n      \"https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-teal-400 via-cyan-400 to-blue-500\",\n  },\n  {\n    name: \"David Kim\",\n    position: \"Head of Product\",\n    image:\n      \"https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-indigo-400 via-violet-400 to-pink-500\",\n  },\n  {\n    name: \"Lisa Wang\",\n    position: \"Head of Marketing\",\n    image:\n      \"https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\n    decoratorColors: \"from-green-400 via-emerald-400 to-teal-500\",\n  },\n]\n\nexport default function TeamSection() {\n  return (\n    <section className=\"bg-background py-16 md:py-32\">\n      <div className=\"@container mx-auto max-w-5xl px-6\">\n        <div>\n          <h2 className=\"max-w-xs text-4xl font-semibold text-balance text-foreground tracking-tight\">\n            Our incredible leadership team\n          </h2>\n\n          <div className=\"mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3\">\n            {members.map((member, index) => (\n              <div\n                key={member.name}\n                className=\"rounded-3xl bg-card p-2 shadow-xl ring-1 shadow-black/3 ring-border\"\n              >\n                <div className=\"relative aspect-square overflow-hidden rounded-2xl before:absolute before:inset-0 before:z-1 before:rounded-2xl before:border before:border-foreground/10\">\n                  <div\n                    aria-hidden\n                    className={cn(\n                      \"pointer-events-none absolute inset-0 z-1 size-40 rounded-full bg-linear-to-r opacity-6.5 mix-blend-overlay blur-2xl will-change-transform md:size-72\",\n                      member.decoratorColors\n                    )}\n                  />\n                  <Image\n                    src={member.image}\n                    alt={member.name}\n                    width={320}\n                    height={540}\n                    className=\"size-full object-cover object-top grayscale\"\n                  />\n                </div>\n                <div className=\"space-y-0.5 px-3 pt-3 pb-2\">\n                  <p className=\"font-medium text-foreground\">{member.name}</p>\n                  <p className=\"text-sm text-muted-foreground\">\n                    {member.position}\n                  </p>\n                </div>\n              </div>\n            ))}\n          </div>\n        </div>\n      </div>\n    </section>\n  )\n}\n"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "email",
+  "type": "registry:component",
+  "title": "Email Illustration",
+  "description": "Tailark email illustration",
+  "meta": {
+    "category": "form",
+    "variant": "default"
+  },
+  "files": [
+    {
+      "path": "illustrations/email.tsx",
+      "type": "registry:component",
+      "target": "@components/illustrations/email.tsx",
+      "content": "import { Plus } from \"lucide-react\"\nimport Image from \"next/image\"\nconst SHADCN_AVATAR = \"https://avatars.githubusercontent.com/u/124599?v=4\"\n\nexport const EmailIllustration = () => (\n  <div aria-hidden className=\"relative min-w-92 mask-b-from-75% px-4 pt-2\">\n    <div className=\"ring-border-illustration rounded-2xl bg-card p-6 pt-2 pb-16 shadow-xl ring-1 shadow-black/6.5\">\n      <div className=\"divide-y border-b text-xs *:flex *:h-10 *:items-center *:py-2\">\n        <div className=\"flex items-center justify-between\">\n          <div className=\"flex items-center gap-1\">\n            <span className=\"text-foreground/50\">To:</span>\n            <div className=\"bg-illustration ring-border-illustration flex cursor-pointer gap-1 rounded-full p-0.5 pr-2.5 shadow-md ring-1 shadow-black/6.5\">\n              <div className=\"relative size-4 overflow-hidden rounded-full before:absolute before:inset-0 before:rounded-full before:border before:border-foreground/20\">\n                <Image\n                  src={SHADCN_AVATAR}\n                  alt=\"Shadcn\"\n                  width={20}\n                  height={20}\n                />\n              </div>\n              <span className=\"text-xs font-medium\">Shadcn</span>\n            </div>\n          </div>\n          <div className=\"flex size-6 rounded-full border bg-foreground/10\">\n            <Plus className=\"m-auto size-3.5\" strokeWidth={3} />\n          </div>\n        </div>\n        <div className=\"flex gap-1\">\n          <span className=\"text-foreground/50\">Cc:</span>\n        </div>\n        <div className=\"flex gap-1\">\n          <span className=\"text-foreground/50\">Subject:</span>\n        </div>\n        <div className=\"flex gap-1\">\n          <span className=\"text-foreground/50\">From:</span>\n        </div>\n      </div>\n      <div className=\"mt-6 space-y-2 text-sm/6 text-muted-foreground\">\n        <p>\n          Web applications with{\" \"}\n          <span className=\"rounded bg-linear-to-r from-primary to-emerald-500 bg-clip-text px-0.5 text-transparent\">\n            React and TypeScript\n          </span>{\" \"}\n          using best practices.\n        </p>\n        <p className=\"mt-3\">Sent from my iPhone</p>\n      </div>\n    </div>\n  </div>\n)\n\nexport default EmailIllustration\n"
+    }
+  ]
+}

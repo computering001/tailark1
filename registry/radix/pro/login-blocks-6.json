@@ -1,0 +1,29 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "login-blocks-6",
+  "type": "registry:block",
+  "title": "Login Blocks 6",
+  "description": "Tailark login-blocks variant 6 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/card",
+    "@tailark/input",
+    "@tailark/label",
+    "@tailark/core-figma",
+    "@tailark/core-linear",
+    "@tailark/core-logo"
+  ],
+  "meta": {
+    "aspect-ratio": "90/60",
+    "width": 686,
+    "height": 457
+  },
+  "files": [
+    {
+      "path": "blocks/login-blocks/six/index.tsx",
+      "type": "registry:component",
+      "target": "@components/login-blocks-6.tsx",
+      "content": "import { Input } from \"@/components/ui/input\"\nimport { Label } from \"@/components/ui/label\"\nimport { Button } from \"@/components/ui/button\"\nimport { LogoIcon } from \"@/components/ui/logo\"\nimport {\n  Card,\n  CardContent,\n  CardDescription,\n  CardHeader,\n  CardTitle,\n} from \"@/components/ui/card\"\n\nimport Link from \"next/link\"\nimport { ArrowRight } from \"lucide-react\"\nimport { Linear } from \"@/components/ui/svgs/linear\"\nimport { Figma } from \"@/components/ui/svgs/figma\"\n\nexport default function Login() {\n  return (\n    <main className=\"@container relative min-h-dvh bg-background\">\n      <div className=\"relative flex min-h-dvh flex-col items-center justify-center p-6\">\n        <Card className=\"w-full max-w-sm rounded-2xl shadow-black/4 @sm:p-8 @sm:pt-6\">\n          <CardHeader className=\"text-center\">\n            <Link\n              href=\"#\"\n              aria-label=\"go home\"\n              className=\"corner-squircle mx-auto mb-4 flex size-12 items-center justify-center rounded-3xl bg-linear-to-b from-zinc-400 to-zinc-500 inset-shadow-2xs inset-ring inset-shadow-white/35 inset-ring-foreground/10 dark:from-zinc-700 dark:to-zinc-800 dark:inset-ring-foreground/4\"\n            >\n              <LogoIcon\n                uniColor\n                className=\"size-7 mask-b-from-25% text-white opacity-85 drop-shadow drop-shadow-black/15\"\n              />\n            </Link>\n            <CardTitle className=\"text-2xl font-medium\">Welcome back</CardTitle>\n            <CardDescription>\n              Choose your preferred sign in method\n            </CardDescription>\n          </CardHeader>\n          <CardContent className=\"space-y-4\">\n            <div className=\"grid gap-3\">\n              <Button variant=\"outline\" className=\"w-full\">\n                <Figma />\n                Continue with Figma\n              </Button>\n              <Button variant=\"outline\" className=\"w-full\">\n                <Linear />\n                Continue with Linear\n              </Button>\n            </div>\n\n            <div className=\"relative py-2\">\n              <div className=\"absolute inset-0 flex items-center\">\n                <div className=\"w-full border-t border-border\" />\n              </div>\n              <div className=\"relative flex justify-center\">\n                <span className=\"bg-card px-3 text-sm text-muted-foreground\">\n                  or\n                </span>\n              </div>\n            </div>\n\n            <form action=\"\" className=\"space-y-5\">\n              <div className=\"space-y-2.5\">\n                <Label htmlFor=\"email\" className=\"block\">\n                  Email address\n                </Label>\n                <Input\n                  type=\"email\"\n                  id=\"email\"\n                  required\n                  placeholder=\"hello@example.com\"\n                />\n              </div>\n              <div className=\"space-y-2.5\">\n                <div className=\"flex items-center justify-between\">\n                  <Label className=\"block text-left\" htmlFor=\"password\">\n                    Password\n                  </Label>\n                  <Link\n                    href=\"#\"\n                    className=\"text-sm text-muted-foreground underline hover:text-foreground\"\n                  >\n                    Forgot Password?\n                  </Link>\n                </div>\n                <Input\n                  type=\"password\"\n                  id=\"password\"\n                  required\n                  placeholder=\"••••••••\"\n                />\n              </div>\n              <label className=\"flex items-center gap-2 text-sm\">\n                <input\n                  type=\"checkbox\"\n                  className=\"size-4 rounded border border-input\"\n                />\n                Remember me\n              </label>\n\n              <Button type=\"submit\" className=\"w-full\">\n                Sign in\n                <ArrowRight className=\"ml-2 size-4\" />\n              </Button>\n            </form>\n          </CardContent>\n        </Card>\n\n        <p className=\"mt-6 text-center text-sm text-muted-foreground\">\n          Don't have an account?{\" \"}\n          <Link href=\"#\" className=\"font-medium text-primary hover:underline\">\n            Create account\n          </Link>\n        </p>\n      </div>\n    </main>\n  )\n}\n"
+    }
+  ]
+}

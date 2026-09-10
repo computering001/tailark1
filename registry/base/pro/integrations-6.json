@@ -1,0 +1,38 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "integrations-6",
+  "type": "registry:block",
+  "title": "Integrations 6",
+  "description": "Tailark integrations variant 6 block",
+  "registryDependencies": [
+    "@tailark/button",
+    "@tailark/core-claude",
+    "@tailark/core-gemini",
+    "@tailark/core-google-palm",
+    "@tailark/core-linear",
+    "@tailark/core-logo",
+    "@tailark/core-media-wiki",
+    "@tailark/core-mistral-ai",
+    "@tailark/core-open-ai",
+    "@tailark/core-replit",
+    "@tailark/core-utils",
+    "@tailark/core-vercel",
+    "@tailark/core-vs-code",
+    "@tailark/core-vs-codium",
+    "@tailark/core-windsurf",
+    "@tailark/motion-primitives-infinite-slider"
+  ],
+  "meta": {
+    "aspect-ratio": "90/49",
+    "width": 686,
+    "height": 373
+  },
+  "files": [
+    {
+      "path": "blocks/integrations/six/index.tsx",
+      "type": "registry:component",
+      "target": "@components/integrations-6.tsx",
+      "content": "import { LogoIcon } from \"@/components/ui/logo\"\nimport { cn } from \"@/lib/utils\"\nimport { Button } from \"@/components/ui/button\"\nimport Link from \"next/link\"\nimport { InfiniteSlider } from \"@/components/motion-primitives/infinite-slider\"\nimport { VisualStudioCode as VSCode } from \"@/components/ui/svgs/vs-code\"\nimport { Windsurf } from \"@/components/ui/svgs/windsurf\"\nimport { Claude } from \"@/components/ui/svgs/claude\"\nimport { OpenAI } from \"@/components/ui/svgs/open-ai\"\nimport { Vercel } from \"@/components/ui/svgs/vercel\"\nimport { Linear } from \"@/components/ui/svgs/linear\"\nimport { Gemini } from \"@/components/ui/svgs/gemini\"\nimport { Replit } from \"@/components/ui/svgs/replit\"\nimport { VSCodium } from \"@/components/ui/svgs/vs-codium\"\nimport { MistralAi } from \"@/components/ui/svgs/mistral-ai\"\nimport { GooglePaLM } from \"@/components/ui/svgs/google-palm\"\nimport { MediaWiki } from \"@/components/ui/svgs/media-wiki\"\n\nexport default function IntegrationsSection() {\n  return (\n    <section className=\"bg-background py-24\">\n      <div className=\"group mx-auto max-w-5xl px-6 perspective-dramatic\">\n        <div className=\"group relative mx-auto max-w-2xl scale-y-90 rotate-x-6 items-center justify-between space-y-6 from-transparent mask-radial-[50%_90%] mask-radial-from-70% pb-1 transition-transform duration-1000 hover:scale-y-100 hover:rotate-x-0\">\n          <div className=\"absolute inset-0 bg-[radial-gradient(var(--color-foreground)_1px,transparent_1px)] mask-radial-to-55% bg-size-[16px_16px] opacity-25\" />\n          <div>\n            <InfiniteSlider gap={56} speed={20} speedOnHover={10}>\n              <IntegrationCard>\n                <VSCode />\n              </IntegrationCard>\n              <IntegrationCard>\n                <MediaWiki />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Windsurf />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Claude />\n              </IntegrationCard>\n              <IntegrationCard>\n                <OpenAI />\n              </IntegrationCard>\n              <IntegrationCard>\n                <MistralAi />\n              </IntegrationCard>\n            </InfiniteSlider>\n          </div>\n\n          <div>\n            <InfiniteSlider gap={56} speed={20} speedOnHover={10} reverse>\n              <IntegrationCard>\n                <Gemini />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Linear />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Vercel />\n              </IntegrationCard>\n              <IntegrationCard>\n                <MistralAi />\n              </IntegrationCard>\n              <IntegrationCard>\n                <VSCodium />\n              </IntegrationCard>\n              <IntegrationCard>\n                <GooglePaLM />\n              </IntegrationCard>\n            </InfiniteSlider>\n          </div>\n          <div>\n            <InfiniteSlider gap={56} speed={15} speedOnHover={10}>\n              <IntegrationCard>\n                <Replit />\n              </IntegrationCard>\n              <IntegrationCard>\n                <MistralAi />\n              </IntegrationCard>\n              <IntegrationCard>\n                <Gemini />\n              </IntegrationCard>\n              <IntegrationCard>\n                <VSCodium />\n              </IntegrationCard>\n              <IntegrationCard>\n                <MediaWiki />\n              </IntegrationCard>\n              <IntegrationCard>\n                <GooglePaLM />\n              </IntegrationCard>\n            </InfiniteSlider>\n          </div>\n          <div className=\"absolute inset-0 m-auto flex size-fit -translate-y-3.5 justify-center gap-2\">\n            <IntegrationCard\n              className=\"relative size-24 rounded-2xl border border-white/20 bg-zinc-700/50 shadow-xl ring-1 shadow-black/20 ring-black/50 backdrop-blur-lg\"\n              isCenter={true}\n            >\n              <LogoIcon uniColor className=\"text-white drop-shadow-sm\" />\n            </IntegrationCard>\n          </div>\n        </div>\n        <div className=\"mx-auto mt-12 max-w-xl text-center\">\n          <h2 className=\"text-3xl font-semibold text-balance md:text-5xl tracking-tight\">\n            Seamlessly Integrate with your favorite Tools\n          </h2>\n          <p className=\"mt-4 mb-6 text-balance text-muted-foreground\">\n            Connect seamlessly with popular platforms and services to enhance\n            your workflow.\n          </p>\n\n          <Button\n              render={<Link href=\"#\">Get Started</Link>}\n              nativeButton={false} size=\"sm\" variant=\"outline\"\n          />\n        </div>\n      </div>\n    </section>\n  )\n}\n\nconst IntegrationCard = ({\n  children,\n  className,\n  isCenter = false,\n}: {\n  children: React.ReactNode\n  className?: string\n  position?:\n    | \"left-top\"\n    | \"left-middle\"\n    | \"left-bottom\"\n    | \"right-top\"\n    | \"right-middle\"\n    | \"right-bottom\"\n  isCenter?: boolean\n}) => {\n  return (\n    <div\n      aria-hidden\n      className={cn(\n        \"relative z-20 flex size-20 rounded-xl border bg-card\",\n        className\n      )}\n    >\n      <div className={cn(\"m-auto size-fit *:size-8\", isCenter && \"*:size-8\")}>\n        {children}\n      </div>\n    </div>\n  )\n}\n"
+    }
+  ]
+}
